@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YDS Kelime Testi - 200 Kelime</title>
+    <style>
+        /* Temel Stiller ve Değişkenler */
+        :root {
+            --primary-color: #2563eb;
+            --success-color: #16a34a;
+            --error-color: #dc2626;
+            --disabled-color: #9ca3af;
+            --hover-color: #1d4ed8;
+            --bg-color: #f3f4f6;
+            --card-bg: #ffffff;
+            --text-color: #111827;
+            --text-secondary: #6b7280;
+            --border-color: #e5e7eb;
+            --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+            --transition: all 0.2s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: var(--text-color);
+        }
+
+        /* Ana Konteyner */
+        .container {
+            width: 100%;
+            max-width: 720px;
+            background: var(--card-bg);
+            border-radius: 16px;
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+            padding: 2rem;
+            position: relative;
+        }
+
+        /* Başlık */
+        h1 {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: var(--primary-color);
+            font-size: 1.875rem;
+            font-weight: 700;
+        }
+
+        /* Yükleniyor ve Uyarı Mesajları */
+        .loading, .warning {
+            text-align: center;
+            padding: 3rem;
+            font-size: 1.125rem;
+        }
+
+        .loading {
+            color: var(--primary-color);
+        }
+
+        .warning {
+            color: var(--error-color);
+            background: #fee2e2;
+            border-radius: 8px;
+        }
+
+        /* Soru Alanı */
+        .question-container {
+            margin-bottom: 2rem;
+        }
+
+        .question {
+            font-size: 1.25rem;
+            font-weight: 500;
+            text-align: center;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .word-highlight {
+            color: var(--primary-color);
+            font-weight: 700;
+            font-size: 1.375rem;
+        }
+
+        /* Seçenekler */
+        .options {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .option-wrapper {
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .option-button {
+            flex: 1;
+            padding: 1rem 1.25rem;
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            background: var(--card-bg);
+            font-size: 1rem;
+            text-align: left;
+            cursor: pointer;
+            transition: var(--transition);
+            line-height: 1.5;
+            color: var(--text-color);
+        }
+
+        .option-button:hover:not(:disabled) {
+            background: var(--bg-color);
+            border-color: var(--primary-color);
+            transform: translateX(4px);
+        }
+
+        .option-button:focus {
+            outline: 3px solid var(--primary-color);
+            outline-offset: 2px;
+            background: linear-gradient(to right, transparent, rgba(37, 99, 235, 0.05));
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+
+        .option-button:focus:not(:disabled) {
+            transform: translateX(2px);
+        }
+
+        .option-button:disabled {
+            cursor: not-allowed;
+            opacity: 0.6;
+        }
+
+        .option-button.correct {
+            background: linear-gradient(135deg, #16a34a, #15803d);
+            border-color: var(--success-color);
+            color: white;
+            font-weight: 500;
+        }
+
+        .option-button.incorrect {
+            background: linear-gradient(135deg, #dc2626, #b91c1c);
+            border-color: var(--error-color);
+            color: white;
+        }
+
+        .option-button.disabled {
+            background: var(--bg-color);
+            color: var(--text-secondary);
+        }
+
+        /* İngilizcesini Göster Butonu */
+        .show-english-btn {
+            padding: 0.375rem 0.75rem;
+            font-size: 0.75rem;
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: var(--transition);
+            white-space: nowrap;
+        }
+
+        .show-english-btn:hover {
+            background: var(--hover-color);
+        }
+
+        .show-english-btn:focus {
+            outline: 2px solid var(--primary-color);
+            outline-offset: 2px;
+        }
+
+        /* İngilizce Tooltip */
+        .english-tooltip {
+            position: absolute;
+            right: 0;
+            top: -30px;
+            background: #1f2937;
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            white-space: nowrap;
+            z-index: 10;
+            animation: fadeIn 0.2s ease;
+        }
+
+        .english-tooltip::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            right: 20px;
+            width: 8px;
+            height: 8px;
+            background: #1f2937;
+            transform: rotate(45deg);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Yeni Soru Butonu */
+        .new-question-btn {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            padding: 1rem 1.5rem;
+            background: linear-gradient(135deg, var(--primary-color), var(--hover-color));
+            color: white;
+            border: none;
+            border-radius: 50px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            z-index: 100;
+        }
+
+        .new-question-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+        }
+
+        .new-question-btn:focus {
+            outline: 3px solid white;
+            outline-offset: 2px;
+        }
+
+        /* Geri Bildirim Alanı */
+        .feedback {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: -60px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 1.125rem;
+            padding: 0.75rem;
+            border-radius: 8px;
+            animation: slideDown 0.3s ease;
+        }
+
+        .feedback.success {
+            background: var(--success-color);
+            color: white;
+        }
+
+        .feedback.error {
+            background: var(--error-color);
+            color: white;
+        }
+
+        @keyframes slideDown {
+            from { transform: translateY(-20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        /* Klavye Kısayolları Bilgisi */
+        .keyboard-info {
+            position: fixed;
+            bottom: 2rem;
+            left: 2rem;
+            background: rgba(31, 41, 55, 0.95);
+            backdrop-filter: blur(10px);
+            color: white;
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            font-size: 0.8125rem;
+            line-height: 1.4;
+            z-index: 50;
+            max-width: 240px;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .keyboard-info h3 {
+            margin: 0 0 0.4rem 0;
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: white;
+        }
+
+        .keyboard-info ul {
+            margin: 0;
+            padding-left: 0;
+            list-style: none;
+        }
+
+        .keyboard-info li {
+            margin: 0.2rem 0;
+            color: rgba(255, 255, 255, 0.9);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .keyboard-info kbd {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 0.1rem 0.3rem;
+            border-radius: 3px;
+            font-size: 0.75rem;
+            font-family: 'SF Mono', 'Monaco', 'Consolas', monospace;
+            min-width: 1.2rem;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            display: inline-block;
+            font-weight: 500;
+        }
+
+        .keyboard-toggle {
+            position: fixed;
+            bottom: 2rem;
+            left: 2rem;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(31, 41, 55, 0.9);
+            color: white;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+            transition: var(--transition);
+            z-index: 51;
+        }
+
+        .keyboard-toggle:hover {
+            background: rgba(31, 41, 55, 1);
+            transform: scale(1.1);
+        }
+
+        .keyboard-info.hidden {
+            display: none;
+        }
+
+        /* Mobil Uyumluluk */
+        @media (max-width: 640px) {
+            .container {
+                padding: 1.5rem;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            .question {
+                font-size: 1.125rem;
+            }
+
+            .word-highlight {
+                font-size: 1.25rem;
+            }
+
+            .new-question-btn {
+                bottom: 1.5rem;
+                right: 1.5rem;
+                padding: 0.875rem 1.25rem;
+                font-size: 0.875rem;
+            }
+            
+            .new-question-btn span {
+                display: none; /* Mobilde Space yazısını gizle */
+            }
+            
+            /* Mobilde klavye kısayollarını gizle */
+            .keyboard-toggle,
+            .keyboard-info {
+                display: none !important;
+            }
+        }
+
+        /* Dokunmatik cihazlar için klavye kısayollarını gizle */
+        @media (hover: none) and (pointer: coarse) {
+            .keyboard-toggle,
+            .keyboard-info {
+                display: none !important;
+            }
+            
+            .new-question-btn span {
+                display: none;
+            }
+        }
+
+        /* Erişilebilirlik için Gizli Metin */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 YDS Kelime Testi (200 Kelime)</h1>
+        
+        <div id="gameArea">
+            <!-- İçerik JavaScript tarafından doldurulacak -->
+        </div>
+        
+        <div id="feedback" class="feedback" style="display: none;"></div>
+        
+        <!-- Erişilebilirlik için aria-live bölgesi -->
+        <div aria-live="polite" aria-atomic="true" class="sr-only" id="screenReaderFeedback"></div>
+    </div>
+    
+    <button id="newQuestionBtn" class="new-question-btn" onclick="game.newQuestion()" aria-label="Yeni soru getir (Space tuşu)" title="Yeni Soru (Space)">
+        🔄 Yeni Soru <span style="font-size: 0.75rem; opacity: 0.8;">[Space]</span>
+    </button>
+    
+    <!-- Klavye Kısayolları -->
+    <button class="keyboard-toggle" onclick="toggleKeyboardInfo()" aria-label="Klavye kısayollarını göster/gizle" title="Klavye Kısayolları">
+        ⌨️
+    </button>
+    
+    <div class="keyboard-info hidden" id="keyboardInfo">
+        <h3>⌨️ Klavye Kısayolları</h3>
+        <ul>
+            <li><kbd>Space</kbd> Yeni soru</li>
+            <li><kbd>Tab</kbd> / <kbd>↑↓</kbd> Şıklar arası geç</li>
+            <li><kbd>Enter</kbd> Seçili şıkkı işaretle</li>
+            <li><kbd>1-4</kbd> Direkt şık seç</li>
+            <li><kbd>Esc</kbd> Açık bilgileri kapat</li>
+        </ul>
+    </div>
+
+    <script>
+        // Sabitler
+        const MIN_WORDS_REQUIRED = 4;
+        const NUM_OPTIONS = 4;
+        const FEEDBACK_DURATION = 2000;
+
+        // YDS Kelime Listesi (200 kelime)
+        const SAMPLE_DATA = [
+            { en: "abandon", tr: "terk etmek", anlam: "terk etmek" },
+            { en: "abstract", tr: "soyut", anlam: "soyut" },
+            { en: "academy", tr: "akademi", anlam: "akademi" },
+            { en: "access", tr: "erişim", anlam: "erişim" },
+            { en: "accommodate", tr: "yer sağlamak; uyum sağlamak", anlam: "yer sağlamak; uyum sağlamak" },
+            { en: "accompany", tr: "eşlik etmek", anlam: "eşlik etmek" },
+            { en: "accumulate", tr: "biriktirmek", anlam: "biriktirmek" },
+            { en: "accurate", tr: "doğru; kesin", anlam: "doğru; kesin" },
+            { en: "achieve", tr: "başarmak", anlam: "başarmak" },
+            { en: "acknowledge", tr: "kabul etmek", anlam: "kabul etmek" },
+            { en: "acquire", tr: "edinmek", anlam: "edinmek" },
+            { en: "adapt", tr: "uyum sağlamak", anlam: "uyum sağlamak" },
+            { en: "adequate", tr: "yeterli", anlam: "yeterli" },
+            { en: "adjust", tr: "ayarlamak", anlam: "ayarlamak" },
+            { en: "administer", tr: "yönetmek; uygulamak", anlam: "yönetmek; uygulamak" },
+            { en: "advocate", tr: "savunmak", anlam: "savunmak" },
+            { en: "affect", tr: "etkilemek", anlam: "etkilemek" },
+            { en: "aggregate", tr: "toplam; bir araya getirmek", anlam: "toplam; bir araya getirmek" },
+            { en: "allocate", tr: "tahsis etmek", anlam: "tahsis etmek" },
+            { en: "alter", tr: "değiştirmek", anlam: "değiştirmek" },
+            { en: "alternative", tr: "alternatif", anlam: "alternatif" },
+            { en: "analyze", tr: "analiz etmek", anlam: "analiz etmek" },
+            { en: "annual", tr: "yıllık", anlam: "yıllık" },
+            { en: "anticipate", tr: "beklemek; öngörmek", anlam: "beklemek; öngörmek" },
+            { en: "apparent", tr: "açık; görünür", anlam: "açık; görünür" },
+            { en: "append", tr: "eklemek", anlam: "eklemek" },
+            { en: "appreciate", tr: "takdir etmek", anlam: "takdir etmek" },
+            { en: "approach", tr: "yaklaşım; yaklaşmak", anlam: "yaklaşım; yaklaşmak" },
+            { en: "appropriate", tr: "uygun", anlam: "uygun" },
+            { en: "approximate", tr: "yaklaşık", anlam: "yaklaşık" },
+            { en: "arbitrary", tr: "keyfi", anlam: "keyfi" },
+            { en: "area", tr: "alan", anlam: "alan" },
+            { en: "assemble", tr: "toplamak; birleştirmek", anlam: "toplamak; birleştirmek" },
+            { en: "assess", tr: "değerlendirmek", anlam: "değerlendirmek" },
+            { en: "assign", tr: "atamak; görevlendirmek", anlam: "atamak; görevlendirmek" },
+            { en: "assist", tr: "yardım etmek", anlam: "yardım etmek" },
+            { en: "assume", tr: "varsaymak", anlam: "varsaymak" },
+            { en: "assure", tr: "garanti etmek", anlam: "garanti etmek" },
+            { en: "attach", tr: "eklemek", anlam: "eklemek" },
+            { en: "attain", tr: "elde etmek", anlam: "elde etmek" },
+            { en: "attribute", tr: "özellik; atfetmek", anlam: "özellik; atfetmek" },
+            { en: "authority", tr: "yetki; otorite", anlam: "yetki; otorite" },
+            { en: "available", tr: "mevcut; ulaşılabilir", anlam: "mevcut; ulaşılabilir" },
+            { en: "aware", tr: "farkında", anlam: "farkında" },
+            { en: "benefit", tr: "fayda", anlam: "fayda" },
+            { en: "bias", tr: "önyargı; yanlılık", anlam: "önyargı; yanlılık" },
+            { en: "brief", tr: "kısa", anlam: "kısa" },
+            { en: "bulk", tr: "yığın; büyük kısım", anlam: "yığın; büyük kısım" },
+            { en: "capable", tr: "yetenekli", anlam: "yetenekli" },
+            { en: "capacity", tr: "kapasite", anlam: "kapasite" },
+            { en: "cease", tr: "durmak; son vermek", anlam: "durmak; son vermek" },
+            { en: "challenge", tr: "zorluk; meydan okuma", anlam: "zorluk; meydan okuma" },
+            { en: "channel", tr: "kanal; yönlendirmek", anlam: "kanal; yönlendirmek" },
+            { en: "chart", tr: "çizelge; grafik", anlam: "çizelge; grafik" },
+            { en: "cite", tr: "atıf yapmak", anlam: "atıf yapmak" },
+            { en: "clarify", tr: "açıklığa kavuşturmak", anlam: "açıklığa kavuşturmak" },
+            { en: "coherent", tr: "tutarlı", anlam: "tutarlı" },
+            { en: "coincide", tr: "çakışmak", anlam: "çakışmak" },
+            { en: "collapse", tr: "çökmek", anlam: "çökmek" },
+            { en: "colleague", tr: "meslektaş", anlam: "meslektaş" },
+            { en: "commence", tr: "başlamak", anlam: "başlamak" },
+            { en: "comment", tr: "yorum yapmak", anlam: "yorum yapmak" },
+            { en: "commission", tr: "komisyon", anlam: "komisyon" },
+            { en: "commit", tr: "işlemek; kendini adamak", anlam: "işlemek; kendini adamak" },
+            { en: "commodity", tr: "emtia; mal", anlam: "emtia; mal" },
+            { en: "communicate", tr: "iletişim kurmak", anlam: "iletişim kurmak" },
+            { en: "community", tr: "topluluk", anlam: "topluluk" },
+            { en: "compatible", tr: "uyumlu", anlam: "uyumlu" },
+            { en: "compensate", tr: "telafi etmek", anlam: "telafi etmek" },
+            { en: "compile", tr: "derlemek", anlam: "derlemek" },
+            { en: "complement", tr: "tamamlayıcı", anlam: "tamamlayıcı" },
+            { en: "complex", tr: "karmaşık", anlam: "karmaşık" },
+            { en: "component", tr: "bileşen", anlam: "bileşen" },
+            { en: "compound", tr: "bileşik", anlam: "bileşik" },
+            { en: "comprehensive", tr: "kapsamlı", anlam: "kapsamlı" },
+            { en: "comprise", tr: "içermek", anlam: "içermek" },
+            { en: "compute", tr: "hesaplamak", anlam: "hesaplamak" },
+            { en: "conceive", tr: "kavramak; tasarlamak", anlam: "kavramak; tasarlamak" },
+            { en: "concentrate", tr: "yoğunlaşmak", anlam: "yoğunlaşmak" },
+            { en: "concept", tr: "kavram", anlam: "kavram" },
+            { en: "concern", tr: "ilgilendirmek; kaygı", anlam: "ilgilendirmek; kaygı" },
+            { en: "conclude", tr: "sonuçlandırmak", anlam: "sonuçlandırmak" },
+            { en: "concurrent", tr: "eşzamanlı", anlam: "eşzamanlı" },
+            { en: "conduct", tr: "yürütmek; davranış", anlam: "yürütmek; davranış" },
+            { en: "confer", tr: "görüşmek; vermek", anlam: "görüşmek; vermek" },
+            { en: "confine", tr: "sınırlamak", anlam: "sınırlamak" },
+            { en: "confirm", tr: "onaylamak", anlam: "onaylamak" },
+            { en: "conflict", tr: "çatışma", anlam: "çatışma" },
+            { en: "conform", tr: "uymak", anlam: "uymak" },
+            { en: "consent", tr: "rıza göstermek", anlam: "rıza göstermek" },
+            { en: "consequent", tr: "sonuç olarak", anlam: "sonuç olarak" },
+            { en: "considerable", tr: "önemli ölçüde", anlam: "önemli ölçüde" },
+            { en: "consist", tr: "oluşmak", anlam: "oluşmak" },
+            { en: "constant", tr: "sabit", anlam: "sabit" },
+            { en: "constitute", tr: "oluşturmak", anlam: "oluşturmak" },
+            { en: "constrain", tr: "kısıtlamak", anlam: "kısıtlamak" },
+            { en: "construct", tr: "inşa etmek", anlam: "inşa etmek" },
+            { en: "consult", tr: "danışmak", anlam: "danışmak" },
+            { en: "consume", tr: "tüketmek", anlam: "tüketmek" },
+            { en: "contact", tr: "temas; iletişim", anlam: "temas; iletişim" },
+            { en: "contemporary", tr: "çağdaş", anlam: "çağdaş" },
+            { en: "context", tr: "bağlam", anlam: "bağlam" },
+            { en: "contract", tr: "sözleşme; daralma", anlam: "sözleşme; daralma" },
+            { en: "contradict", tr: "çelişmek", anlam: "çelişmek" },
+            { en: "contrary", tr: "zıt", anlam: "zıt" },
+            { en: "contrast", tr: "karşıtlık; zıtlık", anlam: "karşıtlık; zıtlık" },
+            { en: "contribute", tr: "katkıda bulunmak", anlam: "katkıda bulunmak" },
+            { en: "controversy", tr: "tartışma", anlam: "tartışma" },
+            { en: "convene", tr: "toplamak", anlam: "toplamak" },
+            { en: "converse", tr: "sohbet etmek", anlam: "sohbet etmek" },
+            { en: "convert", tr: "dönüştürmek", anlam: "dönüştürmek" },
+            { en: "convince", tr: "ikna etmek", anlam: "ikna etmek" },
+            { en: "cooperate", tr: "işbirliği yapmak", anlam: "işbirliği yapmak" },
+            { en: "coordinate", tr: "koordine etmek", anlam: "koordine etmek" },
+            { en: "core", tr: "öz; çekirdek", anlam: "öz; çekirdek" },
+            { en: "corporate", tr: "kurumsal", anlam: "kurumsal" },
+            { en: "correspond", tr: "karşılık gelmek", anlam: "karşılık gelmek" },
+            { en: "couple", tr: "çift; birleştirmek", anlam: "çift; birleştirmek" },
+            { en: "create", tr: "yaratmak", anlam: "yaratmak" },
+            { en: "credit", tr: "kredi; itibar", anlam: "kredi; itibar" },
+            { en: "criteria", tr: "kriterler", anlam: "kriterler" },
+            { en: "crucial", tr: "çok önemli", anlam: "çok önemli" },
+            { en: "culture", tr: "kültür", anlam: "kültür" },
+            { en: "currency", tr: "para birimi", anlam: "para birimi" },
+            { en: "cycle", tr: "döngü", anlam: "döngü" },
+            { en: "data", tr: "veri", anlam: "veri" },
+            { en: "debate", tr: "tartışma", anlam: "tartışma" },
+            { en: "decade", tr: "on yıl", anlam: "on yıl" },
+            { en: "decline", tr: "azalmak; reddetmek", anlam: "azalmak; reddetmek" },
+            { en: "deduce", tr: "çıkarım yapmak", anlam: "çıkarım yapmak" },
+            { en: "define", tr: "tanımlamak", anlam: "tanımlamak" },
+            { en: "definite", tr: "kesin", anlam: "kesin" },
+            { en: "demonstrate", tr: "göstermek", anlam: "göstermek" },
+            { en: "denote", tr: "belirtmek", anlam: "belirtmek" },
+            { en: "deny", tr: "inkar etmek", anlam: "inkar etmek" },
+            { en: "depress", tr: "bunalıma sokmak", anlam: "bunalıma sokmak" },
+            { en: "derive", tr: "türetmek", anlam: "türetmek" },
+            { en: "design", tr: "tasarımlamak; tasarım", anlam: "tasarımlamak; tasarım" },
+            { en: "despite", tr: "rağmen", anlam: "rağmen" },
+            { en: "detect", tr: "tespit etmek", anlam: "tespit etmek" },
+            { en: "deviate", tr: "sapmak", anlam: "sapmak" },
+            { en: "device", tr: "cihaz", anlam: "cihaz" },
+            { en: "devote", tr: "adamak", anlam: "adamak" },
+            { en: "differentiate", tr: "ayrım yapmak; farklılaştırmak", anlam: "ayrım yapmak; farklılaştırmak" },
+            { en: "dimension", tr: "boyut", anlam: "boyut" },
+            { en: "diminish", tr: "azalmak; azaltmak", anlam: "azalmak; azaltmak" },
+            { en: "discrete", tr: "ayrı; kesikli", anlam: "ayrı; kesikli" },
+            { en: "discriminate", tr: "ayrımcılık yapmak; ayırt etmek", anlam: "ayrımcılık yapmak; ayırt etmek" },
+            { en: "displace", tr: "yerinden etmek", anlam: "yerinden etmek" },
+            { en: "display", tr: "sergilemek; göstermek", anlam: "sergilemek; göstermek" },
+            { en: "dispose", tr: "elden çıkarmak", anlam: "elden çıkarmak" },
+            { en: "distinct", tr: "farklı; belirgin", anlam: "farklı; belirgin" },
+            { en: "distort", tr: "çarpıtmak", anlam: "çarpıtmak" },
+            { en: "distribute", tr: "dağıtmak", anlam: "dağıtmak" },
+            { en: "diverse", tr: "çeşitli", anlam: "çeşitli" },
+            { en: "document", tr: "belge; belgelendirmek", anlam: "belge; belgelendirmek" },
+            { en: "domain", tr: "alan; etki alanı", anlam: "alan; etki alanı" },
+            { en: "domestic", tr: "yerli; evcil", anlam: "yerli; evcil" },
+            { en: "dominate", tr: "hakim olmak", anlam: "hakim olmak" },
+            { en: "draft", tr: "taslak", anlam: "taslak" },
+            { en: "duration", tr: "süre", anlam: "süre" },
+            { en: "dynamic", tr: "dinamik", anlam: "dinamik" },
+            { en: "eliminate", tr: "elemek; ortadan kaldırmak", anlam: "elemek; ortadan kaldırmak" },
+            { en: "emerge", tr: "ortaya çıkmak", anlam: "ortaya çıkmak" },
+            { en: "emphasis", tr: "vurgu", anlam: "vurgu" },
+            { en: "empirical", tr: "ampirik", anlam: "ampirik" },
+            { en: "enable", tr: "olanak tanımak", anlam: "olanak tanımak" },
+            { en: "encounter", tr: "karşılaşmak", anlam: "karşılaşmak" },
+            { en: "enforce", tr: "zorlamak; yürürlüğe koymak", anlam: "zorlamak; yürürlüğe koymak" },
+            { en: "enhance", tr: "artırmak; geliştirmek", anlam: "artırmak; geliştirmek" },
+            { en: "ensure", tr: "sağlamak; temin etmek", anlam: "sağlamak; temin etmek" },
+            { en: "entail", tr: "gerektirmek", anlam: "gerektirmek" },
+            { en: "enterprise", tr: "girişim; işletme", anlam: "girişim; işletme" },
+            { en: "environment", tr: "çevre", anlam: "çevre" },
+            { en: "equivalent", tr: "eşdeğer", anlam: "eşdeğer" },
+            { en: "establish", tr: "kurmak; tesis etmek", anlam: "kurmak; tesis etmek" },
+            { en: "estimate", tr: "tahmin etmek", anlam: "tahmin etmek" },
+            { en: "ethic", tr: "etik; ahlak", anlam: "etik; ahlak" },
+            { en: "evaluate", tr: "değerlendirmek", anlam: "değerlendirmek" },
+            { en: "eventually", tr: "eninde sonunda", anlam: "eninde sonunda" },
+            { en: "evident", tr: "açık; belirgin", anlam: "açık; belirgin" },
+            { en: "evolve", tr: "evrilmek; gelişmek", anlam: "evrilmek; gelişmek" },
+            { en: "exceed", tr: "aşmak", anlam: "aşmak" },
+            { en: "exclude", tr: "hariç tutmak", anlam: "hariç tutmak" },
+            { en: "exhibit", tr: "sergilemek", anlam: "sergilemek" },
+            { en: "expand", tr: "genişlemek; genişletmek", anlam: "genişlemek; genişletmek" },
+            { en: "expert", tr: "uzman", anlam: "uzman" },
+            { en: "explicit", tr: "açık; belirgin", anlam: "açık; belirgin" },
+            { en: "exploit", tr: "sömürmek; faydalanmak", anlam: "sömürmek; faydalanmak" },
+            { en: "export", tr: "ihracat; ihraç etmek", anlam: "ihracat; ihraç etmek" },
+            { en: "expose", tr: "maruz bırakmak; açığa çıkarmak", anlam: "maruz bırakmak; açığa çıkarmak" },
+            { en: "external", tr: "harici; dış", anlam: "harici; dış" },
+            { en: "extract", tr: "çıkarmak; öz", anlam: "çıkarmak; öz" },
+            { en: "facilitate", tr: "kolaylaştırmak", anlam: "kolaylaştırmak" },
+            { en: "factor", tr: "etmen; faktör", anlam: "etmen; faktör" },
+            { en: "feature", tr: "özellik; içermek", anlam: "özellik; içermek" },
+            { en: "federal", tr: "federal", anlam: "federal" },
+            { en: "fee", tr: "ücret", anlam: "ücret" },
+            { en: "finance", tr: "finansman sağlamak; finans", anlam: "finansman sağlamak; finans" },
+            { en: "finite", tr: "sonlu", anlam: "sonlu" },
+            { en: "flexible", tr: "esnek", anlam: "esnek" },
+            { en: "fluctuate", tr: "dalgalanmak", anlam: "dalgalanmak" },
+            { en: "focus", tr: "odaklanmak; odak", anlam: "odaklanmak; odak" },
+            { en: "format", tr: "biçim; biçimlendirmek", anlam: "biçim; biçimlendirmek" }
+        ];
+
+        // Oyun Durumu
+        class WordGame {
+            constructor() {
+                this.data = [];
+                this.currentWord = null;
+                this.options = [];
+                this.answered = false;
+                this.lastWordIndex = -1;
+                this.englishTooltips = new Map();
+            }
+
+            // Oyunu başlat
+            async init() {
+                const gameArea = document.getElementById('gameArea');
+                gameArea.innerHTML = '<div class="loading">⏳ Yükleniyor...</div>';
+                
+                // Gerçek uygulamada fetch ile veri çekilebilir
+                // await this.fetchData();
+                
+                // Demo için gömülü veriyi kullan
+                this.data = [...SAMPLE_DATA];
+                
+                if (this.data.length < MIN_WORDS_REQUIRED) {
+                    this.showWarning();
+                    return;
+                }
+                
+                this.newQuestion();
+            }
+
+            // Yeni soru oluştur
+            newQuestion() {
+                if (this.data.length < MIN_WORDS_REQUIRED) {
+                    this.showWarning();
+                    return;
+                }
+                
+                // Önceki tooltip'leri temizle
+                this.englishTooltips.clear();
+                
+                // Rastgele kelime seç (son seçilenden farklı olmasına çalış)
+                let wordIndex;
+                do {
+                    wordIndex = Math.floor(Math.random() * this.data.length);
+                } while (wordIndex === this.lastWordIndex && this.data.length > 1);
+                
+                this.lastWordIndex = wordIndex;
+                this.currentWord = this.data[wordIndex];
+                this.answered = false;
+                
+                // Seçenekleri oluştur
+                this.generateOptions();
+                
+                // Arayüzü güncelle
+                this.render();
+                
+                // Geri bildirimi temizle
+                this.hideFeedback();
+            }
+
+            // Seçenekleri oluştur
+            generateOptions() {
+                this.options = [];
+                
+                // Doğru cevabı ekle
+                this.options.push({
+                    text: this.currentWord.anlam,
+                    isCorrect: true,
+                    word: this.currentWord
+                });
+                
+                // Yanlış seçenekleri ekle
+                const usedIndices = new Set([this.lastWordIndex]);
+                
+                while (this.options.length < NUM_OPTIONS && usedIndices.size < this.data.length) {
+                    const randomIndex = Math.floor(Math.random() * this.data.length);
+                    
+                    if (!usedIndices.has(randomIndex)) {
+                        usedIndices.add(randomIndex);
+                        const word = this.data[randomIndex];
+                        
+                        // Aynı anlam iki kez görünmemeli
+                        const alreadyUsed = this.options.some(opt => opt.text === word.anlam);
+                        if (!alreadyUsed) {
+                            this.options.push({
+                                text: word.anlam,
+                                isCorrect: false,
+                                word: word
+                            });
+                        }
+                    }
+                }
+                
+                // Seçenekleri karıştır
+                this.shuffleArray(this.options);
+            }
+
+            // Diziyi karıştır (Fisher-Yates algoritması)
+            shuffleArray(array) {
+                for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [array[i], array[j]] = [array[j], array[i]];
+                }
+            }
+
+            // Cevap kontrolü
+            checkAnswer(selectedIndex) {
+                if (this.answered) return;
+                
+                this.answered = true;
+                const selectedOption = this.options[selectedIndex];
+                
+                // Butonları güncelle
+                const buttons = document.querySelectorAll('.option-button');
+                
+                buttons.forEach((button, index) => {
+                    const option = this.options[index];
+                    button.disabled = true;
+                    
+                    if (option.isCorrect) {
+                        button.classList.add('correct');
+                    } else if (index === selectedIndex) {
+                        button.classList.add('incorrect');
+                    } else {
+                        button.classList.add('disabled');
+                    }
+                });
+                
+                // Geri bildirim göster
+                this.showFeedback(selectedOption.isCorrect);
+                
+                // İngilizcesini göster butonlarını aktif et (yanlış seçenekler için)
+                this.enableEnglishButtons();
+                
+                // Cevap verildikten sonra "Yeni Soru" butonuna focus at
+                setTimeout(() => {
+                    const newQuestionBtn = document.getElementById('newQuestionBtn');
+                    if (newQuestionBtn) {
+                        newQuestionBtn.focus();
+                    }
+                }, 500);
+            }
+
+            // İngilizcesini göster
+            toggleEnglish(index) {
+                const option = this.options[index];
+                if (option.isCorrect) return;
+                
+                const existingTooltip = this.englishTooltips.get(index);
+                
+                if (existingTooltip) {
+                    // Varsa kaldır
+                    existingTooltip.remove();
+                    this.englishTooltips.delete(index);
+                } else {
+                    // Yoksa ekle
+                    const wrapper = document.querySelector(`.option-wrapper[data-index="${index}"]`);
+                    const tooltip = document.createElement('div');
+                    tooltip.className = 'english-tooltip';
+                    tooltip.textContent = option.word.en;
+                    wrapper.appendChild(tooltip);
+                    this.englishTooltips.set(index, tooltip);
+                    
+                    // 3 saniye sonra otomatik kapat
+                    setTimeout(() => {
+                        if (this.englishTooltips.has(index)) {
+                            tooltip.remove();
+                            this.englishTooltips.delete(index);
+                        }
+                    }, 3000);
+                }
+            }
+
+            // İngilizcesini göster butonlarını etkinleştir
+            enableEnglishButtons() {
+                this.options.forEach((option, index) => {
+                    if (!option.isCorrect && this.answered) {
+                        const wrapper = document.querySelector(`.option-wrapper[data-index="${index}"]`);
+                        const existingBtn = wrapper.querySelector('.show-english-btn');
+                        
+                        if (!existingBtn) {
+                            const btn = document.createElement('button');
+                            btn.className = 'show-english-btn';
+                            btn.textContent = 'Hangi kelime?';
+                            btn.onclick = () => this.toggleEnglish(index);
+                            btn.setAttribute('aria-label', `Bu anlamın ait olduğu İngilizce kelimeyi göster`);
+                            wrapper.appendChild(btn);
+                        }
+                    }
+                });
+            }
+
+            // Geri bildirim göster
+            showFeedback(isCorrect) {
+                const feedbackEl = document.getElementById('feedback');
+                const screenReaderEl = document.getElementById('screenReaderFeedback');
+                
+                feedbackEl.textContent = isCorrect ? '✅ Doğru!' : '❌ Yanlış!';
+                feedbackEl.className = `feedback ${isCorrect ? 'success' : 'error'}`;
+                feedbackEl.style.display = 'block';
+                
+                // Ekran okuyucu için
+                screenReaderEl.textContent = isCorrect ? 
+                    'Tebrikler, doğru cevap!' : 
+                    'Üzgünüm, yanlış cevap. Doğru cevap yeşil ile işaretlendi.';
+                
+                setTimeout(() => this.hideFeedback(), FEEDBACK_DURATION);
+            }
+
+            // Geri bildirimi gizle
+            hideFeedback() {
+                const feedbackEl = document.getElementById('feedback');
+                feedbackEl.style.display = 'none';
+            }
+
+            // Uyarı göster
+            showWarning() {
+                const gameArea = document.getElementById('gameArea');
+                gameArea.innerHTML = `
+                    <div class="warning">
+                        ⚠️ Yeterli veri yok!<br>
+                        En az ${MIN_WORDS_REQUIRED} kelime gerekli.
+                    </div>
+                `;
+            }
+
+            // Oyunu görüntüle
+            render() {
+                const gameArea = document.getElementById('gameArea');
+                
+                const questionHTML = `
+                    <div class="question-container">
+                        <p class="question">
+                            <span class="word-highlight">"${this.currentWord.en}"</span> kelimesinin anlamı hangisidir?
+                        </p>
+                        <div class="options">
+                            ${this.options.map((option, index) => `
+                                <div class="option-wrapper" data-index="${index}">
+                                    <button 
+                                        class="option-button" 
+                                        onclick="game.checkAnswer(${index})"
+                                        aria-label="Seçenek ${index + 1}: ${option.text}"
+                                        ${index === 0 ? 'id="firstOption"' : ''}
+                                    >
+                                        ${option.text}
+                                    </button>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
+                
+                gameArea.innerHTML = questionHTML;
+                
+                // İlk şıkka otomatik focus (klavye navigasyonu için)
+                setTimeout(() => {
+                    const firstOption = document.getElementById('firstOption');
+                    if (firstOption) {
+                        firstOption.focus();
+                    }
+                }, 100);
+            }
+        }
+
+        // Oyunu başlat
+        const game = new WordGame();
+        
+        // Klavye bilgi kutusunu aç/kapa
+        function toggleKeyboardInfo() {
+            const keyboardInfo = document.getElementById('keyboardInfo');
+            keyboardInfo.classList.toggle('hidden');
+            
+            // 5 saniye sonra otomatik kapat
+            if (!keyboardInfo.classList.contains('hidden')) {
+                setTimeout(() => {
+                    keyboardInfo.classList.add('hidden');
+                }, 5000);
+            }
+        }
+        
+        // Sayfa yüklendiğinde oyunu başlat
+        document.addEventListener('DOMContentLoaded', () => {
+            game.init();
+            
+            // İlk açılışta klavye kısayollarını göster (2 saniye sonra otomatik kapan)
+            setTimeout(() => {
+                const keyboardInfo = document.getElementById('keyboardInfo');
+                keyboardInfo.classList.remove('hidden');
+                setTimeout(() => {
+                    keyboardInfo.classList.add('hidden');
+                }, 3000);
+            }, 500);
+        });
+        
+        // Klavye kısayolları
+        document.addEventListener('keydown', (event) => {
+            // Space tuşu ile yeni soru
+            if (event.code === 'Space') {
+                // Form elementlerinde değilse veya cevap verildiyse
+                const activeElement = document.activeElement;
+                const isFormElement = activeElement.tagName === 'BUTTON' || 
+                                     activeElement.tagName === 'INPUT' || 
+                                     activeElement.tagName === 'TEXTAREA';
+                
+                // Cevap verilmişse veya form elementi değilse Space ile yeni soruya geç
+                if (game.answered || !isFormElement) {
+                    event.preventDefault(); // Sayfa scroll'unu engelle
+                    game.newQuestion();
+                }
+            }
+            
+            // Ok tuşları ile navigasyon
+            if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
+                const buttons = Array.from(document.querySelectorAll('.option-button:not(:disabled)'));
+                const currentIndex = buttons.indexOf(document.activeElement);
+                
+                if (currentIndex !== -1) {
+                    event.preventDefault();
+                    let nextIndex;
+                    
+                    if (event.key === 'ArrowDown') {
+                        nextIndex = (currentIndex + 1) % buttons.length;
+                    } else {
+                        nextIndex = currentIndex === 0 ? buttons.length - 1 : currentIndex - 1;
+                    }
+                    
+                    buttons[nextIndex].focus();
+                } else if (buttons.length > 0) {
+                    // Hiçbir şık seçili değilse ilkini seç
+                    buttons[0].focus();
+                }
+            }
+            
+            // Tab tuşu zaten varsayılan olarak çalışıyor (focus değiştirme)
+            // Enter tuşu zaten varsayılan olarak button'larda çalışıyor
+            
+            // Ek özellik: 1-4 rakam tuşları ile şıkları seçme
+            if (event.key >= '1' && event.key <= '4') {
+                const optionIndex = parseInt(event.key) - 1;
+                const buttons = document.querySelectorAll('.option-button');
+                if (buttons[optionIndex] && !buttons[optionIndex].disabled) {
+                    game.checkAnswer(optionIndex);
+                }
+            }
+            
+            // Esc tuşu ile tooltip'leri kapat
+            if (event.key === 'Escape') {
+                game.englishTooltips.forEach((tooltip) => {
+                    tooltip.remove();
+                });
+                game.englishTooltips.clear();
+            }
+        });
+    </script>
+</body>
+</html>
