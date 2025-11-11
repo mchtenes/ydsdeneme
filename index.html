@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YDS Kelime Testi - 200 Kelime</title>
+    <title>YDS Kelime Testi - 135 Kelime</title>
     <style>
         /* Temel Stiller ve Değişkenler */
         :root {
@@ -84,7 +84,7 @@
             font-size: 1.25rem;
             font-weight: 500;
             text-align: center;
-            margin-bottom: 1.5rem;
+            margin-bottom: 0.75rem;
             line-height: 1.6;
         }
 
@@ -92,6 +92,22 @@
             color: var(--primary-color);
             font-weight: 700;
             font-size: 1.375rem;
+        }
+
+        .example-sentence {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-align: center;
+            margin-bottom: 1.5rem;
+            padding: 0.75rem;
+            background: var(--bg-color);
+            border-radius: 8px;
+            line-height: 1.5;
+            font-style: italic;
+        }
+
+        .example-sentence em {
+            font-style: normal;
         }
 
         /* Seçenekler */
@@ -162,52 +178,14 @@
             color: var(--text-secondary);
         }
 
-        /* İngilizcesini Göster Butonu */
-        .show-english-btn {
-            padding: 0.375rem 0.75rem;
-            font-size: 0.75rem;
-            background: var(--primary-color);
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            transition: var(--transition);
-            white-space: nowrap;
-        }
-
-        .show-english-btn:hover {
-            background: var(--hover-color);
-        }
-
-        .show-english-btn:focus {
-            outline: 2px solid var(--primary-color);
-            outline-offset: 2px;
-        }
-
-        /* İngilizce Tooltip */
-        .english-tooltip {
-            position: absolute;
-            right: 0;
-            top: -30px;
-            background: #1f2937;
-            color: white;
-            padding: 0.25rem 0.75rem;
-            border-radius: 4px;
+        /* İngilizce Kelime Gösterimi */
+        .english-word {
+            color: var(--primary-color);
+            font-weight: 600;
             font-size: 0.875rem;
-            white-space: nowrap;
-            z-index: 10;
-            animation: fadeIn 0.2s ease;
-        }
-
-        .english-tooltip::after {
-            content: '';
-            position: absolute;
-            bottom: -4px;
-            right: 20px;
-            width: 8px;
-            height: 8px;
-            background: #1f2937;
-            transform: rotate(45deg);
+            margin-left: 0.5rem;
+            display: inline-block;
+            animation: fadeIn 0.3s ease;
         }
 
         @keyframes fadeIn {
@@ -416,7 +394,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>🎯 YDS Kelime Testi (200 Kelime)</h1>
+        <h1>🎯 YDS Kelime Testi (135 Kelime)</h1>
         
         <div id="gameArea">
             <!-- İçerik JavaScript tarafından doldurulacak -->
@@ -444,7 +422,6 @@
             <li><kbd>Tab</kbd> / <kbd>↑↓</kbd> Şıklar arası geç</li>
             <li><kbd>Enter</kbd> Seçili şıkkı işaretle</li>
             <li><kbd>1-4</kbd> Direkt şık seç</li>
-            <li><kbd>Esc</kbd> Açık bilgileri kapat</li>
         </ul>
     </div>
 
@@ -454,212 +431,136 @@
         const NUM_OPTIONS = 4;
         const FEEDBACK_DURATION = 2000;
 
-        // YDS Kelime Listesi (200 kelime)
+        // YDS Kelime Listesi (135 kelime)
         const SAMPLE_DATA = [
-            { en: "abandon", tr: "terk etmek", anlam: "terk etmek" },
-            { en: "abstract", tr: "soyut", anlam: "soyut" },
-            { en: "academy", tr: "akademi", anlam: "akademi" },
-            { en: "access", tr: "erişim", anlam: "erişim" },
-            { en: "accommodate", tr: "yer sağlamak; uyum sağlamak", anlam: "yer sağlamak; uyum sağlamak" },
-            { en: "accompany", tr: "eşlik etmek", anlam: "eşlik etmek" },
-            { en: "accumulate", tr: "biriktirmek", anlam: "biriktirmek" },
-            { en: "accurate", tr: "doğru; kesin", anlam: "doğru; kesin" },
-            { en: "achieve", tr: "başarmak", anlam: "başarmak" },
-            { en: "acknowledge", tr: "kabul etmek", anlam: "kabul etmek" },
-            { en: "acquire", tr: "edinmek", anlam: "edinmek" },
-            { en: "adapt", tr: "uyum sağlamak", anlam: "uyum sağlamak" },
-            { en: "adequate", tr: "yeterli", anlam: "yeterli" },
-            { en: "adjust", tr: "ayarlamak", anlam: "ayarlamak" },
-            { en: "administer", tr: "yönetmek; uygulamak", anlam: "yönetmek; uygulamak" },
-            { en: "advocate", tr: "savunmak", anlam: "savunmak" },
-            { en: "affect", tr: "etkilemek", anlam: "etkilemek" },
-            { en: "aggregate", tr: "toplam; bir araya getirmek", anlam: "toplam; bir araya getirmek" },
-            { en: "allocate", tr: "tahsis etmek", anlam: "tahsis etmek" },
-            { en: "alter", tr: "değiştirmek", anlam: "değiştirmek" },
-            { en: "alternative", tr: "alternatif", anlam: "alternatif" },
-            { en: "analyze", tr: "analiz etmek", anlam: "analiz etmek" },
-            { en: "annual", tr: "yıllık", anlam: "yıllık" },
-            { en: "anticipate", tr: "beklemek; öngörmek", anlam: "beklemek; öngörmek" },
-            { en: "apparent", tr: "açık; görünür", anlam: "açık; görünür" },
-            { en: "append", tr: "eklemek", anlam: "eklemek" },
-            { en: "appreciate", tr: "takdir etmek", anlam: "takdir etmek" },
-            { en: "approach", tr: "yaklaşım; yaklaşmak", anlam: "yaklaşım; yaklaşmak" },
-            { en: "appropriate", tr: "uygun", anlam: "uygun" },
-            { en: "approximate", tr: "yaklaşık", anlam: "yaklaşık" },
-            { en: "arbitrary", tr: "keyfi", anlam: "keyfi" },
-            { en: "area", tr: "alan", anlam: "alan" },
-            { en: "assemble", tr: "toplamak; birleştirmek", anlam: "toplamak; birleştirmek" },
-            { en: "assess", tr: "değerlendirmek", anlam: "değerlendirmek" },
-            { en: "assign", tr: "atamak; görevlendirmek", anlam: "atamak; görevlendirmek" },
-            { en: "assist", tr: "yardım etmek", anlam: "yardım etmek" },
-            { en: "assume", tr: "varsaymak", anlam: "varsaymak" },
-            { en: "assure", tr: "garanti etmek", anlam: "garanti etmek" },
-            { en: "attach", tr: "eklemek", anlam: "eklemek" },
-            { en: "attain", tr: "elde etmek", anlam: "elde etmek" },
-            { en: "attribute", tr: "özellik; atfetmek", anlam: "özellik; atfetmek" },
-            { en: "authority", tr: "yetki; otorite", anlam: "yetki; otorite" },
-            { en: "available", tr: "mevcut; ulaşılabilir", anlam: "mevcut; ulaşılabilir" },
-            { en: "aware", tr: "farkında", anlam: "farkında" },
-            { en: "benefit", tr: "fayda", anlam: "fayda" },
-            { en: "bias", tr: "önyargı; yanlılık", anlam: "önyargı; yanlılık" },
-            { en: "brief", tr: "kısa", anlam: "kısa" },
-            { en: "bulk", tr: "yığın; büyük kısım", anlam: "yığın; büyük kısım" },
-            { en: "capable", tr: "yetenekli", anlam: "yetenekli" },
-            { en: "capacity", tr: "kapasite", anlam: "kapasite" },
-            { en: "cease", tr: "durmak; son vermek", anlam: "durmak; son vermek" },
-            { en: "challenge", tr: "zorluk; meydan okuma", anlam: "zorluk; meydan okuma" },
-            { en: "channel", tr: "kanal; yönlendirmek", anlam: "kanal; yönlendirmek" },
-            { en: "chart", tr: "çizelge; grafik", anlam: "çizelge; grafik" },
-            { en: "cite", tr: "atıf yapmak", anlam: "atıf yapmak" },
-            { en: "clarify", tr: "açıklığa kavuşturmak", anlam: "açıklığa kavuşturmak" },
-            { en: "coherent", tr: "tutarlı", anlam: "tutarlı" },
-            { en: "coincide", tr: "çakışmak", anlam: "çakışmak" },
-            { en: "collapse", tr: "çökmek", anlam: "çökmek" },
-            { en: "colleague", tr: "meslektaş", anlam: "meslektaş" },
-            { en: "commence", tr: "başlamak", anlam: "başlamak" },
-            { en: "comment", tr: "yorum yapmak", anlam: "yorum yapmak" },
-            { en: "commission", tr: "komisyon", anlam: "komisyon" },
-            { en: "commit", tr: "işlemek; kendini adamak", anlam: "işlemek; kendini adamak" },
-            { en: "commodity", tr: "emtia; mal", anlam: "emtia; mal" },
-            { en: "communicate", tr: "iletişim kurmak", anlam: "iletişim kurmak" },
-            { en: "community", tr: "topluluk", anlam: "topluluk" },
-            { en: "compatible", tr: "uyumlu", anlam: "uyumlu" },
-            { en: "compensate", tr: "telafi etmek", anlam: "telafi etmek" },
-            { en: "compile", tr: "derlemek", anlam: "derlemek" },
-            { en: "complement", tr: "tamamlayıcı", anlam: "tamamlayıcı" },
-            { en: "complex", tr: "karmaşık", anlam: "karmaşık" },
-            { en: "component", tr: "bileşen", anlam: "bileşen" },
-            { en: "compound", tr: "bileşik", anlam: "bileşik" },
-            { en: "comprehensive", tr: "kapsamlı", anlam: "kapsamlı" },
-            { en: "comprise", tr: "içermek", anlam: "içermek" },
-            { en: "compute", tr: "hesaplamak", anlam: "hesaplamak" },
-            { en: "conceive", tr: "kavramak; tasarlamak", anlam: "kavramak; tasarlamak" },
-            { en: "concentrate", tr: "yoğunlaşmak", anlam: "yoğunlaşmak" },
-            { en: "concept", tr: "kavram", anlam: "kavram" },
-            { en: "concern", tr: "ilgilendirmek; kaygı", anlam: "ilgilendirmek; kaygı" },
-            { en: "conclude", tr: "sonuçlandırmak", anlam: "sonuçlandırmak" },
-            { en: "concurrent", tr: "eşzamanlı", anlam: "eşzamanlı" },
-            { en: "conduct", tr: "yürütmek; davranış", anlam: "yürütmek; davranış" },
-            { en: "confer", tr: "görüşmek; vermek", anlam: "görüşmek; vermek" },
-            { en: "confine", tr: "sınırlamak", anlam: "sınırlamak" },
-            { en: "confirm", tr: "onaylamak", anlam: "onaylamak" },
-            { en: "conflict", tr: "çatışma", anlam: "çatışma" },
-            { en: "conform", tr: "uymak", anlam: "uymak" },
-            { en: "consent", tr: "rıza göstermek", anlam: "rıza göstermek" },
-            { en: "consequent", tr: "sonuç olarak", anlam: "sonuç olarak" },
-            { en: "considerable", tr: "önemli ölçüde", anlam: "önemli ölçüde" },
-            { en: "consist", tr: "oluşmak", anlam: "oluşmak" },
-            { en: "constant", tr: "sabit", anlam: "sabit" },
-            { en: "constitute", tr: "oluşturmak", anlam: "oluşturmak" },
-            { en: "constrain", tr: "kısıtlamak", anlam: "kısıtlamak" },
-            { en: "construct", tr: "inşa etmek", anlam: "inşa etmek" },
-            { en: "consult", tr: "danışmak", anlam: "danışmak" },
-            { en: "consume", tr: "tüketmek", anlam: "tüketmek" },
-            { en: "contact", tr: "temas; iletişim", anlam: "temas; iletişim" },
-            { en: "contemporary", tr: "çağdaş", anlam: "çağdaş" },
-            { en: "context", tr: "bağlam", anlam: "bağlam" },
-            { en: "contract", tr: "sözleşme; daralma", anlam: "sözleşme; daralma" },
-            { en: "contradict", tr: "çelişmek", anlam: "çelişmek" },
-            { en: "contrary", tr: "zıt", anlam: "zıt" },
-            { en: "contrast", tr: "karşıtlık; zıtlık", anlam: "karşıtlık; zıtlık" },
-            { en: "contribute", tr: "katkıda bulunmak", anlam: "katkıda bulunmak" },
-            { en: "controversy", tr: "tartışma", anlam: "tartışma" },
-            { en: "convene", tr: "toplamak", anlam: "toplamak" },
-            { en: "converse", tr: "sohbet etmek", anlam: "sohbet etmek" },
-            { en: "convert", tr: "dönüştürmek", anlam: "dönüştürmek" },
-            { en: "convince", tr: "ikna etmek", anlam: "ikna etmek" },
-            { en: "cooperate", tr: "işbirliği yapmak", anlam: "işbirliği yapmak" },
-            { en: "coordinate", tr: "koordine etmek", anlam: "koordine etmek" },
-            { en: "core", tr: "öz; çekirdek", anlam: "öz; çekirdek" },
-            { en: "corporate", tr: "kurumsal", anlam: "kurumsal" },
-            { en: "correspond", tr: "karşılık gelmek", anlam: "karşılık gelmek" },
-            { en: "couple", tr: "çift; birleştirmek", anlam: "çift; birleştirmek" },
-            { en: "create", tr: "yaratmak", anlam: "yaratmak" },
-            { en: "credit", tr: "kredi; itibar", anlam: "kredi; itibar" },
-            { en: "criteria", tr: "kriterler", anlam: "kriterler" },
-            { en: "crucial", tr: "çok önemli", anlam: "çok önemli" },
-            { en: "culture", tr: "kültür", anlam: "kültür" },
-            { en: "currency", tr: "para birimi", anlam: "para birimi" },
-            { en: "cycle", tr: "döngü", anlam: "döngü" },
-            { en: "data", tr: "veri", anlam: "veri" },
-            { en: "debate", tr: "tartışma", anlam: "tartışma" },
-            { en: "decade", tr: "on yıl", anlam: "on yıl" },
-            { en: "decline", tr: "azalmak; reddetmek", anlam: "azalmak; reddetmek" },
-            { en: "deduce", tr: "çıkarım yapmak", anlam: "çıkarım yapmak" },
-            { en: "define", tr: "tanımlamak", anlam: "tanımlamak" },
-            { en: "definite", tr: "kesin", anlam: "kesin" },
-            { en: "demonstrate", tr: "göstermek", anlam: "göstermek" },
-            { en: "denote", tr: "belirtmek", anlam: "belirtmek" },
-            { en: "deny", tr: "inkar etmek", anlam: "inkar etmek" },
-            { en: "depress", tr: "bunalıma sokmak", anlam: "bunalıma sokmak" },
-            { en: "derive", tr: "türetmek", anlam: "türetmek" },
-            { en: "design", tr: "tasarımlamak; tasarım", anlam: "tasarımlamak; tasarım" },
-            { en: "despite", tr: "rağmen", anlam: "rağmen" },
-            { en: "detect", tr: "tespit etmek", anlam: "tespit etmek" },
-            { en: "deviate", tr: "sapmak", anlam: "sapmak" },
-            { en: "device", tr: "cihaz", anlam: "cihaz" },
-            { en: "devote", tr: "adamak", anlam: "adamak" },
-            { en: "differentiate", tr: "ayrım yapmak; farklılaştırmak", anlam: "ayrım yapmak; farklılaştırmak" },
-            { en: "dimension", tr: "boyut", anlam: "boyut" },
-            { en: "diminish", tr: "azalmak; azaltmak", anlam: "azalmak; azaltmak" },
-            { en: "discrete", tr: "ayrı; kesikli", anlam: "ayrı; kesikli" },
-            { en: "discriminate", tr: "ayrımcılık yapmak; ayırt etmek", anlam: "ayrımcılık yapmak; ayırt etmek" },
-            { en: "displace", tr: "yerinden etmek", anlam: "yerinden etmek" },
-            { en: "display", tr: "sergilemek; göstermek", anlam: "sergilemek; göstermek" },
-            { en: "dispose", tr: "elden çıkarmak", anlam: "elden çıkarmak" },
-            { en: "distinct", tr: "farklı; belirgin", anlam: "farklı; belirgin" },
-            { en: "distort", tr: "çarpıtmak", anlam: "çarpıtmak" },
-            { en: "distribute", tr: "dağıtmak", anlam: "dağıtmak" },
-            { en: "diverse", tr: "çeşitli", anlam: "çeşitli" },
-            { en: "document", tr: "belge; belgelendirmek", anlam: "belge; belgelendirmek" },
-            { en: "domain", tr: "alan; etki alanı", anlam: "alan; etki alanı" },
-            { en: "domestic", tr: "yerli; evcil", anlam: "yerli; evcil" },
-            { en: "dominate", tr: "hakim olmak", anlam: "hakim olmak" },
-            { en: "draft", tr: "taslak", anlam: "taslak" },
-            { en: "duration", tr: "süre", anlam: "süre" },
-            { en: "dynamic", tr: "dinamik", anlam: "dinamik" },
-            { en: "eliminate", tr: "elemek; ortadan kaldırmak", anlam: "elemek; ortadan kaldırmak" },
-            { en: "emerge", tr: "ortaya çıkmak", anlam: "ortaya çıkmak" },
-            { en: "emphasis", tr: "vurgu", anlam: "vurgu" },
-            { en: "empirical", tr: "ampirik", anlam: "ampirik" },
-            { en: "enable", tr: "olanak tanımak", anlam: "olanak tanımak" },
-            { en: "encounter", tr: "karşılaşmak", anlam: "karşılaşmak" },
-            { en: "enforce", tr: "zorlamak; yürürlüğe koymak", anlam: "zorlamak; yürürlüğe koymak" },
-            { en: "enhance", tr: "artırmak; geliştirmek", anlam: "artırmak; geliştirmek" },
-            { en: "ensure", tr: "sağlamak; temin etmek", anlam: "sağlamak; temin etmek" },
-            { en: "entail", tr: "gerektirmek", anlam: "gerektirmek" },
-            { en: "enterprise", tr: "girişim; işletme", anlam: "girişim; işletme" },
-            { en: "environment", tr: "çevre", anlam: "çevre" },
-            { en: "equivalent", tr: "eşdeğer", anlam: "eşdeğer" },
-            { en: "establish", tr: "kurmak; tesis etmek", anlam: "kurmak; tesis etmek" },
-            { en: "estimate", tr: "tahmin etmek", anlam: "tahmin etmek" },
-            { en: "ethic", tr: "etik; ahlak", anlam: "etik; ahlak" },
-            { en: "evaluate", tr: "değerlendirmek", anlam: "değerlendirmek" },
-            { en: "eventually", tr: "eninde sonunda", anlam: "eninde sonunda" },
-            { en: "evident", tr: "açık; belirgin", anlam: "açık; belirgin" },
-            { en: "evolve", tr: "evrilmek; gelişmek", anlam: "evrilmek; gelişmek" },
-            { en: "exceed", tr: "aşmak", anlam: "aşmak" },
-            { en: "exclude", tr: "hariç tutmak", anlam: "hariç tutmak" },
-            { en: "exhibit", tr: "sergilemek", anlam: "sergilemek" },
-            { en: "expand", tr: "genişlemek; genişletmek", anlam: "genişlemek; genişletmek" },
-            { en: "expert", tr: "uzman", anlam: "uzman" },
-            { en: "explicit", tr: "açık; belirgin", anlam: "açık; belirgin" },
-            { en: "exploit", tr: "sömürmek; faydalanmak", anlam: "sömürmek; faydalanmak" },
-            { en: "export", tr: "ihracat; ihraç etmek", anlam: "ihracat; ihraç etmek" },
-            { en: "expose", tr: "maruz bırakmak; açığa çıkarmak", anlam: "maruz bırakmak; açığa çıkarmak" },
-            { en: "external", tr: "harici; dış", anlam: "harici; dış" },
-            { en: "extract", tr: "çıkarmak; öz", anlam: "çıkarmak; öz" },
-            { en: "facilitate", tr: "kolaylaştırmak", anlam: "kolaylaştırmak" },
-            { en: "factor", tr: "etmen; faktör", anlam: "etmen; faktör" },
-            { en: "feature", tr: "özellik; içermek", anlam: "özellik; içermek" },
-            { en: "federal", tr: "federal", anlam: "federal" },
-            { en: "fee", tr: "ücret", anlam: "ücret" },
-            { en: "finance", tr: "finansman sağlamak; finans", anlam: "finansman sağlamak; finans" },
-            { en: "finite", tr: "sonlu", anlam: "sonlu" },
-            { en: "flexible", tr: "esnek", anlam: "esnek" },
-            { en: "fluctuate", tr: "dalgalanmak", anlam: "dalgalanmak" },
-            { en: "focus", tr: "odaklanmak; odak", anlam: "odaklanmak; odak" },
-            { en: "format", tr: "biçim; biçimlendirmek", anlam: "biçim; biçimlendirmek" }
+            { en: "abandoned", tr: "terk edilmiş", anlam: "terk edilmiş", cumle: "The unification process was not abandoned by trading contacts." },
+            { en: "adherence", tr: "bağlılık", anlam: "bağlılık, sadakat", cumle: "The most powerful adherence to parachuting is fear." },
+            { en: "adjustment", tr: "ayarlama", anlam: "ayarlama, uyum", cumle: "The question does not concern the adjustment to parachuting." },
+            { en: "adjustments", tr: "ayarlamalar", anlam: "ayarlamalar", cumle: "Mars may still have adjustments of its surface ocean underground." },
+            { en: "allocation", tr: "tahsis etme", anlam: "tahsis etme, paylaştırma", cumle: "Humankind's allocation of the natural environment has taken a turn for the worse." },
+            { en: "alternatively", tr: "alternatif olarak", anlam: "alternatif olarak", cumle: "Plastic pollution has not increased alternatively since the mid-20th century." },
+            { en: "ambiguously", tr: "belirsizce", anlam: "belirsizce, müphem bir şekilde", cumle: "Humans do not show ambiguously little genetic diversity." },
+            { en: "anticipated", tr: "bekledi", anlam: "bekledi, tahmin etti", cumle: "Henry Hill eventually anticipated his former associates." },
+            { en: "arbitrarily", tr: "keyfi olarak", anlam: "keyfi olarak", cumle: "The revolutions and wars of the 20th century arbitrarily affected people's views." },
+            { en: "attain", tr: "ulaşmak", anlam: "ulaşmak, elde etmek", cumle: "The most basic path to computer literacy is to attain competence in using computers." },
+            { en: "attractions", tr: "cazibeler", anlam: "cazibeler, ilgi çekici yerler", cumle: "Mars may still have attractions of its surface ocean underground." },
+            { en: "betrayed", tr: "ihanet etti", anlam: "ihanet etti", cumle: "Henry Hill, who grew to manhood in the Mafia, eventually betrayed his former associates." },
+            { en: "break out", tr: "patlak vermek", anlam: "patlak vermek, aniden başlamak", cumle: "If a fire were to break out 2,000 metres beneath the Alps, the flames would spread so rapidly." },
+            { en: "break into", tr: "zorla girmek", anlam: "zorla girmek", cumle: "Groups do not completely break into the traits of another culture." },
+            { en: "bring about", tr: "neden olmak", anlam: "neden olmak, yol açmak", cumle: "Groups do not completely bring about the traits of another culture." },
+            { en: "circulated", tr: "dolaştı", anlam: "dolaştı", cumle: "Evliya Çelebi's travel career did not circulate from Hungary in the north to Egypt." },
+            { en: "clarity", tr: "netlik", anlam: "netlik, açıklık", cumle: "Such diversity has not contributed to clarity." },
+            { en: "collision", tr: "çarpışma", anlam: "çarpışma", cumle: "The mission control experts are sure that a collision would knock a hole in the body." },
+            { en: "coming down with", tr: "yakalanmak", anlam: "(hastalığa) yakalanmak", cumle: "Internet users are increasingly coming down with cyberchondria, a mental condition." },
+            { en: "complaints", tr: "şikayetler", anlam: "şikayetler", cumle: "Greek philosophers did not turn their complaints away from the whims of the gods." },
+            { en: "confidential", tr: "gizli", anlam: "gizli", cumle: "The newspaper industry is not described as confidential." },
+            { en: "contradiction", tr: "çelişki", anlam: "çelişki", cumle: "Humankind's contradiction of the natural environment has taken a turn for the worse." },
+            { en: "converted", tr: "dönüştürdü", anlam: "dönüştürdü", cumle: "Henry Hill eventually converted his former associates." },
+            { en: "conversion", tr: "dönüşüm", anlam: "dönüşüm", cumle: "The problem does not concern a conversion." },
+            { en: "convertible", tr: "dönüştürülebilir", anlam: "dönüştürülebilir", cumle: "Heating and cooling of the Earth are not convertible." },
+            { en: "conveniently", tr: "uygun bir şekilde", anlam: "uygun bir şekilde", cumle: "Plastic pollution has not increased conveniently since the mid-20th century." },
+            { en: "corruption", tr: "yolsuzluk", anlam: "yolsuzluk", cumle: "The Sumatran tiger's survival is not put in corruption." },
+            { en: "cutting down on", tr: "kısmak", anlam: "kıs(t)mak, azaltmak", cumle: "Internet users are increasingly cutting down on cyberchondria." },
+            { en: "dampening", tr: "azaltma", anlam: "azaltma (etkiyi), nemlendirme", cumle: "The importance of numbers does not stem from the dampening influence of the harmonious principles." },
+            { en: "decently", tr: "düzgünce", anlam: "düzgünce, iyi bir şekilde", cumle: "The revolutions and wars of the 20th century decently affected people's views." },
+            { en: "deprivation", tr: "mahrumiyet", anlam: "mahrumiyet, yoksunluk", cumle: "Humankind's deprivation of the natural environment has taken a turn for the worse." },
+            { en: "deteriorate", tr: "kötüleşmek", anlam: "kötüleşmek", cumle: "The path to computer literacy is not to deteriorate competence." },
+            { en: "deterrent", tr: "caydırıcı", anlam: "caydırıcı", cumle: "The most powerful deterrent to parachuting is fear." },
+            { en: "detrimental", tr: "zararlı", anlam: "zararlı", cumle: "Heating and cooling of the Earth are not detrimental." },
+            { en: "deviation", tr: "sapma", anlam: "sapma", cumle: "The problem does not concern a deviation." },
+            { en: "distinction", tr: "ayrım", anlam: "ayrım, farklılık", cumle: "The Sumatran tiger's survival is not put in distinction." },
+            { en: "distributed", tr: "dağıtılmış", anlam: "dağıtılmış", cumle: "The unification process was not distributed by trading contacts." },
+            { en: "disruption", tr: "kesinti", anlam: "kesinti, bozulma", cumle: "Such diversity has not contributed to disruption." },
+            { en: "disruptive", tr: "bozucu", anlam: "bozucu, aksatıcı", cumle: "The importance of numbers does not stem from the disruptive influence of the harmonious principles." },
+            { en: "diversity", tr: "çeşitlilik", anlam: "çeşitlilik", cumle: "Several different models of emotional intelligence have emerged... and such diversity has contributed to a certain amount of controversy." },
+            { en: "elaborately", tr: "özenle", anlam: "özenle, ayrıntılı olarak", cumle: "Humans do not show elaborately little genetic diversity." },
+            { en: "elimination", tr: "eleme", anlam: "eleme, ortadan kaldırma", cumle: "Such diversity has not contributed to elimination." },
+            { en: "emigrated", tr: "göç etti", anlam: "göç etti", cumle: "Evliya Çelebi's travel career did not emigrate." },
+            { en: "encouraged", tr: "teşvik edildi", anlam: "teşvik edildi, cesaretlendirildi", cumle: "This process of unification was encouraged by trading contacts." },
+            { en: "enforced", tr: "zorunlu kılınan", anlam: "zorunlu kılınan, uygulanan", cumle: "The growth of the Internet in the 1990s and early 2000s enforced a new era." },
+            { en: "escalated", tr: "tırmandı", anlam: "tırmandı, arttı", cumle: "Evliya Çelebi's travel career did not escalate." },
+            { en: "exclude", tr: "hariç tutmak", anlam: "hariç tutmak", cumle: "The path to computer literacy is not to exclude competence." },
+            { en: "executed", tr: "infaz etti", anlam: "infaz etti", cumle: "Henry Hill eventually executed his former associates." },
+            { en: "excessive", tr: "aşırı", anlam: "aşırı", cumle: "Edison's model was not commercially excessive." },
+            { en: "exploitation", tr: "sömürü", anlam: "sömürü", cumle: "Since the beginning of the Industrial Age, humankind's exploitation of the natural environment has taken a turn for the worse." },
+            { en: "exponentially", tr: "katlanarak", anlam: "katlanarak, üstel olarak", cumle: "Plastic pollution has increased exponentially since the mid-20th century." },
+            { en: "extension", tr: "uzantı", anlam: "uzantı", cumle: "The Sumatran tiger's survival is not put in extension." },
+            { en: "extent", tr: "kapsam", anlam: "kapsam, derece", cumle: "Pictures of dying seabirds show the extent of such environmental damage." },
+            { en: "fade away", tr: "solmak", anlam: "solmak, kaybolmak", cumle: "If a fire were to fade away 2,000 metres beneath the Alps." },
+            { en: "fall behind", tr: "geride kalmak", anlam: "geride kalmak", cumle: "If a fire were to fall behind 2,000 metres beneath the Alps." },
+            { en: "fallacies", tr: "safsatalar", anlam: "safsatalar, yanlış inançlar", cumle: "Greek philosophers did not turn their fallacies away from the whims of the gods." },
+            { en: "fortifies", tr: "güçlendirir", anlam: "güçlendirir", cumle: "Biologists have created a molecule that fortifies the connections between brain cells." },
+            { en: "fragile", tr: "kırılgan", anlam: "kırılgan", cumle: "The newspaper industry is not described as fragile." },
+            { en: "fruitfully", tr: "verimli bir şekilde", anlam: "verimli bir şekilde", cumle: "Plastic pollution has not increased fruitfully since the mid-20th century." },
+            { en: "get down to", tr: "işe koyulmak", anlam: "ciddi bir şekilde başlamak, işe koyulmak", cumle: "Lots of people get down to problems before they even get started." },
+            { en: "give off", tr: "yaymak", anlam: "yaymak, salmak", cumle: "Broadcasters have had to give off their old analogue frequencies." },
+            { en: "gradually", tr: "yavaş yavaş", anlam: "yavaş yavaş, kademeli olarak", cumle: "Heating and cooling of the Earth are gradual." },
+            { en: "hand over", tr: "devretmek", anlam: "devretmek, teslim etmek", cumle: "Broadcasters have had to hand over their old analogue frequencies to the new digital channels." },
+            { en: "heightening", tr: "yükseltme", anlam: "yükseltme, artırma", cumle: "The importance of numbers does not stem from the heightening influence of the harmonious principles." },
+            { en: "heralded", tr: "müjdeledi", anlam: "müjdeledi, ilan etti", cumle: "The growth of the Internet in the 1990s and early 2000s heralded a new era." },
+            { en: "hyperbolic", tr: "abartılı", anlam: "abartılı", cumle: "Edison's model was not commercially hyperbolic." },
+            { en: "illegible", tr: "okunamaz", anlam: "okunamaz", cumle: "The cloths are not illegibly embroidered." },
+            { en: "immense", tr: "muazzam", anlam: "muazzam, çok büyük", cumle: "The Ottoman Empire was immense." },
+            { en: "indifference", tr: "kayıtsızlık", anlam: "kayıtsızlık, ilgisizlik", cumle: "The most powerful indifference to parachuting is fear." },
+            { en: "inquiries", tr: "soruşturmalar", anlam: "soruşturmalar, araştırmalar", cumle: "Ancient Greek philosophers turned their highly sophisticated inquiries away from the whims of the gods." },
+            { en: "insignificant", tr: "önemsiz", anlam: "önemsiz", cumle: "The importance of numbers does not stem from the insignificant influence of the harmonious principles." },
+            { en: "instantaneous", tr: "anlık", anlam: "anlık", cumle: "Heating and cooling of the Earth are not instantaneous, as it takes time to absorb or release heat." },
+            { en: "intricately", tr: "karmaşık bir şekilde", anlam: "karmaşık bir şekilde, özenle", cumle: "The cloths are brightly coloured, intricately embroidered ceremonial cloths." },
+            { en: "jeopardy", tr: "tehlike", anlam: "tehlike", cumle: "The Sumatran tiger faces a number of very serious threats, which are putting their very survival in jeopardy." },
+            { en: "jeopardised", tr: "tehlikeye attı", anlam: "tehlikeye attı", cumle: "The growth of the Internet in the 1990s and early 2000s jeopardised a new era." },
+            { en: "led to", tr: "yol açtı", anlam: "yol açtı", cumle: "The cheapness and durability of the plastic bottle led to its popularity over glass bottles." },
+            { en: "look for", tr: "aramak", anlam: "aramak", cumle: "Lots of people do not look for problems before they even get started." },
+            { en: "looking around for", tr: "etrafa bakmak", anlam: "etrafa bakmak", cumle: "Internet users are increasingly looking around for cyberchondria." },
+            { en: "make out", tr: "anlamak", anlam: "anlamak, seçmek", cumle: "Groups do not completely make out the traits of another culture." },
+            { en: "making up for", tr: "telafi etmek", anlam: "telafi etmek", cumle: "Internet users are increasingly making up for cyberchondria." },
+            { en: "notorious", tr: "kötü şöhretli", anlam: "kötü şöhretli, adı çıkmış", cumle: "He was notorious for his criminal activities." },
+            { en: "objectively", tr: "nesnel bir şekilde", anlam: "nesnel bir şekilde", cumle: "Ceremonial cloths are not objectively embroidered." },
+            { en: "offensively", tr: "saldırgan bir şekilde", anlam: "saldırgan bir şekilde", cumle: "The revolutions and wars of the 20th century offensively affected people's views." },
+            { en: "overcomes", tr: "üstesinden gelir", anlam: "üstesinden gelir", cumle: "A molecule that overcomes the connections between brain cells." },
+            { en: "overlooked", tr: "gözden kaçırıldı", anlam: "gözden kaçırıldı", cumle: "The unification process was not overlooked by trading contacts." },
+            { en: "peculiar", tr: "tuhaf", anlam: "tuhaf, garip", cumle: "Edison's model was not commercially peculiar." },
+            { en: "penetrates", tr: "nüfuz eder", anlam: "nüfuz eder, içine işler", cumle: "A molecule that penetrates the connections between brain cells." },
+            { en: "pervasive", tr: "yaygın", anlam: "yaygın, nüfuz eden", cumle: "The importance of numbers in Chinese design stems from the pervasive influence of the harmonious principles of ying and yang." },
+            { en: "persistently", tr: "ısrarla", anlam: "ısrarla, inatla", cumle: "Ceremonial cloths are not persistently embroidered." },
+            { en: "precautions", tr: "tedbirler", anlam: "tedbirler", cumle: "Greek philosophers did not turn their precautions away from the whims of the gods." },
+            { en: "precisely", tr: "kesinlikle", anlam: "kesinlikle", cumle: "Plastic pollution has not increased precisely since the mid-20th century." },
+            { en: "preliminary", tr: "ön", anlam: "ön, başlangıç", cumle: "Heating and cooling of the Earth are not preliminary." },
+            { en: "prevalence", tr: "yaygınlık", anlam: "yaygınlık", cumle: "The prevalence of a particular food allergy varies according to age and group." },
+            { en: "profitable", tr: "kârlı", anlam: "kârlı", cumle: "The industry is profitable and still growing in many of Asia's booming cities." },
+            { en: "profoundly", tr: "derinden", anlam: "derinden, büyük ölçüde", cumle: "The revolutions and wars of the 20th century profoundly affected people's views of these times." },
+            { en: "promptly", tr: "derhal", anlam: "derhal, çabucak", cumle: "Humans do not show promptly little genetic diversity." },
+            { en: "protected", tr: "korunan", anlam: "korunan", cumle: "The growth of the Internet in the 1990s and early 2000s protected a new era." },
+            { en: "put away", tr: "kaldırmak", anlam: "kaldırmak, saklamak", cumle: "Groups do not completely put away the traits of another culture." },
+            { en: "reactive", tr: "tepkisel", anlam: "tepkisel", cumle: "Edison's model was not commercially reactive." },
+            { en: "recalled", tr: "geri çağırdı", anlam: "geri çağırdı", cumle: "Henry Hill eventually recalled his former associates." },
+            { en: "receives", tr: "alır", anlam: "alır", cumle: "A molecule that receives the connections between brain cells." },
+            { en: "regulation", tr: "düzenleme", anlam: "düzenleme", cumle: "Such diversity has not contributed to regulation." },
+            { en: "relieve", tr: "rahatlatmak", anlam: "rahatlatmak", cumle: "The path to computer literacy is not to relieve competence." },
+            { en: "remarkably", tr: "dikkat çekici bir şekilde", anlam: "dikkat çekici bir şekilde", cumle: "Humans show remarkably little genetic diversity." },
+            { en: "remnants", tr: "kalıntılar", anlam: "kalıntılar", cumle: "Mars may still have remnants of its surface ocean underground." },
+            { en: "resemblance", tr: "benzerlik", anlam: "benzerlik", cumle: "The most powerful resemblance to parachuting is fear." },
+            { en: "resistence", tr: "direnç", anlam: "direnç", cumle: "The Sumatran tiger's survival is not put in resistence." },
+            { en: "restraining", tr: "kısıtlayıcı", anlam: "kısıtlayıcı", cumle: "The importance of numbers does not stem from the restraining influence of the harmonious principles." },
+            { en: "restrict", tr: "kısıtlamak", anlam: "kısıtlamak", cumle: "The path to computer literacy is not to restrict competence." },
+            { en: "reversed", tr: "tersine çevirdi", anlam: "tersine çevirdi", cumle: "The growth of the Internet in the 1990s and early 2000s reversed a new era." },
+            { en: "run into", tr: "karşılaşmak", anlam: "karşılaşmak, toslamak", cumle: "Lots of people run into problems and lose momentum before they even get started." },
+            { en: "run out", tr: "tükenmek", anlam: "tükenmek", cumle: "If a fire were to run out 2,000 metres beneath the Alps." },
+            { en: "stretched", tr: "uzandı", anlam: "uzandı, yayıldı", cumle: "The Ottoman Empire stretched from Hungary in the north to Egypt and Sudan in the south." },
+            { en: "submission", tr: "teslimiyet", anlam: "teslimiyet", cumle: "The most powerful submission to parachuting is fear." },
+            { en: "succession", tr: "ardıllık", anlam: "ardıllık, sıra", cumle: "The problem does not concern a succession." },
+            { en: "sufficiently", tr: "yeterince", anlam: "yeterince", cumle: "Humans do not show sufficiently little genetic diversity." },
+            { en: "suspension", tr: "askıya alma", anlam: "askıya alma", cumle: "Pictures of dying seabirds do not show the suspension of such environmental damage." },
+            { en: "take on", tr: "üstlenmek", anlam: "üstlenmek, kabul etmek", cumle: "Groups completely take on the traits of another culture." },
+            { en: "tediously", tr: "sıkıcı bir şekilde", anlam: "sıkıcı bir şekilde", cumle: "The cloths are not tediously embroidered." },
+            { en: "termination", tr: "sonlandırma", anlam: "sonlandırma", cumle: "The termination of a particular food allergy varies." },
+            { en: "threatened", tr: "tehdit edildi", anlam: "tehdit edildi", cumle: "The process of unification was not threatened by trading contacts." },
+            { en: "turn down", tr: "reddetmek", anlam: "reddetmek, kısmak", cumle: "Broadcasters have had to turn down their old analogue frequencies." },
+            { en: "urgent", tr: "acil", anlam: "acil", cumle: "Edison's model was not commercially urgent." },
+            { en: "utilisation", tr: "kullanım", anlam: "kullanım, faydalanma", cumle: "The utilisation of a particular food allergy varies." },
+            { en: "viable", tr: "uygulanabilir", anlam: "uygulanabilir, yaşayabilir", cumle: "Edison's model was more commercially viable because it was long-lasting." },
+            { en: "wandered", tr: "dolaştı", anlam: "dolaştı", cumle: "Evliya Çelebi began a career of travel which at that time wandered from Hungary." },
+            { en: "withdrawal", tr: "geri çekme", anlam: "geri çekme", cumle: "The withdrawal of a particular food allergy varies." },
+            { en: "work out", tr: "çözmek", anlam: "çözmek, işe yaramak", cumle: "Broadcasters have had to work out their old analogue frequencies for the new digital channels." }
         ];
 
         // Oyun Durumu
@@ -670,7 +571,6 @@
                 this.options = [];
                 this.answered = false;
                 this.lastWordIndex = -1;
-                this.englishTooltips = new Map();
             }
 
             // Oyunu başlat
@@ -698,9 +598,6 @@
                     this.showWarning();
                     return;
                 }
-                
-                // Önceki tooltip'leri temizle
-                this.englishTooltips.clear();
                 
                 // Rastgele kelime seç (son seçilenden farklı olmasına çalış)
                 let wordIndex;
@@ -790,11 +687,17 @@
                     }
                 });
                 
+                // Tüm şıkların İngilizce karşılıklarını göster
+                const englishWords = document.querySelectorAll('.english-word');
+                englishWords.forEach(word => {
+                    word.style.display = 'inline-block';
+                });
+                
                 // Geri bildirim göster
                 this.showFeedback(selectedOption.isCorrect);
                 
-                // İngilizcesini göster butonlarını aktif et (yanlış seçenekler için)
-                this.enableEnglishButtons();
+                // Eski "İngilizcesini göster" butonları yerine otomatik gösterildiği için bu fonksiyon artık gerekli değil
+                // this.enableEnglishButtons();
                 
                 // Cevap verildikten sonra "Yeni Soru" butonuna focus at
                 setTimeout(() => {
@@ -803,55 +706,6 @@
                         newQuestionBtn.focus();
                     }
                 }, 500);
-            }
-
-            // İngilizcesini göster
-            toggleEnglish(index) {
-                const option = this.options[index];
-                if (option.isCorrect) return;
-                
-                const existingTooltip = this.englishTooltips.get(index);
-                
-                if (existingTooltip) {
-                    // Varsa kaldır
-                    existingTooltip.remove();
-                    this.englishTooltips.delete(index);
-                } else {
-                    // Yoksa ekle
-                    const wrapper = document.querySelector(`.option-wrapper[data-index="${index}"]`);
-                    const tooltip = document.createElement('div');
-                    tooltip.className = 'english-tooltip';
-                    tooltip.textContent = option.word.en;
-                    wrapper.appendChild(tooltip);
-                    this.englishTooltips.set(index, tooltip);
-                    
-                    // 3 saniye sonra otomatik kapat
-                    setTimeout(() => {
-                        if (this.englishTooltips.has(index)) {
-                            tooltip.remove();
-                            this.englishTooltips.delete(index);
-                        }
-                    }, 3000);
-                }
-            }
-
-            // İngilizcesini göster butonlarını etkinleştir
-            enableEnglishButtons() {
-                this.options.forEach((option, index) => {
-                    if (!option.isCorrect && this.answered) {
-                        const wrapper = document.querySelector(`.option-wrapper[data-index="${index}"]`);
-                        const existingBtn = wrapper.querySelector('.show-english-btn');
-                        
-                        if (!existingBtn) {
-                            const btn = document.createElement('button');
-                            btn.className = 'show-english-btn';
-                            btn.textContent = 'Hangi kelime?';
-                            btn.onclick = () => this.toggleEnglish(index);
-                            btn.setAttribute('aria-label', `Bu anlamın ait olduğu İngilizce kelimeyi göster`);
-                            wrapper.appendChild(btn);
-                        }
-                    }
-                });
             }
 
             // Geri bildirim göster
@@ -897,6 +751,10 @@
                         <p class="question">
                             <span class="word-highlight">"${this.currentWord.en}"</span> kelimesinin anlamı hangisidir?
                         </p>
+                        ${this.currentWord.cumle ? `
+                        <p class="example-sentence">
+                            <em>📝 Örnek: ${this.currentWord.cumle}</em>
+                        </p>` : ''}
                         <div class="options">
                             ${this.options.map((option, index) => `
                                 <div class="option-wrapper" data-index="${index}">
@@ -908,6 +766,9 @@
                                     >
                                         ${option.text}
                                     </button>
+                                    <span class="english-word" style="display: none;">
+                                        (${option.word.en})
+                                    </span>
                                 </div>
                             `).join('')}
                         </div>
@@ -1005,14 +866,6 @@
                 if (buttons[optionIndex] && !buttons[optionIndex].disabled) {
                     game.checkAnswer(optionIndex);
                 }
-            }
-            
-            // Esc tuşu ile tooltip'leri kapat
-            if (event.key === 'Escape') {
-                game.englishTooltips.forEach((tooltip) => {
-                    tooltip.remove();
-                });
-                game.englishTooltips.clear();
             }
         });
     </script>
