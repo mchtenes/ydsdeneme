@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YDS Çalışma</title>
+    <title>YDS Çalışma Platformu - Kelimeler, Bağlaçlar, Zamanlar & Phrasal Verbs</title>
     <style>
         /* Temel Stiller ve Değişkenler */
         :root {
@@ -938,11 +938,160 @@
                 padding: 0.375rem 0.75rem;
             }
         }
+
+        /* Phrasal Verbs Stilleri */
+        .phrasal-verbs-controls {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .phrasal-verbs-list {
+            max-height: 600px;
+            overflow-y: auto;
+            padding-right: 0.5rem;
+        }
+
+        .phrasal-verb-item {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            transition: var(--transition);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .phrasal-verb-item:hover {
+            border-color: var(--primary-color);
+            box-shadow: 0 8px 25px rgba(37, 99, 235, 0.15);
+            transform: translateY(-3px);
+        }
+
+        .phrasal-verb-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .phrasal-verb-word {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: white;
+            background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+            padding: 0.5rem 1.25rem;
+            border-radius: 25px;
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            letter-spacing: 0.5px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .phrasal-verb-meaning {
+            font-size: 1.125rem;
+            color: var(--primary-color);
+            background: linear-gradient(135deg, #e0f2fe, #f0f9ff);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-weight: 600;
+            border: 1px solid #bae6fd;
+        }
+
+        .phrasal-verb-example {
+            background: linear-gradient(135deg, #f0fdf4, #f7fee7);
+            border: 1px solid #bbf7d0;
+            border-radius: 12px;
+            padding: 1rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .phrasal-verb-example::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #22c55e, #16a34a);
+        }
+
+        .example-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.75rem;
+            color: #16a34a;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .phrasal-verb-example-text {
+            font-size: 1rem;
+            color: var(--text-color);
+            font-weight: 500;
+            line-height: 1.6;
+            font-style: italic;
+        }
+
+        .phrasal-verb-count {
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        /* Loading ve Error Durumları */
+        .loading-spinner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 3rem;
+            font-size: 1.125rem;
+            color: var(--primary-color);
+        }
+
+        .error-message {
+            text-align: center;
+            padding: 3rem;
+            color: var(--error-color);
+            background: #fee2e2;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+
+        /* Mobil uyumluluk - Phrasal Verbs */
+        @media (max-width: 768px) {
+            .phrasal-verbs-controls {
+                flex-direction: column;
+            }
+            
+            .phrasal-verb-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.75rem;
+            }
+            
+            .phrasal-verb-word {
+                font-size: 1.5rem;
+            }
+            
+            .phrasal-verb-meaning {
+                font-size: 1rem;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>🎯 YDS Çalışma</h1>
+        <h1>🎯 YDS Çalışma Platformu</h1>
         
         <!-- Sekme Başlıkları -->
         <div class="tabs">
@@ -957,6 +1106,9 @@
             </button>
             <button class="tab-button" onclick="switchTab('tenses')">
                 ⏰ Zamanlar
+            </button>
+            <button class="tab-button" onclick="switchTab('phrasal-verbs')">
+                🔄 Phrasal Verbs
             </button>
         </div>
         
@@ -1017,6 +1169,20 @@
             </div>
         </div>
         
+        <!-- Phrasal Verbs Sekmesi -->
+        <div id="phrasal-verbsTab" class="tab-content" style="display: none;">
+            <div class="phrasal-verbs-controls">
+                <input type="text" id="phrasal-verbSearchInput" class="search-input" placeholder="🔍 Phrasal verb ara..." onkeyup="filterPhrasalVerbs()">
+                <select id="phrasal-verbSortSelect" class="sort-select" onchange="sortPhrasalVerbs()">
+                    <option value="alphabetical">A-Z Sıralama</option>
+                    <option value="meaning">Türkçe Anlamına Göre</option>
+                </select>
+            </div>
+            <div id="phrasal-verbsList" class="phrasal-verbs-list">
+                <!-- Phrasal Verbs JavaScript tarafından doldurulacak -->
+            </div>
+        </div>
+        
         <!-- Erişilebilirlik için aria-live bölgesi -->
         <div aria-live="polite" aria-atomic="true" class="sr-only" id="screenReaderFeedback"></div>
     </div>
@@ -1043,482 +1209,79 @@
         const NUM_OPTIONS = 4;
         const FEEDBACK_DURATION = 2000;
 
-        // YDS 2021 Bilinmeyen Kelimeler (99 kelime)
-        const SAMPLE_DATA = [
-          { en: "deterrent", tr: "Caydırıcı, engel", anlam: "Caydırıcı, engel", cumle: "The new law serves as a strong deterrent against illegal parking." },
-          { en: "parachuting", tr: "Paraşütle atlama", anlam: "Paraşütle atlama", cumle: "He experienced an incredible adrenaline rush during his first parachuting jump." },
-          { en: "resemblance", tr: "Benzerlik", anlam: "Benzerlik", cumle: "The resemblance between the twin sisters was striking." },
-          { en: "adjustment", tr: "Ayarlama, uyum sağlama", anlam: "Ayarlama, uyum sağlama", cumle: "Moving to a new city required a significant adjustment for the whole family." },
-          { en: "submission", tr: "Teslimiyet, boyun eğme", anlam: "Teslimiyet, boyun eğme", cumle: "The defeated army raised a white flag as a sign of submission." },
-          { en: "adherence", tr: "Bağlılık, sadakat", anlam: "Bağlılık, sadakat", cumle: "Strict adherence to the safety guidelines is mandatory for all employees." },
-          { en: "exponentially", tr: "Üstel olarak, hızla katlanarak", anlam: "Üstel olarak, hızla katlanarak", cumle: "The company's profits have grown exponentially over the past two years." },
-          { en: "pollution", tr: "Kirlilik", anlam: "Kirlilik", cumle: "Air pollution in major cities is a serious health concern." },
-          { en: "conveniently", tr: "Uygun bir şekilde, rahatça", anlam: "Uygun bir şekilde, rahatça", cumle: "The hotel is conveniently located near the train station." },
-          { en: "alternatively", tr: "Alternatif olarak", anlam: "Alternatif olarak", cumle: "You can take the bus; alternatively, you could walk and enjoy the weather." },
-          { en: "precisely", tr: "Tam olarak, kesinlikle", anlam: "Tam olarak, kesinlikle", cumle: "He arrived at precisely 9:00 AM for the interview." },
-          { en: "fruitfully", tr: "Verimli/faydalı bir şekilde", anlam: "Verimli/faydalı bir şekilde", cumle: "The two scientists collaborated fruitfully on the research project." },
-          { en: "substantial reduction", tr: "Önemli/büyük bir azalma", anlam: "Önemli/büyük bir azalma", cumle: "The new diet led to a substantial reduction in his cholesterol levels." },
-          { en: "security concerns", tr: "Güvenlik endişeleri", anlam: "Güvenlik endişeleri", cumle: "The event was canceled due to rising security concerns." },
-          { en: "concerns", tr: "Endişeler (isim)", anlam: "Endişeler (isim)", cumle: "The residents voiced their concerns about the new construction project." },
-          { en: "demand", tr: "Talep", anlam: "Talep", cumle: "Demand for electric vehicles has increased significantly." },
-          { en: "generated", tr: "Üretti", anlam: "Üretti", cumle: "The hydroelectric dam generated enough electricity for the entire region." },
-          { en: "naturally replenished", tr: "Doğal olarak yenilenen/doldurulan", anlam: "Doğal olarak yenilenen/doldurulan", cumle: "Unlike fossil fuels, groundwater sources are naturally replenished by rain." },
-          { en: "Although", tr: "-e rağmen, olmasına karşın", anlam: "-e rağmen, olmasına karşın", cumle: "Although it was raining, they decided to go for a walk." },
-          { en: "fungi", tr: "Mantarlar", anlam: "Mantarlar", cumle: "Fungi, like mushrooms and yeast, play a vital role in the ecosystem." },
-          { en: "variety", tr: "Çeşitlilik", anlam: "Çeşitlilik", cumle: "The store offers a wide variety of tropical fruits." },
-          { en: "beneficial purposes", tr: "Faydalı amaçlar", anlam: "Faydalı amaçlar", cumle: "The funds were used for beneficial purposes, such as building schools." },
-          { en: "toxins", tr: "Zehirler", anlam: "Zehirler", cumle: "The liver helps to filter toxins from the bloodstream." },
-          { en: "exploitation", tr: "Sömürü", anlam: "Sömürü", cumle: "The new laws are designed to protect workers from exploitation." },
-          { en: "victimization", tr: "Mağdur etme", anlam: "Mağdur etme", cumle: "The support group helps people who have experienced victimization." },
-          { en: "supervision", tr: "Gözetim, denetim", anlam: "Gözetim, denetim", cumle: "Children should not use the swimming pool without adult supervision." },
-          { en: "component", tr: "Bileşen", anlam: "Bileşen", cumle: "Teamwork is a key component of success in this project." },
-          { en: "endowed with", tr: "Bahşedilmiş, donatılmış", anlam: "Bahşedilmiş, donatılmış", cumle: "He is endowed with a natural talent for music." },
-          { en: "superior speed, agility", tr: "Üstün hız, çeviklik", anlam: "Üstün hız, çeviklik", cumle: "The cheetah relies on its superior speed and agility to catch prey." },
-          { en: "debuted", tr: "İlk kez sahneye çıktı, ortaya çıktı", anlam: "İlk kez sahneye çıktı, ortaya çıktı", cumle: "The new car model debuted at the international auto show." },
-          { en: "medium", tr: "Ortam, araç (iletişim aracı)", anlam: "Ortam, araç (iletişim aracı)", cumle: "Television remains a powerful medium for advertising." },
-          { en: "in contrast to", tr: "-in aksine", anlam: "-in aksine", cumle: "In contrast to his brother, he is very quiet and reserved." },
-          { en: "due to", tr: "-den dolayı", anlam: "-den dolayı", cumle: "The flight was delayed due to bad weather." },
-          { en: "on the basis of", tr: "-e dayanarak", anlam: "-e dayanarak", cumle: "Candidates were selected on the basis of their test scores." },
-          { en: "regime", tr: "Rejim, yönetim", anlam: "Rejim, yönetim", cumle: "The military regime was overthrown after years of protest." },
-          { en: "marking the break", tr: "Aradaki ayrımı işaretleyen", anlam: "Aradaki ayrımı işaretleyen", cumle: "The fall of the Berlin Wall was a historic event, marking the break from the Cold War era." },
-          { en: "withdrew", tr: "Geri çekti/geri çekildi", anlam: "Geri çekti/geri çekildi", cumle: "The company withdrew the faulty product from the market." },
-          { en: "neglected", tr: "İhmal etti", anlam: "İhmal etti", cumle: "He neglected his duties and was eventually fired." },
-          { en: "jeopardized", tr: "Tehlikeye atmak", anlam: "Tehlikeye atmak", cumle: "The scandal jeopardized his chances of winning the election." },
-          { en: "dispelled", tr: "Dağıtmak, gidermek (şüpheyi)", anlam: "Dağıtmak, gidermek (şüpheyi)", cumle: "The CEO's speech dispelled any rumors about the company's financial health." },
-          { en: "to accept", tr: "Kabul etmeye (zorlamak)", anlam: "Kabul etmeye (zorlamak)", cumle: "They were forced to accept the terms of the agreement." },
-          { en: "to gain", tr: "Kazanmak, elde etmek için", anlam: "Kazanmak, elde etmek için", cumle: "She worked hard to gain experience in her new field." },
-          { en: "youthful ambition", tr: "Gençlik hırsı", anlam: "Gençlik hırsı", cumle: "Filled with youthful ambition, she moved to the city to start her career." },
-          { en: "popularity", tr: "Popülerlik", anlam: "Popülerlik", cumle: "The show's popularity grew steadily with each new season." },
-          { en: "eroded", tr: "Aşınmış, yavaşça yok olmuş", anlam: "Aşınmış, yavaşça yok olmuş", cumle: "Public trust in the government has eroded over the years." },
-          { en: "Unless they regard...", tr: "...olarak görmezlerse, kabul etmezlerse", anlam: "...olarak görmezlerse, kabul etmezlerse", cumle: "Unless they regard this as a serious threat, they will not take action." },
-          { en: "worth learning", tr: "Öğrenmeye değer", anlam: "Öğrenmeye değer", cumle: "Coding is a difficult skill, but it is definitely worth learning." },
-          { en: "motivated", tr: "Güdülenmiş, motive olmuş", anlam: "Güdülenmiş, motive olmuş", cumle: "He was highly motivated to succeed in his new job." },
-          { en: "take part in", tr: "Yer almak, katılmak", anlam: "Yer almak, katılmak", cumle: "Over 100 athletes will take part in the championship." },
-          { en: "interact", tr: "Etkileşim kurmak", anlam: "Etkileşim kurmak", cumle: "It's important for managers to interact regularly with their team." },
-          { en: "underlying architecture", tr: "Altta yatan/temel mimari", anlam: "Altta yatan/temel mimari", cumle: "The software update also improved the underlying architecture of the system." },
-          { en: "in relation to", tr: "-e ilişkin olarak", anlam: "-e ilişkin olarak", cumle: "We have some questions in relation to your recent application." },
-          { en: "difficulties", tr: "Zorluklar", anlam: "Zorluklar", cumle: "He faced many difficulties while starting his own business." },
-          { en: "societies", tr: "Toplumlar", anlam: "Toplumlar", cumle: "Modern societies rely heavily on technology." },
-          { en: "non-literate", tr: "Okuryazar olmayan", anlam: "Okuryazar olmayan", cumle: "In many non-literate societies, history is passed down through storytelling." },
-          { en: "relied on", tr: "Güvendiler, bel bağladılar", anlam: "Güvendiler, bel bağladılar", cumle: "The sailors relied on the stars for navigation." },
-          { en: "oral traditions", tr: "Sözlü gelenekler", anlam: "Sözlü gelenekler", cumle: "Many ancient myths and legends survive thanks to oral traditions." },
-          { en: "nimble", tr: "Çevik, hızlı hareket edebilen", anlam: "Çevik, hızlı hareket edebilen", cumle: "The rock climber was nimble, moving quickly from one hold to the next." },
-          { en: "clumsy", tr: "Sakar", anlam: "Sakar", cumle: "He was so clumsy that he spilled his coffee all over the desk." },
-          { en: "chunkier", tr: "daha tıknaz, daha kalın", anlam: "(El kemikleri) daha tıknaz, daha kalın", cumle: "Compared with modern humans, some early hominins had chunkier hand bones." },
-          { en: "reconciles", tr: "Uzlaştırmak, bağdaştırmak", anlam: "Uzlaştırmak, bağdaştırmak", cumle: "It is difficult to reconcile his new statement with his previous actions." },
-          { en: "deeply rooted", tr: "Derinlere kök salmış", anlam: "Derinlere kök salmış", cumle: "The belief in freedom of speech is deeply rooted in their culture." },
-          { en: "weak impressions", tr: "Zayıf izlenimler", anlam: "Zayıf izlenimler", cumle: "The witness only had weak impressions of the suspect and couldn't provide a clear description." },
-          { en: "fade", tr: "Solmak, kaybolmak", anlam: "Solmak, kaybolmak", cumle: "The bright colors of the painting began to fade after years in the sun." },
-          { en: "strengthened", tr: "Güçlendirilmiş", anlam: "Güçlendirilmiş", cumle: "The new evidence strengthened the case against him." },
-          { en: "enhanced", tr: "Geliştirilmiş, artırılmış", anlam: "Geliştirilmiş, artırılmış", cumle: "The new software includes several enhanced security features." },
-          { en: "later cue", tr: "Daha sonraki bir ipucu", anlam: "Daha sonraki bir ipucu", cumle: "The smell of baking bread served as a later cue that brought back childhood memories." },
-          { en: "regardless of", tr: "Bakılmaksızın, ne olursa olsun", anlam: "Bakılmaksızın, ne olursa olsun", cumle: "He decided to buy the car regardless of the high price." },
-          { en: "complexity", tr: "Karmaşıklık", anlam: "Karmaşıklık", cumle: "The complexity of the problem made it difficult to find a simple solution." },
-          { en: "infants", tr: "Bebekler", anlam: "Bebekler", cumle: "Infants require constant care and attention." },
-          { en: "recognize emotions", tr: "Duyguları tanımak/fark etmek", anlam: "Duyguları tanımak/fark etmek", cumle: "Learning to recognize emotions is an important social skill." },
-          { en: "novel situations", tr: "Yeni/alışılmadık durumlar", anlam: "Yeni/alışılmadık durumlar", cumle: "People often feel anxious when they are in novel situations." },
-          { en: "rely on", tr: "Güvenmek, bel bağlamak", anlam: "Güvenmek, bel bağlamak", cumle: "You can always rely on him to keep a secret." },
-          { en: "appropriateness", tr: "Uygunluk", anlam: "Uygunluk", cumle: "He questioned the appropriateness of her comments during the meeting." },
-          { en: "endeavour", tr: "Girişim, çaba", anlam: "Girişim, çaba", cumle: "Climbing Mount Everest is a remarkable human endeavour." },
-          { en: "debate", tr: "Tartışma", anlam: "Tartışma", cumle: "There is much debate about the future of artificial intelligence." },
-          { en: "imitating", tr: "Taklit etme", anlam: "Taklit etme", cumle: "The child was imitating his father's walk." },
-          { en: "bred", tr: "üretilme/yetiştirilme", anlam: "üretilme/yetiştirilme", cumle: "These bacteria were bred in the lab specifically for research." },
-          { en: "host organisms", tr: "Konak organizmalar", anlam: "Konak organizmalar", cumle: "Viruses need host organisms, like bacteria or human cells, to replicate." },
-          { en: "inserting", tr: "Yerleştirme, ekleme", anlam: "Yerleştirme, ekleme", cumle: "The process involves inserting a new gene into the plant's DNA." },
-          { en: "inquiries", tr: "Araştırmalar", anlam: "Soruşturmalar, derinlemesine araştırmalar", cumle: "Ancient Greek philosophers turned their highly sophisticated inquiries toward questions of the natural world." },
-          { en: "collision", tr: "Çarpışma", anlam: "İki cismin birbirine şiddetle çarpması", cumle: "A collision would knock a hole in the station and cause all air inside to escape into space." },
-          { en: "fragile", tr: "Kırılgan", anlam: "Narin, hassas", cumle: "While newspapers have been in dramatic decline in the West, the industry is fragile in some markets and still growing in many of Asia’s booming cities." },
-          { en: "profitable", tr: "Kârlı", anlam: "Kazançlı, gelir getiren", cumle: "The sector remains profitable in several emerging economies." },
-          { en: "remarkably", tr: "Kayda değer şekilde", anlam: "Olağanüstü, dikkat çekici biçimde", cumle: "Humans show remarkably little genetic diversity." },
-          { en: "penetrates", tr: "Nüfuz eder", anlam: "İçine işler, derinlemesine girer", cumle: "The molecule penetrates the connections between neurons." },
-          { en: "fortifies", tr: "Güçlendirir", anlam: "Takviye eder, sağlamlaştırır", cumle: "The compound fortifies synaptic connections like steel bars in concrete." },
-          { en: "cyberchondria", tr: "Siberkondri", anlam: "İnternetten tıbbi bilgilere erişimin neden olduğu artan sağlık kaygısı", cumle: "Internet users are increasingly coming down with cyberchondria." },
-          { en: "eradication", tr: "Kökünü kurutma", anlam: "Tamamen yok etme", cumle: "Some species face possible eradication due to habitat loss." },
-          { en: "extent", tr: "Boyut", anlam: "Kapsam, derece", cumle: "Photos showed the extent of the environmental damage." },
-          { en: "instantaneous", tr: "Anlık", anlam: "Hemen, çok hızlı gerçekleşen", cumle: "Heating and cooling of the Earth are not instantaneous." },
-          { en: "attain", tr: "Ulaşmak", anlam: "Elde etmek, başarmak", cumle: "The basic path to computer literacy is to attain competence in everyday tasks." },
-          { en: "run into", tr: "Karşılaşmak", anlam: "Problemlerle yüz yüze gelmek, tesadüfen rastlamak", cumle: "Many beginners run into problems before they get started." },
-          { en: "betrayed", tr: "İhanet etti", anlam: "Sırt çevirdi, ele verdi", cumle: "He betrayed his former associates and testified in court." },
-          { en: "remnants", tr: "Kalıntılar", anlam: "Artıklar, izler, geriye kalanlar", cumle: "Mars may still have remnants of ancient oceans underground." },
-          { en: "jeopardy", tr: "Tehlike", anlam: "Risk, zarar görme olasılığı", cumle: "The species' survival is in jeopardy." },
-          { en: "pervasive", tr: "Yaygın", anlam: "Hüküm süren, her şeye sinen, kapsayıcı", cumle: "The importance of numbers in Chinese design stems from the pervasive influence of the harmonious principles of yin and yang." },
-          { en: "intricately", tr: "Karmaşık bir şekilde", anlam: "İncelikli, ustalıkla yapılmış", cumle: "The ceremonial cloths are intricately embroidered and take months to make." },
-          { en: "stretched", tr: "Uzandı", anlam: "Geniş bir alana yayıldı, gerildi", cumle: "At its height, the empire stretched from Hungary to Egypt and Sudan." },
-          { en: "take on", tr: "Üstlenmek, edinmek", anlam: "Kabul etmek, bir özelliğini benimsemek", cumle: "Immigrants may take on the traits of another culture." },
-          { en: "break out", tr: "Patlak vermek", anlam: "Başlamak (yangın, savaş, salgın vb.)", cumle: "If a fire were to break out in the tunnel, flames would spread rapidly." },
-          { en: "ridicule", tr: "Alay", anlam: "Küçümseme, dalga geçme", cumle: "His ideas were initially met with ridicule." },
-          { en: "curative", tr: "Tedavi edici", anlam: "İyileştirici", cumle: "Some substances were believed to have curative effects." },
-          { en: "diversity", tr: "Çeşitlilik", anlam: "Farklılık, çokluk", cumle: "Different models of emotional intelligence created diversity in the field." },
-          { en: "exploitation", tr: "Sömürü", anlam: "Faydalanma, kötüye kullanma", cumle: "Since the Industrial Age, exploitation of nature has worsened." },
-          { en: "viable", tr: "Yaşayabilir, uygulanabilir", anlam: "Ticari açıdan geçerli, başarılı olma ihtimali olan", cumle: "Edison's bulb was more commercially viable because it lasted longer." },
-          { en: "heralded", tr: "Müjdeledi", anlam: "İşaret etti, duyurdu", cumle: "The growth of the Internet heralded a new era for business." },
-          { en: "profoundly", tr: "Derinden", anlam: "Esaslıca, büyük ölçüde", cumle: "Twentieth-century conflicts profoundly shaped historical writing." },
-          { en: "give up", tr: "Bırakmak", anlam: "Vazgeçmek, terketmek", cumle: "Broadcasters had to give up analogue frequencies for digital channels." },
-          { en: "led to", tr: "Yol açtı", anlam: "Sebep oldu, neden oldu", cumle: "The product's durability led to its popularity." },
-          { en: "came up with", tr: "Ortaya attı, buldu", anlam: "Bir fikir veya çözüm geliştirdi", cumle: "They came up with cable TV to overcome signal problems." }
-        ];
 
-        // YDS 2021 Bağlaçlar (29 bağlaç)
-        const CONNECTORS_DATA = [
-            {
-        connector: "and",
-        englishSentence: "She washed the dishes and cleaned the floor.",
-        turkishMeaning: "ve",
-        turkishSentence: "Bulaşıkları yıkadı ve yerleri sildi."
-    },
-    {
-        connector: "but",
-        englishSentence: "I wanted to go out, but it started to rain.",
-        turkishMeaning: "ama, fakat",
-        turkishSentence: "Dışarı çıkmak istedim ama yağmur yağmaya başladı."
-    },
-    {
-        connector: "however",
-        englishSentence: "The plan was good; however, it failed in practice.",
-        turkishMeaning: "ancak, fakat",
-        turkishSentence: "Plan iyiydi; ancak uygulamada başarısız oldu."
-    },
-    {
-        connector: "although",
-        englishSentence: "Although he is rich, he lives a simple life.",
-        turkishMeaning: "-e rağmen",
-        turkishSentence: "Zengin olmasına rağmen sade bir hayat yaşıyor."
-    },
-    {
-        connector: "even though",
-        englishSentence: "Even though it was raining, they went out.",
-        turkishMeaning: "-mesine rağmen",
-        turkishSentence: "Yağmur yağıyor olmasına rağmen dışarı çıktılar."
-    },
-    {
-        connector: "though",
-        englishSentence: "It was hard, though we managed to finish it.",
-        turkishMeaning: "-e rağmen",
-        turkishSentence: "Zordu, yine de bitirmeyi başardık."
-    },
-    {
-        connector: "despite",
-        englishSentence: "Despite the bad weather, we had fun.",
-        turkishMeaning: "-e rağmen",
-        turkishSentence: "Kötü havaya rağmen eğlendik."
-    },
-    {
-        connector: "in spite of",
-        englishSentence: "In spite of his age, he runs fast.",
-        turkishMeaning: "-e rağmen",
-        turkishSentence: "Yaşına rağmen hızlı koşar."
-    },
-    {
-        connector: "because",
-        englishSentence: "He stayed home because he was sick.",
-        turkishMeaning: "çünkü",
-        turkishSentence: "Hasta olduğu için evde kaldı."
-    },
-    {
-        connector: "since",
-        englishSentence: "Since it’s late, we should go home.",
-        turkishMeaning: "madem ki, çünkü",
-        turkishSentence: "Geç olduğuna göre eve gitmeliyiz."
-    },
-    {
-        connector: "as",
-        englishSentence: "As it was raining, we stayed inside.",
-        turkishMeaning: "çünkü, -dıkça",
-        turkishSentence: "Yağmur yağdığı için içeride kaldık."
-    },
-    {
-        connector: "therefore",
-        englishSentence: "She studied hard; therefore, she passed the exam.",
-        turkishMeaning: "bu yüzden, bu nedenle",
-        turkishSentence: "Sıkı çalıştı; bu yüzden sınavı geçti."
-    },
-    {
-        connector: "thus",
-        englishSentence: "He didn’t study; thus, he failed.",
-        turkishMeaning: "böylece, bu nedenle",
-        turkishSentence: "Çalışmadı; böylece kaldı."
-    },
-    {
-        connector: "hence",
-        englishSentence: "It was raining; hence, the streets were wet.",
-        turkishMeaning: "bu yüzden",
-        turkishSentence: "Yağmur yağıyordu; bu yüzden sokaklar ıslaktı."
-    },
-    {
-        connector: "so",
-        englishSentence: "It was cold, so we stayed home.",
-        turkishMeaning: "bu yüzden",
-        turkishSentence: "Hava soğuktu, bu yüzden evde kaldık."
-    },
-    {
-        connector: "so that",
-        englishSentence: "He spoke loudly so that everyone could hear.",
-        turkishMeaning: "-sın diye",
-        turkishSentence: "Herkes duysun diye yüksek sesle konuştu."
-    },
-    {
-        connector: "in order that",
-        englishSentence: "She left early in order that she could catch the train.",
-        turkishMeaning: "-sın diye",
-        turkishSentence: "Treni yakalayabilsin diye erken çıktı."
-    },
-    {
-        connector: "so that (result)",
-        englishSentence: "It was such a cold day that we stayed inside.",
-        turkishMeaning: "öyle ... ki",
-        turkishSentence: "Öyle soğuk bir gündü ki içeride kaldık."
-    },
-    {
-        connector: "such...that",
-        englishSentence: "It was such an interesting book that I read it twice.",
-        turkishMeaning: "öyle ... ki",
-        turkishSentence: "Öyle ilginç bir kitaptı ki iki kez okudum."
-    },
-    {
-        connector: "as soon as",
-        englishSentence: "Call me as soon as you arrive.",
-        turkishMeaning: "yapar yapmaz",
-        turkishSentence: "Varır varmaz beni ara."
-    },
-    {
-        connector: "when",
-        englishSentence: "I was reading when he called.",
-        turkishMeaning: "-dığında",
-        turkishSentence: "O aradığında kitap okuyordum."
-    },
-    {
-        connector: "while",
-        englishSentence: "While she was cooking, I was cleaning.",
-        turkishMeaning: "-iken",
-        turkishSentence: "O yemek yaparken ben temizlik yapıyordum."
-    },
-    {
-        connector: "before",
-        englishSentence: "Wash your hands before you eat.",
-        turkishMeaning: "-meden önce",
-        turkishSentence: "Yemekten önce ellerini yıka."
-    },
-    {
-        connector: "after",
-        englishSentence: "After I finished my homework, I went out.",
-        turkishMeaning: "-den sonra",
-        turkishSentence: "Ödevimi bitirdikten sonra dışarı çıktım."
-    },
-    {
-        connector: "until",
-        englishSentence: "Wait here until I come back.",
-        turkishMeaning: "-e kadar",
-        turkishSentence: "Ben dönene kadar burada bekle."
-    },
-    {
-        connector: "unless",
-        englishSentence: "You won’t pass unless you study.",
-        turkishMeaning: "-mezsen",
-        turkishSentence: "Çalışmazsan geçemezsin."
-    },
-    {
-        connector: "even if",
-        englishSentence: "Even if it rains, I will go.",
-        turkishMeaning: "-se bile",
-        turkishSentence: "Yağmur yağsa bile gideceğim."
-    },
-    {
-        connector: "whether...or",
-        englishSentence: "I don’t know whether he’ll come or not.",
-        turkishMeaning: "-ip -mediğini",
-        turkishSentence: "Gelip gelmeyeceğini bilmiyorum."
-    },
-    {
-        connector: "so long as",
-        englishSentence: "You can stay here so long as you are quiet.",
-        turkishMeaning: "-dığı sürece",
-        turkishSentence: "Sessiz olduğun sürece burada kalabilirsin."
-    },
-    {
-        connector: "as long as",
-        englishSentence: "I’ll support you as long as you try your best.",
-        turkishMeaning: "-dığı sürece",
-        turkishSentence: "Elinden geleni yaptığın sürece seni destekleyeceğim."
-    },
-    {
-        connector: "whereas",
-        englishSentence: "He likes tea, whereas I prefer coffee.",
-        turkishMeaning: "halbuki, oysa",
-        turkishSentence: "O çayı sever, oysa ben kahveyi tercih ederim."
-    },
-    {
-        connector: "on the other hand",
-        englishSentence: "He’s rich; on the other hand, he’s not happy.",
-        turkishMeaning: "öte yandan",
-        turkishSentence: "Zengin; öte yandan mutlu değil."
-    },
-    {
-        connector: "moreover",
-        englishSentence: "She’s talented; moreover, she’s hardworking.",
-        turkishMeaning: "üstelik, ayrıca",
-        turkishSentence: "Yetenekli; üstelik çalışkan."
-    },
-    {
-        connector: "furthermore",
-        englishSentence: "He’s an excellent teacher; furthermore, he’s very kind.",
-        turkishMeaning: "ayrıca, dahası",
-        turkishSentence: "Harika bir öğretmen; ayrıca çok nazik."
-    },
-    {
-        connector: "besides",
-        englishSentence: "Besides English, she also speaks French.",
-        turkishMeaning: "ayrıca, -den başka",
-        turkishSentence: "İngilizcenin yanı sıra Fransızca da konuşur."
-    },
-    {
-        connector: "in addition",
-        englishSentence: "In addition to his job, he studies at university.",
-        turkishMeaning: "ek olarak",
-        turkishSentence: "İşine ek olarak üniversitede okuyor."
-    },
-    {
-        connector: "otherwise",
-        englishSentence: "Work harder; otherwise, you’ll fail.",
-        turkishMeaning: "aksi takdirde",
-        turkishSentence: "Daha çok çalış; aksi takdirde başarısız olursun."
-    },
-    {
-        connector: "instead of",
-        englishSentence: "We stayed home instead of going out.",
-        turkishMeaning: "-mek yerine",
-        turkishSentence: "Dışarı çıkmak yerine evde kaldık."
-    },
-    {
-        connector: "in case",
-        englishSentence: "Take an umbrella in case it rains.",
-        turkishMeaning: "olur diye",
-        turkishSentence: "Yağmur yağar diye şemsiye al."
-    },
-    {
-        connector: "as if",
-        englishSentence: "He talks as if he knew everything.",
-        turkishMeaning: "sanki",
-        turkishSentence: "Her şeyi biliyormuş gibi konuşuyor."
-    },
-    {
-        connector: "as though",
-        englishSentence: "She smiled as though she were happy.",
-        turkishMeaning: "sanki",
-        turkishSentence: "Mutluymuş gibi gülümsedi."
-    }
-        ];
+        // Veri Saklama
+        let SAMPLE_DATA = [];
+        let CONNECTORS_DATA = [];
+        let TENSES_DATA = [];
+        let PHRASAL_VERBS_DATA = [];
 
-        // İngilizce Zamanlar (12 zaman)
-        const TENSES_DATA = [
-            {
-                name: "Present Simple",
-                turkishName: "Geniş Zaman",
-                structure: "V1 (fiilin 1. hali)",
-                example: "I eat breakfast every day.",
-                turkishMeaning: "Her gün kahvaltı yaparım.",
-                timeIndicators: "every day, always, usually, often, sometimes, never, on Sundays — alışkanlık veya genel doğrular",
-                category: "present"
-            },
-            {
-                name: "Present Continuous",
-                turkishName: "Şimdiki Zaman",
-                structure: "am/is/are + V-ing",
-                example: "I am eating breakfast now.",
-                turkishMeaning: "Şu anda kahvaltı yapıyorum.",
-                timeIndicators: "now, at the moment, right now, currently, these days — geçici veya şu an olan eylem",
-                category: "present"
-            },
-            {
-                name: "Present Perfect",
-                turkishName: "Yakın Geçmiş",
-                structure: "have/has + V3",
-                example: "I have eaten breakfast.",
-                turkishMeaning: "Kahvaltı yaptım (sonucu şimdi önemli).",
-                timeIndicators: "already, just, yet, ever, never, recently, since, for — geçmişte başlamış, etkisi sürüyor",
-                category: "present"
-            },
-            {
-                name: "Present Perfect Continuous",
-                turkishName: "Devam Eden Yakın Geçmiş",
-                structure: "have/has been + V-ing",
-                example: "I have been eating for 10 minutes.",
-                turkishMeaning: "10 dakikadır kahvaltı yapıyorum.",
-                timeIndicators: "since, for, lately, recently, all day, all morning — süregelen eylem, hâlâ devam ediyor",
-                category: "present"
-            },
-            {
-                name: "Past Simple",
-                turkishName: "Geçmiş Zaman",
-                structure: "V2",
-                example: "I ate breakfast yesterday.",
-                turkishMeaning: "Dün kahvaltı yaptım.",
-                timeIndicators: "yesterday, last week, ago, in 2020, when I was a child — geçmişte tamamlanmış",
-                category: "past"
-            },
-            {
-                name: "Past Continuous",
-                turkishName: "Sürekli Geçmiş Zaman",
-                structure: "was/were + V-ing",
-                example: "I was eating when you called.",
-                turkishMeaning: "Sen aradığında kahvaltı yapıyordum.",
-                timeIndicators: "while, when, as — geçmişte belli anda devam eden",
-                category: "past"
-            },
-            {
-                name: "Past Perfect",
-                turkishName: "Miçmiş Zaman",
-                structure: "had + V3",
-                example: "I had eaten before you arrived.",
-                turkishMeaning: "Sen gelmeden önce kahvaltı yapmıştım.",
-                timeIndicators: "before, after, by the time — geçmişte bir olaydan önce tamamlanmış",
-                category: "past"
-            },
-            {
-                name: "Past Perfect Continuous",
-                turkishName: "Sürekli Miçmiş Zaman",
-                structure: "had been + V-ing",
-                example: "I had been eating for 10 minutes before you came.",
-                turkishMeaning: "Sen gelmeden önce 10 dakikadır kahvaltı yapıyordum.",
-                timeIndicators: "for, since, before — geçmişte belli ana kadar süren eylem",
-                category: "past"
-            },
-            {
-                name: "Future Simple",
-                turkishName: "Gelecek Zaman",
-                structure: "will + V1",
-                example: "I will eat breakfast tomorrow.",
-                turkishMeaning: "Yarın kahvaltı yapacağım.",
-                timeIndicators: "tomorrow, next week, soon, in the future — planlanmamış gelecek",
-                category: "future"
-            },
-            {
-                name: "Future Continuous",
-                turkishName: "Sürekli Gelecek Zaman",
-                structure: "will be + V-ing",
-                example: "I will be eating at 8.",
-                turkishMeaning: "Saat 8'de kahvaltı yapıyor olacağım.",
-                timeIndicators: "at this time tomorrow, next week, soon — gelecekte belli anda sürecek",
-                category: "future"
-            },
-            {
-                name: "Future Perfect",
-                turkishName: "Tamamlanmış Gelecek Zaman",
-                structure: "will have + V3",
-                example: "I will have eaten by 8.",
-                turkishMeaning: "Saat 8'e kadar kahvaltı yapmış olacağım.",
-                timeIndicators: "by, by the time, before — gelecekte belli ana kadar tamamlanmış",
-                category: "future"
-            },
-            {
-                name: "Future Perfect Continuous",
-                turkishName: "Sürekli Tamamlanmış Gelecek Zaman",
-                structure: "will have been + V-ing",
-                example: "I will have been eating for 10 minutes by 8.",
-                turkishMeaning: "Saat 8'e kadar 10 dakikadır kahvaltı yapıyor olacağım.",
-                timeIndicators: "for, since, by — gelecekte belli ana kadar süregelen eylem",
-                category: "future"
+        // JSON Veri Yükleme Fonksiyonları
+        async function loadData() {
+            try {
+                showLoading();
+                
+                // Paralel olarak tüm verileri yükle
+                const [wordsResponse, connectorsResponse, tensesResponse, phrasalVerbsResponse] = await Promise.all([
+                    fetch('./words.json'),
+                    fetch('./connectors.json'),
+                    fetch('./tenses.json'),
+                    fetch('./phrasal-verbs.json')
+                ]);
+
+                // Yanıtları kontrol et
+                if (!wordsResponse.ok) throw new Error('Kelimeler yüklenemedi');
+                if (!connectorsResponse.ok) throw new Error('Bağlaçlar yüklenemedi');
+                if (!tensesResponse.ok) throw new Error('Zamanlar yüklenemedi');
+                if (!phrasalVerbsResponse.ok) throw new Error('Phrasal verbs yüklenemedi');
+
+                // JSON verilerini parse et
+                SAMPLE_DATA = await wordsResponse.json();
+                CONNECTORS_DATA = await connectorsResponse.json();
+                TENSES_DATA = await tensesResponse.json();
+                PHRASAL_VERBS_DATA = await phrasalVerbsResponse.json();
+
+                hideLoading();
+                console.log('✅ Tüm veriler başarıyla yüklendi');
+                return true;
+                
+            } catch (error) {
+                console.error('❌ Veri yükleme hatası:', error);
+                showError('Veriler yüklenirken bir hata oluştu: ' + error.message);
+                return false;
             }
-        ];
+        }
+
+        // Loading durumunu göster
+        function showLoading() {
+            const gameArea = document.getElementById('gameArea');
+            if (gameArea) {
+                gameArea.innerHTML = `
+                    <div class="loading-spinner">
+                        <div>📡 Veriler yükleniyor...</div>
+                    </div>
+                `;
+            }
+        }
+
+        // Loading durumunu gizle
+        function hideLoading() {
+            // Loading durumu oyun başlatıldığında otomatik gizlenecek
+        }
+
+        // Hata mesajını göster
+        function showError(message) {
+            const gameArea = document.getElementById('gameArea');
+            if (gameArea) {
+                gameArea.innerHTML = `
+                    <div class="error-message">
+                        <h3>⚠️ Hata</h3>
+                        <p>${message}</p>
+                        <button onclick="location.reload()" class="option-button" style="margin-top: 1rem;">🔄 Sayfayı Yenile</button>
+                    </div>
+                `;
+            }
+        }
 
         // Oyun Durumu
         class WordGame {
@@ -1753,12 +1516,15 @@
             const listTab = document.getElementById('listTab');
             const connectorsTab = document.getElementById('connectorsTab');
             const tensesTab = document.getElementById('tensesTab');
+            const phrasalVerbsTab = document.getElementById('phrasal-verbsTab');
             const tabButtons = document.querySelectorAll('.tab-button');
             
             // Tüm sekmeleri gizle
-            [quizTab, listTab, connectorsTab, tensesTab].forEach(tab => {
-                tab.classList.remove('active');
-                tab.style.display = 'none';
+            [quizTab, listTab, connectorsTab, tensesTab, phrasalVerbsTab].forEach(tab => {
+                if (tab) {
+                    tab.classList.remove('active');
+                    tab.style.display = 'none';
+                }
             });
             
             // Tüm tab butonlarını deaktif et
@@ -1797,6 +1563,16 @@
                 if (!tensesTab.dataset.loaded) {
                     displayTensesList();
                     tensesTab.dataset.loaded = 'true';
+                }
+            } else if (tabName === 'phrasal-verbs') {
+                phrasalVerbsTab.classList.add('active');
+                phrasalVerbsTab.style.display = 'block';
+                tabButtons[4].classList.add('active');
+                
+                // Phrasal verbs'leri ilk açılışta yükle
+                if (!phrasalVerbsTab.dataset.loaded) {
+                    displayPhrasalVerbsList();
+                    phrasalVerbsTab.dataset.loaded = 'true';
                 }
             }
         }
@@ -2010,6 +1786,69 @@
             displayTensesList(filteredTenses);
         }
         
+        // Phrasal Verbs'leri göster
+        function displayPhrasalVerbsList(phrasalVerbs = PHRASAL_VERBS_DATA) {
+            const phrasalVerbsListEl = document.getElementById('phrasal-verbsList');
+            
+            const listHTML = phrasalVerbs.map((verb, index) => {
+                // Phrasal verb'ü vurgula
+                const highlightedExample = verb.example_en.replace(
+                    new RegExp(`\\b${verb.phrasal_verb.replace(/\s+/g, '\\s+')}\\b`, 'gi'),
+                    `<strong style="color: #8b5cf6; background: rgba(139, 92, 246, 0.1); padding: 2px 4px; border-radius: 3px;">$&</strong>`
+                );
+                
+                return `
+                <div class="phrasal-verb-item" data-index="${index}">
+                    <div class="phrasal-verb-header">
+                        <span class="phrasal-verb-word">${verb.phrasal_verb}</span>
+                        <span class="phrasal-verb-meaning">${verb.meaning_tr}</span>
+                    </div>
+                    <div class="phrasal-verb-example">
+                        <div class="example-label">🇬🇧 Example</div>
+                        <div class="phrasal-verb-example-text">${highlightedExample}</div>
+                    </div>
+                </div>
+            `}).join('');
+            
+            phrasalVerbsListEl.innerHTML = listHTML + `
+                <div class="phrasal-verb-count">
+                    Toplam ${phrasalVerbs.length} phrasal verb gösteriliyor
+                </div>
+            `;
+        }
+        
+        // Phrasal Verbs filtreleme
+        function filterPhrasalVerbs() {
+            const searchTerm = document.getElementById('phrasal-verbSearchInput').value.toLowerCase();
+            
+            if (!searchTerm) {
+                displayPhrasalVerbsList();
+                return;
+            }
+            
+            const filteredPhrasalVerbs = PHRASAL_VERBS_DATA.filter(verb => 
+                verb.phrasal_verb.toLowerCase().includes(searchTerm) || 
+                verb.meaning_tr.toLowerCase().includes(searchTerm) ||
+                verb.example_en.toLowerCase().includes(searchTerm)
+            );
+            
+            displayPhrasalVerbsList(filteredPhrasalVerbs);
+        }
+        
+        // Phrasal Verbs sıralama
+        function sortPhrasalVerbs() {
+            const sortType = document.getElementById('phrasal-verbSortSelect').value;
+            let sortedPhrasalVerbs = [...PHRASAL_VERBS_DATA];
+            
+            if (sortType === 'alphabetical') {
+                sortedPhrasalVerbs.sort((a, b) => a.phrasal_verb.localeCompare(b.phrasal_verb));
+            } else if (sortType === 'meaning') {
+                sortedPhrasalVerbs.sort((a, b) => a.meaning_tr.localeCompare(b.meaning_tr));
+            }
+            
+            displayPhrasalVerbsList(sortedPhrasalVerbs);
+        }
+        
         // Klavye bilgi kutusunu aç/kapa
         function toggleKeyboardInfo() {
             const keyboardInfo = document.getElementById('keyboardInfo');
@@ -2024,8 +1863,16 @@
         }
         
         // Sayfa yüklendiğinde oyunu başlat
-        document.addEventListener('DOMContentLoaded', () => {
-            game.init();
+        document.addEventListener('DOMContentLoaded', async () => {
+            // Önce verileri yükle
+            const dataLoaded = await loadData();
+            
+            // Veriler yüklendiyse oyunu başlat
+            if (dataLoaded) {
+                game.init();
+            } else {
+                console.error('Veriler yüklenemediği için oyun başlatılamadı');
+            }
             
             // İlk açılışta klavye kısayollarını göster (2 saniye sonra otomatik kapan)
             setTimeout(() => {
@@ -2070,6 +1917,8 @@
                     switchTab('connectors');
                 } else if (activeTab.textContent.includes('Bağlaçlar')) {
                     switchTab('tenses');
+                } else if (activeTab.textContent.includes('Zamanlar')) {
+                    switchTab('phrasal-verbs');
                 } else {
                     switchTab('quiz');
                 }
