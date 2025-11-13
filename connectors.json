@@ -1,4 +1,4 @@
-[
+{
             {
         connector: "and",
         englishSentence: "She washed the dishes and cleaned the floor.",
@@ -245,4 +245,4 @@
         turkishMeaning: "sanki",
         turkishSentence: "Mutluymuş gibi gülümsedi."
     }
-        ]
+}
