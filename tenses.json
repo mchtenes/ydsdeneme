@@ -1,110 +1,110 @@
 [
             {
-                name: "Present Simple",
-                turkishName: "Geniş Zaman",
-                structure: "V1 (fiilin 1. hali)",
-                example: "I eat breakfast every day.",
-                turkishMeaning: "Her gün kahvaltı yaparım.",
-                timeIndicators: "every day, always, usually, often, sometimes, never, on Sundays — alışkanlık veya genel doğrular",
-                category: "present"
+                "name": "Present Simple",
+                "turkishName": "Geniş Zaman",
+                "structure": "V1 (fiilin 1. hali)",
+                "example": "I eat breakfast every day.",
+                "turkishMeaning": "Her gün kahvaltı yaparım.",
+                "timeIndicators": "every day, always, usually, often, sometimes, never, on Sundays — alışkanlık veya genel doğrular",
+                "category": "present"
             },
             {
-                name: "Present Continuous",
-                turkishName: "Şimdiki Zaman",
-                structure: "am/is/are + V-ing",
-                example: "I am eating breakfast now.",
-                turkishMeaning: "Şu anda kahvaltı yapıyorum.",
-                timeIndicators: "now, at the moment, right now, currently, these days — geçici veya şu an olan eylem",
-                category: "present"
+                "name": "Present Continuous",
+                "turkishName": "Şimdiki Zaman",
+                "structure": "am/is/are + V-ing",
+                "example": "I am eating breakfast now.",
+                "turkishMeaning": "Şu anda kahvaltı yapıyorum.",
+                "timeIndicators": "now, at the moment, right now, currently, these days — geçici veya şu an olan eylem",
+                "category": "present"
             },
             {
-                name: "Present Perfect",
-                turkishName: "Yakın Geçmiş",
-                structure: "have/has + V3",
-                example: "I have eaten breakfast.",
-                turkishMeaning: "Kahvaltı yaptım (sonucu şimdi önemli).",
-                timeIndicators: "already, just, yet, ever, never, recently, since, for — geçmişte başlamış, etkisi sürüyor",
-                category: "present"
+                "name": "Present Perfect",
+                "turkishName": "Yakın Geçmiş",
+                "structure": "have/has + V3",
+                "example": "I have eaten breakfast.",
+                "turkishMeaning": "Kahvaltı yaptım (sonucu şimdi önemli).",
+                "timeIndicators": "already, just, yet, ever, never, recently, since, for — geçmişte başlamış, etkisi sürüyor",
+                "category": "present"
             },
             {
-                name: "Present Perfect Continuous",
-                turkishName: "Devam Eden Yakın Geçmiş",
-                structure: "have/has been + V-ing",
-                example: "I have been eating for 10 minutes.",
-                turkishMeaning: "10 dakikadır kahvaltı yapıyorum.",
-                timeIndicators: "since, for, lately, recently, all day, all morning — süregelen eylem, hâlâ devam ediyor",
-                category: "present"
+                "name": "Present Perfect Continuous",
+                "turkishName": "Devam Eden Yakın Geçmiş",
+                "structure": "have/has been + V-ing",
+                "example": "I have been eating for 10 minutes.",
+                "turkishMeaning": "10 dakikadır kahvaltı yapıyorum.",
+                "timeIndicators": "since, for, lately, recently, all day, all morning — süregelen eylem, hâlâ devam ediyor",
+                "category": "present"
             },
             {
-                name: "Past Simple",
-                turkishName: "Geçmiş Zaman",
-                structure: "V2",
-                example: "I ate breakfast yesterday.",
-                turkishMeaning: "Dün kahvaltı yaptım.",
-                timeIndicators: "yesterday, last week, ago, in 2020, when I was a child — geçmişte tamamlanmış",
-                category: "past"
+                "name": "Past Simple",
+                "turkishName": "Geçmiş Zaman",
+                "structure": "V2",
+                "example": "I ate breakfast yesterday.",
+                "turkishMeaning": "Dün kahvaltı yaptım.",
+                "timeIndicators": "yesterday, last week, ago, in 2020, when I was a child — geçmişte tamamlanmış",
+                "category": "past"
             },
             {
-                name: "Past Continuous",
-                turkishName: "Sürekli Geçmiş Zaman",
-                structure: "was/were + V-ing",
-                example: "I was eating when you called.",
-                turkishMeaning: "Sen aradığında kahvaltı yapıyordum.",
-                timeIndicators: "while, when, as — geçmişte belli anda devam eden",
-                category: "past"
+                "name": "Past Continuous",
+                "turkishName": "Sürekli Geçmiş Zaman",
+                "structure": "was/were + V-ing",
+                "example": "I was eating when you called.",
+                "turkishMeaning": "Sen aradığında kahvaltı yapıyordum.",
+                "timeIndicators": "while, when, as — geçmişte belli anda devam eden",
+                "category": "past"
             },
             {
-                name: "Past Perfect",
-                turkishName: "Miçmiş Zaman",
-                structure: "had + V3",
-                example: "I had eaten before you arrived.",
-                turkishMeaning: "Sen gelmeden önce kahvaltı yapmıştım.",
-                timeIndicators: "before, after, by the time — geçmişte bir olaydan önce tamamlanmış",
-                category: "past"
+                "name": "Past Perfect",
+                "turkishName": "Miçmiş Zaman",
+                "structure": "had + V3",
+                "example": "I had eaten before you arrived.",
+                "turkishMeaning": "Sen gelmeden önce kahvaltı yapmıştım.",
+                "timeIndicators": "before, after, by the time — geçmişte bir olaydan önce tamamlanmış",
+                "category": "past"
             },
             {
-                name: "Past Perfect Continuous",
-                turkishName: "Sürekli Miçmiş Zaman",
-                structure: "had been + V-ing",
-                example: "I had been eating for 10 minutes before you came.",
-                turkishMeaning: "Sen gelmeden önce 10 dakikadır kahvaltı yapıyordum.",
-                timeIndicators: "for, since, before — geçmişte belli ana kadar süren eylem",
-                category: "past"
+                "name": "Past Perfect Continuous",
+                "turkishName": "Sürekli Miçmiş Zaman",
+                "structure": "had been + V-ing",
+                "example": "I had been eating for 10 minutes before you came.",
+                "turkishMeaning": "Sen gelmeden önce 10 dakikadır kahvaltı yapıyordum.",
+                "timeIndicators": "for, since, before — geçmişte belli ana kadar süren eylem",
+                "category": "past"
             },
             {
-                name: "Future Simple",
-                turkishName: "Gelecek Zaman",
-                structure: "will + V1",
-                example: "I will eat breakfast tomorrow.",
-                turkishMeaning: "Yarın kahvaltı yapacağım.",
-                timeIndicators: "tomorrow, next week, soon, in the future — planlanmamış gelecek",
-                category: "future"
+                "name": "Future Simple",
+                "turkishName": "Gelecek Zaman",
+                "structure": "will + V1",
+                "example": "I will eat breakfast tomorrow.",
+                "turkishMeaning": "Yarın kahvaltı yapacağım.",
+                "timeIndicators": "tomorrow, next week, soon, in the future — planlanmamış gelecek",
+                "category": "future"
             },
             {
-                name: "Future Continuous",
-                turkishName: "Sürekli Gelecek Zaman",
-                structure: "will be + V-ing",
-                example: "I will be eating at 8.",
-                turkishMeaning: "Saat 8'de kahvaltı yapıyor olacağım.",
-                timeIndicators: "at this time tomorrow, next week, soon — gelecekte belli anda sürecek",
-                category: "future"
+                "name": "Future Continuous",
+                "turkishName": "Sürekli Gelecek Zaman",
+                "structure": "will be + V-ing",
+                "example": "I will be eating at 8.",
+                "turkishMeaning": "Saat 8'de kahvaltı yapıyor olacağım.",
+                "timeIndicators": "at this time tomorrow, next week, soon — gelecekte belli anda sürecek",
+                "category": "future"
             },
             {
-                name: "Future Perfect",
-                turkishName: "Tamamlanmış Gelecek Zaman",
-                structure: "will have + V3",
-                example: "I will have eaten by 8.",
-                turkishMeaning: "Saat 8'e kadar kahvaltı yapmış olacağım.",
-                timeIndicators: "by, by the time, before — gelecekte belli ana kadar tamamlanmış",
-                category: "future"
+                "name": "Future Perfect",
+                "turkishName": "Tamamlanmış Gelecek Zaman",
+                "structure": "will have + V3",
+                "example": "I will have eaten by 8.",
+                "turkishMeaning": "Saat 8'e kadar kahvaltı yapmış olacağım.",
+                "timeIndicators": "by, by the time, before — gelecekte belli ana kadar tamamlanmış",
+                "category": "future"
             },
             {
-                name: "Future Perfect Continuous",
-                turkishName: "Sürekli Tamamlanmış Gelecek Zaman",
-                structure: "will have been + V-ing",
-                example: "I will have been eating for 10 minutes by 8.",
-                turkishMeaning: "Saat 8'e kadar 10 dakikadır kahvaltı yapıyor olacağım.",
-                timeIndicators: "for, since, by — gelecekte belli ana kadar süregelen eylem",
-                category: "future"
+                "name": "Future Perfect Continuous",
+                "turkishName": "Sürekli Tamamlanmış Gelecek Zaman",
+                "structure": "will have been + V-ing",
+                "example": "I will have been eating for 10 minutes by 8.",
+                "turkishMeaning": "Saat 8'e kadar 10 dakikadır kahvaltı yapıyor olacağım.",
+                "timeIndicators": "for, since, by — gelecekte belli ana kadar süregelen eylem",
+                "category": "future"
             }
         ]
