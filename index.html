@@ -264,9 +264,10 @@
             padding: 1rem;
             border-radius: var(--radius-md);
             box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+            flex-wrap: wrap; /* Mobil için ekledik */
         }
 
-        .search-input, .sort-select {
+        .search-input, .sort-select, .tense-category-select {
             border: 2px solid #e2e8f0;
             padding: 0.8rem 1.2rem;
             border-radius: var(--radius-sm);
@@ -277,7 +278,7 @@
         }
 
         .search-input { flex: 1; }
-        .search-input:focus, .sort-select:focus {
+        .search-input:focus, .sort-select:focus, .tense-category-select:focus {
             outline: none;
             border-color: var(--primary);
             background: white;
@@ -389,17 +390,6 @@
             to { transform: scale(1); opacity: 1; }
         }
 
-        /* MOBILE RESPONSIVE */
-        @media (max-width: 768px) {
-            .container { padding: 1.5rem; margin: 10px auto; width: 95%; }
-            .options { grid-template-columns: 1fr; }
-            .word-highlight { font-size: 2.5rem; }
-            .tabs { overflow-x: auto; justify-content: flex-start; padding-bottom: 1rem; border-radius: var(--radius-md); background: transparent; border: none;}
-            .tab-button { white-space: nowrap; background: rgba(255,255,255,0.8); margin-right: 0.5rem; }
-            .tab-button.active { background: var(--primary); color: white; }
-            .word-list-controls { flex-direction: column; }
-        }
-
         /* Utility for English reveal animation */
         .english-word {
             display: block;
@@ -412,6 +402,85 @@
             animation: fadeIn 0.3s forwards;
         }
         @keyframes fadeIn { to { opacity: 1; transform: translateY(0); } }
+
+        /* 📱 MOBİL UYUMLULUK 📱 */
+        @media (max-width: 768px) {
+            body { padding: 10px; } 
+            .container { padding: 1.5rem; margin: 10px auto; width: 100%; border-radius: var(--radius-md); }
+            h1 { font-size: 2rem; margin-bottom: 1.5rem; }
+
+            .tabs {
+                overflow-x: auto; 
+                justify-content: flex-start; 
+                padding-bottom: 0.5rem;
+                border-radius: var(--radius-md);
+                background: transparent; 
+                border: none;
+                flex-wrap: nowrap; 
+                -webkit-overflow-scrolling: touch; 
+            }
+            .tab-button {
+                white-space: nowrap; 
+                background: rgba(255,255,255,0.8); 
+                margin-right: 0.5rem;
+                font-size: 0.9rem;
+                padding: 0.6rem 1.2rem;
+            }
+            .tab-button.active {
+                background: var(--primary); 
+                color: white;
+                transform: scale(1); 
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            }
+            .tab-button:hover { color: white; }
+
+
+            .word-highlight { font-size: 2.5rem; }
+            .question { font-size: 1.2rem; }
+            .example-sentence { font-size: 0.85rem; padding: 0.8rem; }
+
+            .options { grid-template-columns: 1fr; } 
+            .option-button { font-size: 1rem; padding: 1.2rem; }
+
+            .new-question-btn {
+                width: 90%; 
+                padding: 0.9rem 2rem;
+                font-size: 1rem;
+            }
+            
+            .word-list-controls, .connectors-controls, .tenses-controls, .phrasal-verbs-controls {
+                flex-direction: column;
+                gap: 0.8rem;
+                padding: 0.8rem;
+            }
+            .search-input, .sort-select, .tense-category-select {
+                width: 100%; 
+            }
+
+            .word-list, .connectors-list, .tenses-list, .phrasal-verbs-list {
+                grid-template-columns: 1fr; 
+                padding: 0; 
+                max-height: 60vh; 
+            }
+            .word-item, .connector-item, .tense-item, .phrasal-verb-item {
+                padding: 1.2rem;
+            }
+            
+            .feedback {
+                width: 90%;
+                text-align: center;
+                padding: 0.8rem 1rem;
+                font-size: 0.9rem;
+            }
+
+            /* Scrollbarı mobil'de gizle */
+            .word-list::-webkit-scrollbar,
+            .connectors-list::-webkit-scrollbar,
+            .tenses-list::-webkit-scrollbar,
+            .phrasal-verbs-list::-webkit-scrollbar {
+                display: none;
+            }
+        }
     </style>
 </head>
 <body>
@@ -467,7 +536,7 @@
         <div id="tensesTab" class="tab-content" style="display: none;">
             <div class="tenses-controls">
                 <input type="text" id="tenseSearchInput" class="search-input" placeholder="🔍 Zaman yapısı ara..." onkeyup="filterTenses()">
-                <select id="tenseCategorySelect" class="sort-select" onchange="filterTensesByCategory()">
+                <select id="tenseCategorySelect" class="tense-category-select" onchange="filterTensesByCategory()">
                     <option value="all">Tümü</option>
                     <option value="present">Present</option>
                     <option value="past">Past</option>
@@ -671,7 +740,6 @@
                     el.classList.add('active');
                     btn.classList.add('active');
                     
-                    // Lazy loading lists
                     if(t === 'list' && !el.dataset.loaded) { displayWordList(); el.dataset.loaded = true; }
                     if(t === 'connectors' && !el.dataset.loaded) { displayConnectorsList(); el.dataset.loaded = true; }
                     if(t === 'tenses' && !el.dataset.loaded) { displayTensesList(); el.dataset.loaded = true; }
@@ -683,8 +751,6 @@
                 }
             });
         }
-
-        // --- LİSTELEME FONKSİYONLARI ---
 
         function displayWordList(words = SAMPLE_DATA) {
             const el = document.getElementById('wordList');
@@ -745,9 +811,6 @@
             `).join('');
         }
 
-        // --- FİLTRELEME VE SIRALAMA ---
-        // (Mantık orijinal koddaki gibi, sadece yeniden bağlama yapıldı)
-
         function filterWords() {
             const term = document.getElementById('searchInput').value.toLowerCase();
             const filtered = SAMPLE_DATA.filter(w => w.en.toLowerCase().includes(term) || w.tr.toLowerCase().includes(term));
@@ -802,21 +865,17 @@
             displayPhrasalVerbsList(sorted);
         }
 
-        // INIT
         document.addEventListener('DOMContentLoaded', async () => {
             const loaded = await loadData();
             if(loaded) game.init();
         });
 
-        // KLAVYE KISAYOLLARI
         document.addEventListener('keydown', (e) => {
             if(e.code === 'Space' && document.getElementById('quizTab').style.display !== 'none' && document.activeElement.tagName !== 'INPUT') {
                 e.preventDefault();
                 game.newQuestion();
             }
-            // Diğer kısayollar orijinal koddaki gibi kalabilir
         });
-
     </script>
 </body>
 </html>
