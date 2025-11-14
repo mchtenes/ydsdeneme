@@ -1,113 +1,6746 @@
 [
-          { "en": "deterrent","tr": "Caydırıcı, engel", "anlam": "Caydırıcı, engel", "cumle": "The new law serves as a strong deterrent against illegal parking." },
-          { "en": "parachuting","tr": "Paraşütle atlama", "anlam": "Paraşütle atlama", "cumle": "He experienced an incredible adrenaline rush during his first parachuting jump." },
-          { "en": "resemblance","tr": "Benzerlik", "anlam": "Benzerlik", "cumle": "The resemblance between the twin sisters was striking." },
-          { "en": "adjustment","tr": "Ayarlama, uyum sağlama", "anlam": "Ayarlama, uyum sağlama", "cumle": "Moving to a new city required a significant adjustment for the whole family." },
-          { "en": "submission","tr": "Teslimiyet, boyun eğme", "anlam": "Teslimiyet, boyun eğme", "cumle": "The defeated army raised a white flag as a sign of submission." },
-          { "en": "adherence","tr": "Bağlılık, sadakat", "anlam": "Bağlılık, sadakat", "cumle": "Strict adherence to the safety guidelines is mandatory for all employees." },
-          { "en": "exponentially","tr": "Üstel olarak, hızla katlanarak", "anlam": "Üstel olarak, hızla katlanarak", "cumle": "The company's profits have grown exponentially over the past two years." },
-          { "en": "pollution","tr": "Kirlilik", "anlam": "Kirlilik", "cumle": "Air pollution in major cities is a serious health concern." },
-          { "en": "conveniently","tr": "Uygun bir şekilde, rahatça", "anlam": "Uygun bir şekilde, rahatça", "cumle": "The hotel is conveniently located near the train station." },
-          { "en": "alternatively","tr": "Alternatif olarak", "anlam": "Alternatif olarak", "cumle": "You can take the bus; alternatively, you could walk and enjoy the weather." },
-          { "en": "precisely","tr": "Tam olarak, kesinlikle", "anlam": "Tam olarak, kesinlikle", "cumle": "He arrived at precisely 9:00 AM for the interview." },
-          { "en": "fruitfully","tr": "Verimli/faydalı bir şekilde", "anlam": "Verimli/faydalı bir şekilde", "cumle": "The two scientists collaborated fruitfully on the research project." },
-          { "en": "substantial reduction","tr": "Önemli/büyük bir azalma", "anlam": "Önemli/büyük bir azalma", "cumle": "The new diet led to a substantial reduction in his cholesterol levels." },
-          { "en": "security concerns","tr": "Güvenlik endişeleri", "anlam": "Güvenlik endişeleri", "cumle": "The event was canceled due to rising security concerns." },
-          { "en": "concerns","tr": "Endişeler (isim)", "anlam": "Endişeler (isim)", "cumle": "The residents voiced their concerns about the new construction project." },
-          { "en": "demand","tr": "Talep", "anlam": "Talep", "cumle": "Demand for electric vehicles has increased significantly." },
-          { "en": "generated","tr": "Üretti", "anlam": "Üretti", "cumle": "The hydroelectric dam generated enough electricity for the entire region." },
-          { "en": "naturally replenished","tr": "Doğal olarak yenilenen/doldurulan", "anlam": "Doğal olarak yenilenen/doldurulan", "cumle": "Unlike fossil fuels, groundwater sources are naturally replenished by rain." },
-          { "en": "Although","tr": "-e rağmen, olmasına karşın", "anlam": "-e rağmen, olmasına karşın", "cumle": "Although it was raining, they decided to go for a walk." },
-          { "en": "fungi","tr": "Mantarlar", "anlam": "Mantarlar", "cumle": "Fungi, like mushrooms and yeast, play a vital role in the ecosystem." },
-          { "en": "variety","tr": "Çeşitlilik", "anlam": "Çeşitlilik", "cumle": "The store offers a wide variety of tropical fruits." },
-          { "en": "beneficial purposes","tr": "Faydalı amaçlar", "anlam": "Faydalı amaçlar", "cumle": "The funds were used for beneficial purposes, such as building schools." },
-          { "en": "toxins","tr": "Zehirler", "anlam": "Zehirler", "cumle": "The liver helps to filter toxins from the bloodstream." },
-          { "en": "exploitation","tr": "Sömürü", "anlam": "Sömürü", "cumle": "The new laws are designed to protect workers from exploitation." },
-          { "en": "victimization","tr": "Mağdur etme", "anlam": "Mağdur etme", "cumle": "The support group helps people who have experienced victimization." },
-          { "en": "supervision","tr": "Gözetim, denetim", "anlam": "Gözetim, denetim", "cumle": "Children should not use the swimming pool without adult supervision." },
-          { "en": "component","tr": "Bileşen", "anlam": "Bileşen", "cumle": "Teamwork is a key component of success in this project." },
-          { "en": "endowed with","tr": "Bahşedilmiş, donatılmış", "anlam": "Bahşedilmiş, donatılmış", "cumle": "He is endowed with a natural talent for music." },
-          { "en": "superior speed, agility","tr": "Üstün hız, çeviklik", "anlam": "Üstün hız, çeviklik", "cumle": "The cheetah relies on its superior speed and agility to catch prey." },
-          { "en": "debuted","tr": "İlk kez sahneye çıktı, ortaya çıktı", "anlam": "İlk kez sahneye çıktı, ortaya çıktı", "cumle": "The new car model debuted at the international auto show." },
-          { "en": "medium","tr": "Ortam, araç (iletişim aracı)", "anlam": "Ortam, araç (iletişim aracı)", "cumle": "Television remains a powerful medium for advertising." },
-          { "en": "in contrast to","tr": "-in aksine", "anlam": "-in aksine", "cumle": "In contrast to his brother, he is very quiet and reserved." },
-          { "en": "due to","tr": "-den dolayı", "anlam": "-den dolayı", "cumle": "The flight was delayed due to bad weather." },
-          { "en": "on the basis of","tr": "-e dayanarak", "anlam": "-e dayanarak", "cumle": "Candidates were selected on the basis of their test scores." },
-          { "en": "regime","tr": "Rejim, yönetim", "anlam": "Rejim, yönetim", "cumle": "The military regime was overthrown after years of protest." },
-          { "en": "marking the break","tr": "Aradaki ayrımı işaretleyen", "anlam": "Aradaki ayrımı işaretleyen", "cumle": "The fall of the Berlin Wall was a historic event, marking the break from the Cold War era." },
-          { "en": "withdrew","tr": "Geri çekti/geri çekildi", "anlam": "Geri çekti/geri çekildi", "cumle": "The company withdrew the faulty product from the market." },
-          { "en": "neglected","tr": "İhmal etti", "anlam": "İhmal etti", "cumle": "He neglected his duties and was eventually fired." },
-          { "en": "jeopardized","tr": "Tehlikeye atmak", "anlam": "Tehlikeye atmak", "cumle": "The scandal jeopardized his chances of winning the election." },
-          { "en": "dispelled","tr": "Dağıtmak, gidermek (şüpheyi)", "anlam": "Dağıtmak, gidermek (şüpheyi)", "cumle": "The CEO's speech dispelled any rumors about the company's financial health." },
-          { "en": "to accept","tr": "Kabul etmeye (zorlamak)", "anlam": "Kabul etmeye (zorlamak)", "cumle": "They were forced to accept the terms of the agreement." },
-          { "en": "to gain","tr": "Kazanmak, elde etmek için", "anlam": "Kazanmak, elde etmek için", "cumle": "She worked hard to gain experience in her new field." },
-          { "en": "youthful ambition","tr": "Gençlik hırsı", "anlam": "Gençlik hırsı", "cumle": "Filled with youthful ambition, she moved to the city to start her career." },
-          { "en": "popularity","tr": "Popülerlik", "anlam": "Popülerlik", "cumle": "The show's popularity grew steadily with each new season." },
-          { "en": "eroded","tr": "Aşınmış, yavaşça yok olmuş", "anlam": "Aşınmış, yavaşça yok olmuş", "cumle": "Public trust in the government has eroded over the years." },
-          { "en": "Unless they regard...","tr": "...olarak görmezlerse, kabul etmezlerse", "anlam": "...olarak görmezlerse, kabul etmezlerse", "cumle": "Unless they regard this as a serious threat, they will not take action." },
-          { "en": "worth learning","tr": "Öğrenmeye değer", "anlam": "Öğrenmeye değer", "cumle": "Coding is a difficult skill, but it is definitely worth learning." },
-          { "en": "motivated","tr": "Güdülenmiş, motive olmuş", "anlam": "Güdülenmiş, motive olmuş", "cumle": "He was highly motivated to succeed in his new job." },
-          { "en": "take part in","tr": "Yer almak, katılmak", "anlam": "Yer almak, katılmak", "cumle": "Over 100 athletes will take part in the championship." },
-          { "en": "interact","tr": "Etkileşim kurmak", "anlam": "Etkileşim kurmak", "cumle": "It's important for managers to interact regularly with their team." },
-          { "en": "underlying architecture","tr": "Altta yatan/temel mimari", "anlam": "Altta yatan/temel mimari", "cumle": "The software update also improved the underlying architecture of the system." },
-          { "en": "in relation to","tr": "-e ilişkin olarak", "anlam": "-e ilişkin olarak", "cumle": "We have some questions in relation to your recent application." },
-          { "en": "difficulties","tr": "Zorluklar", "anlam": "Zorluklar", "cumle": "He faced many difficulties while starting his own business." },
-          { "en": "societies","tr": "Toplumlar", "anlam": "Toplumlar", "cumle": "Modern societies rely heavily on technology." },
-          { "en": "non-literate","tr": "Okuryazar olmayan", "anlam": "Okuryazar olmayan", "cumle": "In many non-literate societies, history is passed down through storytelling." },
-          { "en": "relied on","tr": "Güvendiler, bel bağladılar", "anlam": "Güvendiler, bel bağladılar", "cumle": "The sailors relied on the stars for navigation." },
-          { "en": "oral traditions","tr": "Sözlü gelenekler", "anlam": "Sözlü gelenekler", "cumle": "Many ancient myths and legends survive thanks to oral traditions." },
-          { "en": "nimble","tr": "Çevik, hızlı hareket edebilen", "anlam": "Çevik, hızlı hareket edebilen", "cumle": "The rock climber was nimble, moving quickly from one hold to the next." },
-          { "en": "clumsy","tr": "Sakar", "anlam": "Sakar", "cumle": "He was so clumsy that he spilled his coffee all over the desk." },
-          { "en": "chunkier","tr": "daha tıknaz, daha kalın", "anlam": "(El kemikleri) daha tıknaz, daha kalın", "cumle": "Compared with modern humans, some early hominins had chunkier hand bones." },
-          { "en": "reconciles","tr": "Uzlaştırmak, bağdaştırmak", "anlam": "Uzlaştırmak, bağdaştırmak", "cumle": "It is difficult to reconcile his new statement with his previous actions." },
-          { "en": "deeply rooted","tr": "Derinlere kök salmış", "anlam": "Derinlere kök salmış", "cumle": "The belief in freedom of speech is deeply rooted in their culture." },
-          { "en": "weak impressions","tr": "Zayıf izlenimler", "anlam": "Zayıf izlenimler", "cumle": "The witness only had weak impressions of the suspect and couldn't provide a clear description." },
-          { "en": "fade","tr": "Solmak, kaybolmak", "anlam": "Solmak, kaybolmak", "cumle": "The bright colors of the painting began to fade after years in the sun." },
-          { "en": "strengthened","tr": "Güçlendirilmiş", "anlam": "Güçlendirilmiş", "cumle": "The new evidence strengthened the case against him." },
-          { "en": "enhanced","tr": "Geliştirilmiş, artırılmış", "anlam": "Geliştirilmiş, artırılmış", "cumle": "The new software includes several enhanced security features." },
-          { "en": "later cue","tr": "Daha sonraki bir ipucu", "anlam": "Daha sonraki bir ipucu", "cumle": "The smell of baking bread served as a later cue that brought back childhood memories." },
-          { "en": "regardless of","tr": "Bakılmaksızın, ne olursa olsun", "anlam": "Bakılmaksızın, ne olursa olsun", "cumle": "He decided to buy the car regardless of the high price." },
-          { "en": "complexity","tr": "Karmaşıklık", "anlam": "Karmaşıklık", "cumle": "The complexity of the problem made it difficult to find a simple solution." },
-          { "en": "infants","tr": "Bebekler", "anlam": "Bebekler", "cumle": "Infants require constant care and attention." },
-          { "en": "recognize emotions","tr": "Duyguları tanımak/fark etmek", "anlam": "Duyguları tanımak/fark etmek", "cumle": "Learning to recognize emotions is an important social skill." },
-          { "en": "novel situations","tr": "Yeni/alışılmadık durumlar", "anlam": "Yeni/alışılmadık durumlar", "cumle": "People often feel anxious when they are in novel situations." },
-          { "en": "rely on","tr": "Güvenmek, bel bağlamak", "anlam": "Güvenmek, bel bağlamak", "cumle": "You can always rely on him to keep a secret." },
-          { "en": "appropriateness","tr": "Uygunluk", "anlam": "Uygunluk", "cumle": "He questioned the appropriateness of her comments during the meeting." },
-          { "en": "endeavour","tr": "Girişim, çaba", "anlam": "Girişim, çaba", "cumle": "Climbing Mount Everest is a remarkable human endeavour." },
-          { "en": "debate","tr": "Tartışma", "anlam": "Tartışma", "cumle": "There is much debate about the future of artificial intelligence." },
-          { "en": "imitating","tr": "Taklit etme", "anlam": "Taklit etme", "cumle": "The child was imitating his father's walk." },
-          { "en": "bred","tr": "üretilme/yetiştirilme", "anlam": "üretilme/yetiştirilme", "cumle": "These bacteria were bred in the lab specifically for research." },
-          { "en": "host organisms","tr": "Konak organizmalar", "anlam": "Konak organizmalar", "cumle": "Viruses need host organisms, like bacteria or human cells, to replicate." },
-          { "en": "inserting","tr": "Yerleştirme, ekleme", "anlam": "Yerleştirme, ekleme", "cumle": "The process involves inserting a new gene into the plant's DNA." },
-          { "en": "inquiries","tr": "Araştırmalar", "anlam": "Soruşturmalar, derinlemesine araştırmalar", "cumle": "Ancient Greek philosophers turned their highly sophisticated inquiries toward questions of the natural world." },
-          { "en": "collision","tr": "Çarpışma", "anlam": "İki cismin birbirine şiddetle çarpması", "cumle": "A collision would knock a hole in the station and cause all air inside to escape into space." },
-          { "en": "fragile","tr": "Kırılgan", "anlam": "Narin, hassas", "cumle": "While newspapers have been in dramatic decline in the West, the industry is fragile in some markets and still growing in many of Asia’s booming cities." },
-          { "en": "profitable","tr": "Kârlı", "anlam": "Kazançlı, gelir getiren", "cumle": "The sector remains profitable in several emerging economies." },
-          { "en": "remarkably","tr": "Kayda değer şekilde", "anlam": "Olağanüstü, dikkat çekici biçimde", "cumle": "Humans show remarkably little genetic diversity." },
-          { "en": "penetrates","tr": "Nüfuz eder", "anlam": "İçine işler, derinlemesine girer", "cumle": "The molecule penetrates the connections between neurons." },
-          { "en": "fortifies","tr": "Güçlendirir", "anlam": "Takviye eder, sağlamlaştırır", "cumle": "The compound fortifies synaptic connections like steel bars in concrete." },
-          { "en": "cyberchondria","tr": "Siberkondri", "anlam": "İnternetten tıbbi bilgilere erişimin neden olduğu artan sağlık kaygısı", "cumle": "Internet users are increasingly coming down with cyberchondria." },
-          { "en": "eradication","tr": "Kökünü kurutma", "anlam": "Tamamen yok etme", "cumle": "Some species face possible eradication due to habitat loss." },
-          { "en": "extent","tr": "Boyut", "anlam": "Kapsam, derece", "cumle": "Photos showed the extent of the environmental damage." },
-          { "en": "instantaneous","tr": "Anlık", "anlam": "Hemen, çok hızlı gerçekleşen", "cumle": "Heating and cooling of the Earth are not instantaneous." },
-          { "en": "attain","tr": "Ulaşmak", "anlam": "Elde etmek, başarmak", "cumle": "The basic path to computer literacy is to attain competence in everyday tasks." },
-          { "en": "run into","tr": "Karşılaşmak", "anlam": "Problemlerle yüz yüze gelmek, tesadüfen rastlamak", "cumle": "Many beginners run into problems before they get started." },
-          { "en": "betrayed","tr": "İhanet etti", "anlam": "Sırt çevirdi, ele verdi", "cumle": "He betrayed his former associates and testified in court." },
-          { "en": "remnants","tr": "Kalıntılar", "anlam": "Artıklar, izler, geriye kalanlar", "cumle": "Mars may still have remnants of ancient oceans underground." },
-          { "en": "jeopardy","tr": "Tehlike", "anlam": "Risk, zarar görme olasılığı", "cumle": "The species' survival is in jeopardy." },
-          { "en": "pervasive","tr": "Yaygın", "anlam": "Hüküm süren, her şeye sinen, kapsayıcı", "cumle": "The importance of numbers in Chinese design stems from the pervasive influence of the harmonious principles of yin and yang." },
-          { "en": "intricately","tr": "Karmaşık bir şekilde", "anlam": "İncelikli, ustalıkla yapılmış", "cumle": "The ceremonial cloths are intricately embroidered and take months to make." },
-          { "en": "stretched","tr": "Uzandı", "anlam": "Geniş bir alana yayıldı, gerildi", "cumle": "At its height, the empire stretched from Hungary to Egypt and Sudan." },
-          { "en": "take on","tr": "Üstlenmek, edinmek", "anlam": "Kabul etmek, bir özelliğini benimsemek", "cumle": "Immigrants may take on the traits of another culture." },
-          { "en": "break out","tr": "Patlak vermek", "anlam": "Başlamak (yangın, savaş, salgın vb.)", "cumle": "If a fire were to break out in the tunnel, flames would spread rapidly." },
-          { "en": "ridicule","tr": "Alay", "anlam": "Küçümseme, dalga geçme", "cumle": "His ideas were initially met with ridicule." },
-          { "en": "curative","tr": "Tedavi edici", "anlam": "İyileştirici", "cumle": "Some substances were believed to have curative effects." },
-          { "en": "diversity","tr": "Çeşitlilik", "anlam": "Farklılık, çokluk", "cumle": "Different models of emotional intelligence created diversity in the field." },
-          { "en": "exploitation","tr": "Sömürü", "anlam": "Faydalanma, kötüye kullanma", "cumle": "Since the Industrial Age, exploitation of nature has worsened." },
-          { "en": "viable","tr": "Yaşayabilir, uygulanabilir", "anlam": "Ticari açıdan geçerli, başarılı olma ihtimali olan", "cumle": "Edison's bulb was more commercially viable because it lasted longer." },
-          { "en": "heralded","tr": "Müjdeledi", "anlam": "İşaret etti, duyurdu", "cumle": "The growth of the Internet heralded a new era for business." },
-          { "en": "profoundly","tr": "Derinden", "anlam": "Esaslıca, büyük ölçüde", "cumle": "Twentieth-century conflicts profoundly shaped historical writing." },
-          { "en": "give up","tr": "Bırakmak", "anlam": "Vazgeçmek, terketmek", "cumle": "Broadcasters had to give up analogue frequencies for digital channels." },
-          { "en": "led to","tr": "Yol açtı", "anlam": "Sebep oldu, neden oldu", "cumle": "The product's durability led to its popularity." },
-          { "en": "came up with","tr": "Ortaya attı, buldu", "anlam": "Bir fikir veya çözüm geliştirdi", "cumle": "They came up with cable TV to overcome signal problems." }
-        ]
+  {
+    "en": "Abolish",
+    "tr": "İptal Etmek",
+    "anlam": "İptal Etmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Abolition",
+    "tr": "Kaldırmak",
+    "anlam": "Kaldırmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Absorb",
+    "tr": "Emmek, Karşılamak, Dengelemek",
+    "anlam": "Emmek, Karşılamak, Dengelemek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Abuse",
+    "tr": "Kötüye Kullanma, Suistimal Etme",
+    "anlam": "Kötüye Kullanma, Suistimal Etme",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Academic",
+    "tr": "Akademik",
+    "anlam": "Akademik",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Accelerator",
+    "tr": "Gaz Pedalı",
+    "anlam": "Gaz Pedalı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Accent",
+    "tr": "Şive, Aksan",
+    "anlam": "Şive, Aksan",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Access",
+    "tr": "1)Giriş 2)Yol",
+    "anlam": "1)Giriş 2)Yol",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Accessible",
+    "tr": "1)Erişilebilir 2)Kolay Bulunur",
+    "anlam": "1)Erişilebilir 2)Kolay Bulunur",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Accounting",
+    "tr": "Muhasebe",
+    "anlam": "Muhasebe",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Accumulate",
+    "tr": "Toplamak, Biriktirmek",
+    "anlam": "Toplamak, Biriktirmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Accused",
+    "tr": "1)Sanık 2)Suçlamak",
+    "anlam": "1)Sanık 2)Suçlamak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Accustom",
+    "tr": "Alıştırmak",
+    "anlam": "Alıştırmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Accustomed",
+    "tr": "Alışık, Alışkın",
+    "anlam": "Alışık, Alışkın",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Achieve",
+    "tr": "Üstünden Gelme, Başarmak",
+    "anlam": "Üstünden Gelme, Başarmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Achievement",
+    "tr": "Başarı",
+    "anlam": "Başarı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Acid",
+    "tr": "Asit",
+    "anlam": "Asit",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Acknowledge",
+    "tr": "Doğrulamak",
+    "anlam": "Doğrulamak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Acquire",
+    "tr": "Edinmek",
+    "anlam": "Edinmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Acquisition",
+    "tr": "Edinme, İstimlak, El Koyma",
+    "anlam": "Edinme, İstimlak, El Koyma",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Addict",
+    "tr": "Tiryaki, Müptela",
+    "anlam": "Tiryaki, Müptela",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Admiral",
+    "tr": "Amiral",
+    "anlam": "Amiral",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Admission",
+    "tr": "1)Kabul, İtiraf 2)Giriş",
+    "anlam": "1)Kabul, İtiraf 2)Giriş",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Adopt",
+    "tr": "1)Kabul Etmek 2)Evlat Edinmek",
+    "anlam": "1)Kabul Etmek 2)Evlat Edinmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Adverse",
+    "tr": "Zıt, Karşı",
+    "anlam": "Zıt, Karşı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Airport",
+    "tr": "Hava Alanı",
+    "anlam": "Hava Alanı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Album",
+    "tr": "Albüm",
+    "anlam": "Albüm",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Alcohol",
+    "tr": "Alkol",
+    "anlam": "Alkol",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Allocate",
+    "tr": "Tahsis Etmek, Dağıtmak, Bölüştürmek",
+    "anlam": "Tahsis Etmek, Dağıtmak, Bölüştürmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Allocations",
+    "tr": "Tahsisat",
+    "anlam": "Tahsisat",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Allowance",
+    "tr": "Düzenli Sağlanan Para, Harçlık",
+    "anlam": "Düzenli Sağlanan Para, Harçlık",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Ally",
+    "tr": "Anlaşma, Birleşme",
+    "anlam": "Anlaşma, Birleşme",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Alphabet",
+    "tr": "Alfabe",
+    "anlam": "Alfabe",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Alter",
+    "tr": "Değiştirmek",
+    "anlam": "Değiştirmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Alternative",
+    "tr": "Alternatif, Seçenek",
+    "anlam": "Alternatif, Seçenek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Amateur",
+    "tr": "Amatör",
+    "anlam": "Amatör",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Ambulance",
+    "tr": "Ambulans",
+    "anlam": "Ambulans",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Amend",
+    "tr": "Düzelme, Ayarlama",
+    "anlam": "Düzelme, Ayarlama",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Ample",
+    "tr": "Geniş, Bol",
+    "anlam": "Geniş, Bol",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Anchor",
+    "tr": "1)Çapa 2)Demir Atmak (Gemi)",
+    "anlam": "1)Çapa 2)Demir Atmak (Gemi)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Angel",
+    "tr": "Melek",
+    "anlam": "Melek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Anger",
+    "tr": "Kızmak",
+    "anlam": "Kızmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Angle",
+    "tr": "Açı, Köşe",
+    "anlam": "Açı, Köşe",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Anticipate",
+    "tr": "1)Ön Görmek 2)Beklemek",
+    "anlam": "1)Ön Görmek 2)Beklemek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Antique",
+    "tr": "Antika",
+    "anlam": "Antika",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Anxiously",
+    "tr": "Endişeli Olmak",
+    "anlam": "Endişeli Olmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Apartment",
+    "tr": "Apartman Dairesi",
+    "anlam": "Apartman Dairesi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Apparently",
+    "tr": "Bariz Olmak, Görünmek",
+    "anlam": "Bariz Olmak, Görünmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Article Of Association",
+    "tr": "Ana Sözleşme",
+    "anlam": "Ana Sözleşme",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Aspect",
+    "tr": "Görünüş, Görüş, Hal, Çehre, Durum",
+    "anlam": "Görünüş, Görüş, Hal, Çehre, Durum",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Asset",
+    "tr": "Varlık",
+    "anlam": "Varlık",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Association",
+    "tr": "Cemiyet, Birlik, Aynı Şeyle İlgili Olan",
+    "anlam": "Cemiyet, Birlik, Aynı Şeyle İlgili Olan",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Assurance",
+    "tr": "Güven, İnanç, Söz",
+    "anlam": "Güven, İnanç, Söz",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Assure",
+    "tr": "Temin Etmek, Söz Vermek, İkna Etmek",
+    "anlam": "Temin Etmek, Söz Vermek, İkna Etmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Assured",
+    "tr": "1)Önceden Belli 2)Kendine Güvenen",
+    "anlam": "1)Önceden Belli 2)Kendine Güvenen",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Attachment",
+    "tr": "İlave, Ek",
+    "anlam": "İlave, Ek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Attendant",
+    "tr": "1) Hizmetçi, Hizmetkâr 2) Refakat Eden Kimse",
+    "anlam": "1) Hizmetçi, Hizmetkâr 2) Refakat Eden Kimse",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Auction",
+    "tr": "Müzayede, Mezat",
+    "anlam": "Müzayede, Mezat",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Audience",
+    "tr": "İzleyici (Tv, Tiyatro Vb.)",
+    "anlam": "İzleyici (Tv, Tiyatro Vb.)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Augment",
+    "tr": "İlave Etmek, Arttırmak, Zam Yapmak",
+    "anlam": "İlave Etmek, Arttırmak, Zam Yapmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Augmentation",
+    "tr": "Zam, Ekleme",
+    "anlam": "Zam, Ekleme",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Author",
+    "tr": "Yazar",
+    "anlam": "Yazar",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Authority",
+    "tr": "Otorite",
+    "anlam": "Otorite",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Award",
+    "tr": "Mükâfat",
+    "anlam": "Mükâfat",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Awkward",
+    "tr": "1)Acemi, Sakar 2)Kullanılması, Anlaşılması Güç",
+    "anlam": "1)Acemi, Sakar 2)Kullanılması, Anlaşılması Güç",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Babysitter",
+    "tr": "Çocuk Bakıcısı",
+    "anlam": "Çocuk Bakıcısı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Bachelor",
+    "tr": "1)Bekâr 2)Üniversitenin İlk Derecesi",
+    "anlam": "1)Bekâr 2)Üniversitenin İlk Derecesi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Backbone",
+    "tr": "1)Omurga 2)Temel Taşı, En Önemli Bölüm",
+    "anlam": "1)Omurga 2)Temel Taşı, En Önemli Bölüm",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Bale",
+    "tr": "Balya (Halı, Tütün Vs.)",
+    "anlam": "Balya (Halı, Tütün Vs.)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Banal",
+    "tr": "Banal, Adi",
+    "anlam": "Banal, Adi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Bandage",
+    "tr": "Bandaj, Yara Bandı",
+    "anlam": "Bandaj, Yara Bandı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Baneful",
+    "tr": "Kötü, Kötü Şey (A Baneful Influence=Kötü Etki)",
+    "anlam": "Kötü, Kötü Şey (A Baneful Influence=Kötü Etki)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Banish",
+    "tr": "1)Sürgüne Yollama 2)Düşünmekten Vazgeçme",
+    "anlam": "1)Sürgüne Yollama 2)Düşünmekten Vazgeçme",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Barbarous",
+    "tr": "Barbar, Vahşi",
+    "anlam": "Barbar, Vahşi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Barber",
+    "tr": "Berber",
+    "anlam": "Berber",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Basin",
+    "tr": "1) Leğen 2) Leğen Dolusu 3) Havza",
+    "anlam": "1) Leğen 2) Leğen Dolusu 3) Havza",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Bastardize",
+    "tr": "1)Değerini Düşürmek 2)Konunun Anlamını Değiştirmek",
+    "anlam": "1)Değerini Düşürmek 2)Konunun Anlamını Değiştirmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Battery",
+    "tr": "Pil",
+    "anlam": "Pil",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Bawl",
+    "tr": "Bağırmak Veya Ağlamak (Seslice)",
+    "anlam": "Bağırmak Veya Ağlamak (Seslice)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Beforehand",
+    "tr": "Önceden",
+    "anlam": "Önceden",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Bias",
+    "tr": "Ön Yargı, Eğilim",
+    "anlam": "Ön Yargı, Eğilim",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Birthday",
+    "tr": "Doğumgünü",
+    "anlam": "Doğumgünü",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Bladder",
+    "tr": "1) Mesane, Kese 2)İç Lastik",
+    "anlam": "1) Mesane, Kese 2)İç Lastik",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Blade",
+    "tr": "Ustura, Bıçak",
+    "anlam": "Ustura, Bıçak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Blister",
+    "tr": "Kabarcık",
+    "anlam": "Kabarcık",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Blockade",
+    "tr": "Ablukaya Alma",
+    "anlam": "Ablukaya Alma",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Blouse",
+    "tr": "Bluz",
+    "anlam": "Bluz",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Bodyguard",
+    "tr": "Koruma Görevlisi, Goril",
+    "anlam": "Koruma Görevlisi, Goril",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Boiler",
+    "tr": "Kazan",
+    "anlam": "Kazan",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Bolt",
+    "tr": "1)Cıvata 2)Sürgü(Kapı) 3)Ani Kaçış(Korkuyla) 4)Somun",
+    "anlam": "1)Cıvata 2)Sürgü(Kapı) 3)Ani Kaçış(Korkuyla) 4)Somun",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Bonnet",
+    "tr": "1)Çocuk Başlığı 2)Arabanın Kaputu",
+    "anlam": "1)Çocuk Başlığı 2)Arabanın Kaputu",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Bony",
+    "tr": "Çok Zayıf",
+    "anlam": "Çok Zayıf",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Booklet",
+    "tr": "Broşür",
+    "anlam": "Broşür",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Boom",
+    "tr": "1)Patlamak 2)Çok Hızlı Genişlemek",
+    "anlam": "1)Patlamak 2)Çok Hızlı Genişlemek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Boot",
+    "tr": "1)Ayakkabı, Bot 2)Bagaj",
+    "anlam": "1)Ayakkabı, Bot 2)Bagaj",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Boring",
+    "tr": "Sıkıcı (I’m Bored=Sıkıldım, I’m Boring=Sıkıcıyım)",
+    "anlam": "Sıkıcı (I’m Bored=Sıkıldım, I’m Boring=Sıkıcıyım)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Bother",
+    "tr": "Can Sıkmak, Üzmek",
+    "anlam": "Can Sıkmak, Üzmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Bounce",
+    "tr": "1)Yansıtmak 2)Zıplatmak (Top Vs.)",
+    "anlam": "1)Yansıtmak 2)Zıplatmak (Top Vs.)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Bound",
+    "tr": "Bağlı, Sınırlı, Atlamak",
+    "anlam": "Bağlı, Sınırlı, Atlamak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Boundary",
+    "tr": "Sınır",
+    "anlam": "Sınır",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Brake",
+    "tr": "Frenlemek, Fren",
+    "anlam": "Frenlemek, Fren",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Branch",
+    "tr": "1)Dal 2)Şube, Kol",
+    "anlam": "1)Dal 2)Şube, Kol",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Brand",
+    "tr": "1)Marka 2)Lekelemek, Kötü Ün",
+    "anlam": "1)Marka 2)Lekelemek, Kötü Ün",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Brand-New",
+    "tr": "Yeni Model, Yepyeni",
+    "anlam": "Yeni Model, Yepyeni",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Break Down",
+    "tr": "1)Çöküş 2)Ayırma, Sınıflama, Detaylandırma",
+    "anlam": "1)Çöküş 2)Ayırma, Sınıflama, Detaylandırma",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Break-Out",
+    "tr": "1)Aniden Başlama, Patlak Verme(Savaş)2)Kaçmak(Hapis)",
+    "anlam": "1)Aniden Başlama, Patlak Verme(Savaş)2)Kaçmak(Hapis)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Breast",
+    "tr": "Göğüs",
+    "anlam": "Göğüs",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Bribe",
+    "tr": "Rüşvet",
+    "anlam": "Rüşvet",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Bride",
+    "tr": "Gelin",
+    "anlam": "Gelin",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Briefcase",
+    "tr": "İş Çantası",
+    "anlam": "İş Çantası",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Brilliant",
+    "tr": "Parlak, Akıllı",
+    "anlam": "Parlak, Akıllı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Brochure",
+    "tr": "Broşür",
+    "anlam": "Broşür",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Broken",
+    "tr": "Kırık",
+    "anlam": "Kırık",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Broker",
+    "tr": "Komisyoncu, Simsar",
+    "anlam": "Komisyoncu, Simsar",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Brooch",
+    "tr": "Broş, İğne",
+    "anlam": "Broş, İğne",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Brother-In-Law",
+    "tr": "Kayınbırader",
+    "anlam": "Kayınbırader",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Brow",
+    "tr": "Alın",
+    "anlam": "Alın",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Bucket",
+    "tr": "Kova",
+    "anlam": "Kova",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Bull",
+    "tr": "Boğa",
+    "anlam": "Boğa",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Bullet",
+    "tr": "Mermi",
+    "anlam": "Mermi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Bureau",
+    "tr": "Büro",
+    "anlam": "Büro",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Bureaucracy",
+    "tr": "Bürokrasi",
+    "anlam": "Bürokrasi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "By The Way",
+    "tr": "Bunun Yanında, Aklıma Gelmişken",
+    "anlam": "Bunun Yanında, Aklıma Gelmişken",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cabbage",
+    "tr": "Lahana",
+    "anlam": "Lahana",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cabin",
+    "tr": "Kabin",
+    "anlam": "Kabin",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cabinet",
+    "tr": "Kabine",
+    "anlam": "Kabine",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Calf",
+    "tr": "1)Fil Veya Balina Yavrusu, Buzağı 2)Baldır",
+    "anlam": "1)Fil Veya Balina Yavrusu, Buzağı 2)Baldır",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Camel",
+    "tr": "Deve",
+    "anlam": "Deve",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Canary",
+    "tr": "1) Kanarya Kuşu 2)Kanarya Sarısı",
+    "anlam": "1) Kanarya Kuşu 2)Kanarya Sarısı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cancellation",
+    "tr": "İptal",
+    "anlam": "İptal",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cannon",
+    "tr": "Top (Silah)",
+    "anlam": "Top (Silah)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Capable",
+    "tr": "Muktedir",
+    "anlam": "Muktedir",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Carbon-Paper",
+    "tr": "Karbon Kâğıdı",
+    "anlam": "Karbon Kâğıdı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Carefree",
+    "tr": "Önemsemeyen",
+    "anlam": "Önemsemeyen",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Careful",
+    "tr": "Dikkatli",
+    "anlam": "Dikkatli",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Careless",
+    "tr": "Dikkatsiz",
+    "anlam": "Dikkatsiz",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cargo",
+    "tr": "Kargo",
+    "anlam": "Kargo",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Carrier",
+    "tr": "Taşıyıcı",
+    "anlam": "Taşıyıcı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Carrot",
+    "tr": "Havuç",
+    "anlam": "Havuç",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Carryover",
+    "tr": "Devir",
+    "anlam": "Devir",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cartridge",
+    "tr": "Kartuş, Şarjör",
+    "anlam": "Kartuş, Şarjör",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cash-Register",
+    "tr": "Yazar Kasa",
+    "anlam": "Yazar Kasa",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Casual",
+    "tr": "1)Planlanmıyan (Casual Meeting) 2)Normal, Sade",
+    "anlam": "1)Planlanmıyan (Casual Meeting) 2)Normal, Sade",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Caterpillar",
+    "tr": "Tırtıl",
+    "anlam": "Tırtıl",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cauliflower",
+    "tr": "Karnıbahar",
+    "anlam": "Karnıbahar",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Caution",
+    "tr": "Uyarı",
+    "anlam": "Uyarı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cave",
+    "tr": "Mağara",
+    "anlam": "Mağara",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cease",
+    "tr": "Durdurmak",
+    "anlam": "Durdurmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cease-Fire",
+    "tr": "Ateş-Kes",
+    "anlam": "Ateş-Kes",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Celebration",
+    "tr": "Kutlama",
+    "anlam": "Kutlama",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cement",
+    "tr": "Çimento",
+    "anlam": "Çimento",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Central",
+    "tr": "Merkezi",
+    "anlam": "Merkezi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Centre",
+    "tr": "Orta, Merkez",
+    "anlam": "Orta, Merkez",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cereal",
+    "tr": "Tahıl, Mısır",
+    "anlam": "Tahıl, Mısır",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Chamber",
+    "tr": "Oda (Chamber Of Commerce = Ticaret Odası Vb.)",
+    "anlam": "Oda (Chamber Of Commerce = Ticaret Odası Vb.)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Champagne",
+    "tr": "Şampanya",
+    "anlam": "Şampanya",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Channel",
+    "tr": "Kanal (Tv, Radyo Gibi.)",
+    "anlam": "Kanal (Tv, Radyo Gibi.)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Chapter",
+    "tr": "Bölüm, Konu",
+    "anlam": "Bölüm, Konu",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Charity",
+    "tr": "Hayır Severlik,Yardım Severlik",
+    "anlam": "Hayır Severlik,Yardım Severlik",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Charlatan",
+    "tr": "Şarlatan",
+    "anlam": "Şarlatan",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Chart",
+    "tr": "Tablo, Çizelge",
+    "anlam": "Tablo, Çizelge",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Charter",
+    "tr": "1)Patent, Berat, Devlet Onaylı 2)Kiralık Uçak, Gemi Vb.",
+    "anlam": "1)Patent, Berat, Devlet Onaylı 2)Kiralık Uçak, Gemi Vb.",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Chase",
+    "tr": "Kovalamak",
+    "anlam": "Kovalamak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Chat",
+    "tr": "Çene Çalmak, Sohbet",
+    "anlam": "Çene Çalmak, Sohbet",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cheek",
+    "tr": "1)Yanak 2)Popo",
+    "anlam": "1)Yanak 2)Popo",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cheeky",
+    "tr": "Yüzsüz, Kaba, Kibar Olmayan",
+    "anlam": "Yüzsüz, Kaba, Kibar Olmayan",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cheerful",
+    "tr": "Neşeli, Şen, Mutlu",
+    "anlam": "Neşeli, Şen, Mutlu",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Chef",
+    "tr": "Ahçı, Şef (Yalnız Yiyecek Konusunda )",
+    "anlam": "Ahçı, Şef (Yalnız Yiyecek Konusunda )",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cheque",
+    "tr": "Çek",
+    "anlam": "Çek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Chest",
+    "tr": "1)Göğüs 2)Sandık",
+    "anlam": "1)Göğüs 2)Sandık",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Chest Of Drawers",
+    "tr": "Çekmeceli Dolap, Konsül",
+    "anlam": "Çekmeceli Dolap, Konsül",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Chestnut",
+    "tr": "Kestane",
+    "anlam": "Kestane",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Chilli",
+    "tr": "Çok Acı",
+    "anlam": "Çok Acı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Chilly",
+    "tr": "Rahatsız Edici Soğuk",
+    "anlam": "Rahatsız Edici Soğuk",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Chimney",
+    "tr": "Baca",
+    "anlam": "Baca",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "China",
+    "tr": "1) Çin 2) Çini, Porselen V.B",
+    "anlam": "1) Çin 2) Çini, Porselen V.B",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Chip",
+    "tr": "Ufak Parça",
+    "anlam": "Ufak Parça",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Chocolate",
+    "tr": "Çikulata",
+    "anlam": "Çikulata",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Choice",
+    "tr": "Seçim, İstek, Tercih",
+    "anlam": "Seçim, İstek, Tercih",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Choke",
+    "tr": "1)Boğma, Tıkama (Boğarak Öldürmek) 2)Jikle",
+    "anlam": "1)Boğma, Tıkama (Boğarak Öldürmek) 2)Jikle",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Chop",
+    "tr": "1)Kesmek, Yarmak 2)Pirzola",
+    "anlam": "1)Kesmek, Yarmak 2)Pirzola",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Chuckle",
+    "tr": "Kıkırdama",
+    "anlam": "Kıkırdama",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cigar",
+    "tr": "Puro",
+    "anlam": "Puro",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Circuit",
+    "tr": "Devre(Close Cırcuıt Tv, Short-Cırcuıt=Kısa Devre Vb)",
+    "anlam": "Devre(Close Cırcuıt Tv, Short-Cırcuıt=Kısa Devre Vb)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Claimant",
+    "tr": "Mahkemeden Hak Talep Eden, Davacı",
+    "anlam": "Mahkemeden Hak Talep Eden, Davacı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Clap",
+    "tr": "Alkışlamak",
+    "anlam": "Alkışlamak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Clay",
+    "tr": "Kil",
+    "anlam": "Kil",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Client",
+    "tr": "Müşteri, Müvekkil",
+    "anlam": "Müşteri, Müvekkil",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Climate",
+    "tr": "Iklım",
+    "anlam": "Iklım",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Clinic",
+    "tr": "Klinik",
+    "anlam": "Klinik",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Clip",
+    "tr": "Kırpmak, Kesmek, Klips (Kağıt,Saρ Vb.)",
+    "anlam": "Kırpmak, Kesmek, Klips (Kağıt,Saρ Vb.)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cloth",
+    "tr": "Bez ( A Piece Of Cloth )",
+    "anlam": "Bez ( A Piece Of Cloth )",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Clown",
+    "tr": "Palyaço",
+    "anlam": "Palyaço",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Clue",
+    "tr": "İpucu",
+    "anlam": "İpucu",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Clutch",
+    "tr": "1) Debrijaj 2) Kavrama",
+    "anlam": "1) Debrijaj 2) Kavrama",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Co",
+    "tr": "Beraber (Co-Operate, Co-Education)",
+    "anlam": "Beraber (Co-Operate, Co-Education)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Co-Operate",
+    "tr": "Birlikte Çalışmak",
+    "anlam": "Birlikte Çalışmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Coast",
+    "tr": "Kıyı, Sahil",
+    "anlam": "Kıyı, Sahil",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cock",
+    "tr": "1)Horoz, Erkek Kuş 2)Erkeklik Organı",
+    "anlam": "1)Horoz, Erkek Kuş 2)Erkeklik Organı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cocoa",
+    "tr": "Kakao",
+    "anlam": "Kakao",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Code",
+    "tr": "Kod",
+    "anlam": "Kod",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Collapse",
+    "tr": "1)Çökmek 2)Katlamak",
+    "anlam": "1)Çökmek 2)Katlamak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Colleague",
+    "tr": "Meslektaş",
+    "anlam": "Meslektaş",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Collective Agreement",
+    "tr": "Toplu Sözleşme",
+    "anlam": "Toplu Sözleşme",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Colonel",
+    "tr": "Albay",
+    "anlam": "Albay",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Column",
+    "tr": "Sütun",
+    "anlam": "Sütun",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Coma",
+    "tr": "Koma, Koma Hali",
+    "anlam": "Koma, Koma Hali",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Come Across",
+    "tr": "Tesadüfen Karşılaşmak Veya Bulmak",
+    "anlam": "Tesadüfen Karşılaşmak Veya Bulmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Comet",
+    "tr": "Kuyruklu Yıldız",
+    "anlam": "Kuyruklu Yıldız",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Commemorate",
+    "tr": "Anmak (Kötü, Üzücü Bir Olayı)",
+    "anlam": "Anmak (Kötü, Üzücü Bir Olayı)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Commission",
+    "tr": "1)Atamak, Görevlendirmek 2)Komisyon (Kurul, Ücret)",
+    "anlam": "1)Atamak, Görevlendirmek 2)Komisyon (Kurul, Ücret)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Commit",
+    "tr": "Suç İşlemek (To Commit Murder)",
+    "anlam": "Suç İşlemek (To Commit Murder)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Commitment",
+    "tr": "1)Taahhüt 2)Sorumluluk",
+    "anlam": "1)Taahhüt 2)Sorumluluk",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Communicate",
+    "tr": "İletişim",
+    "anlam": "İletişim",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Commute",
+    "tr": "Evden İşe Hergün Uzun Yol Gidip Gelmek",
+    "anlam": "Evden İşe Hergün Uzun Yol Gidip Gelmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Compensate",
+    "tr": "Telafi Etmek, Karşılamak",
+    "anlam": "Telafi Etmek, Karşılamak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Compensation",
+    "tr": "Telafi, Tazminat",
+    "anlam": "Telafi, Tazminat",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Complicated",
+    "tr": "Karışık, Komplike",
+    "anlam": "Karışık, Komplike",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Components",
+    "tr": "Unsur, Parça, Bileşimde Bulunan",
+    "anlam": "Unsur, Parça, Bileşimde Bulunan",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Compose",
+    "tr": "Yapım (Şiir, Şarkı, Sanat Eseri)",
+    "anlam": "Yapım (Şiir, Şarkı, Sanat Eseri)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Composition",
+    "tr": "Kompozisyon, Birleşik",
+    "anlam": "Kompozisyon, Birleşik",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Compromise",
+    "tr": "Uzlaşma",
+    "anlam": "Uzlaşma",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Computer",
+    "tr": "Bilgisayar",
+    "anlam": "Bilgisayar",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Concentrate",
+    "tr": "Konsantre, Yoğun",
+    "anlam": "Konsantre, Yoğun",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Concept",
+    "tr": "Genel Fikir, Düşünce, Anlayış I have no conception why.",
+    "anlam": "Genel Fikir, Düşünce, Anlayış I have no conception why.",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Concern",
+    "tr": "İlgi, Üzüntü, Endişe",
+    "anlam": "İlgi, Üzüntü, Endişe",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Conclusion",
+    "tr": "Karar, Sonuç",
+    "anlam": "Karar, Sonuç",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Condemn",
+    "tr": "1)Cezalandırmak 2)Mahkûm Etmek(Veya Zorunlu Kılmak)",
+    "anlam": "1)Cezalandırmak 2)Mahkûm Etmek(Veya Zorunlu Kılmak)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Conduct",
+    "tr": "Davranış, Tavır, Yol Göstermek",
+    "anlam": "Davranış, Tavır, Yol Göstermek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cone",
+    "tr": "1)Koni 2)Külah (Dondurma)",
+    "anlam": "1)Koni 2)Külah (Dondurma)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Conference",
+    "tr": "Konferans",
+    "anlam": "Konferans",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Confine",
+    "tr": "Kuşatmak, Hapsetmek, Sınırlamak",
+    "anlam": "Kuşatmak, Hapsetmek, Sınırlamak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Conflict",
+    "tr": "Çatışma, Çelişki",
+    "anlam": "Çatışma, Çelişki",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Consent",
+    "tr": "Kabul Etme, Onaylama",
+    "anlam": "Kabul Etme, Onaylama",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Consequently",
+    "tr": "Bundan Dolayı, Sonuç Olarak, Sonunda",
+    "anlam": "Bundan Dolayı, Sonuç Olarak, Sonunda",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Consign",
+    "tr": "1)Satış İçin Gönderme2)Başkasına Devretme(Sorumluluk",
+    "anlam": "1)Satış İçin Gönderme2)Başkasına Devretme(Sorumluluk",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Consistent",
+    "tr": "Tutarlı, Uyumlu (Kişi, Yazı Vb)",
+    "anlam": "Tutarlı, Uyumlu (Kişi, Yazı Vb)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Constitute",
+    "tr": "Oluşmak, Kurmak",
+    "anlam": "Oluşmak, Kurmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Constitution",
+    "tr": "Anayasa",
+    "anlam": "Anayasa",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Construct",
+    "tr": "İnşa Etmek, Yapmak",
+    "anlam": "İnşa Etmek, Yapmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Consume",
+    "tr": "Tüketmek",
+    "anlam": "Tüketmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Consumption",
+    "tr": "Tüketim",
+    "anlam": "Tüketim",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Contact",
+    "tr": "Temas, Dokunma",
+    "anlam": "Temas, Dokunma",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Contest",
+    "tr": "Yarışma",
+    "anlam": "Yarışma",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Continent",
+    "tr": "Kıta",
+    "anlam": "Kıta",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Contract",
+    "tr": "Kontrat, Anlaşma",
+    "anlam": "Kontrat, Anlaşma",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Contribute",
+    "tr": "Katkıda Bulunmak",
+    "anlam": "Katkıda Bulunmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Convict",
+    "tr": "Mahkum, Suçlu",
+    "anlam": "Mahkum, Suçlu",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Convince",
+    "tr": "İkna Etmek",
+    "anlam": "İkna Etmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cope",
+    "tr": "Başa Çıkmak, Ayak Uydurmak",
+    "anlam": "Başa Çıkmak, Ayak Uydurmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cordon",
+    "tr": "1)Polis 2)Asker Kordonu",
+    "anlam": "1)Polis 2)Asker Kordonu",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cork",
+    "tr": "Mantar ,(Cork-Screw: Mantar Açacağı)",
+    "anlam": "Mantar ,(Cork-Screw: Mantar Açacağı)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Corpse",
+    "tr": "Ceset",
+    "anlam": "Ceset",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Correspondent",
+    "tr": "1)Mektuplaşan, Mektuba Cevap Veren 2)Muhabir",
+    "anlam": "1)Mektuplaşan, Mektuba Cevap Veren 2)Muhabir",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Corridor",
+    "tr": "Koridor",
+    "anlam": "Koridor",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Corruption",
+    "tr": "Rüşvetçilik, Yolsuzluk",
+    "anlam": "Rüşvetçilik, Yolsuzluk",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cosmetic",
+    "tr": "Kozmetik",
+    "anlam": "Kozmetik",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Costume",
+    "tr": "Kostüm",
+    "anlam": "Kostüm",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Coupe",
+    "tr": "Spor Araba",
+    "anlam": "Spor Araba",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Coupon",
+    "tr": "Kupon",
+    "anlam": "Kupon",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cracker",
+    "tr": "Kraker",
+    "anlam": "Kraker",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cramp",
+    "tr": "Kramp",
+    "anlam": "Kramp",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Crane",
+    "tr": "Vinç İle Kaldırmak, Vinç",
+    "anlam": "Vinç İle Kaldırmak, Vinç",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Credit",
+    "tr": "Kredi",
+    "anlam": "Kredi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Crisis",
+    "tr": "Kriz",
+    "anlam": "Kriz",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Crisp",
+    "tr": "Cibs, Kızarmış Kuru Patates",
+    "anlam": "Cibs, Kızarmış Kuru Patates",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Crisp",
+    "tr": "1)İnce 2)Kaş",
+    "anlam": "1)İnce 2)Kaş",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Critical",
+    "tr": "Kritik",
+    "anlam": "Kritik",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Crocodile",
+    "tr": "Afrika Timsahı",
+    "anlam": "Afrika Timsahı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Crossword",
+    "tr": "Çapraz Bulmaca",
+    "anlam": "Çapraz Bulmaca",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Crow",
+    "tr": "1)Karga 2)Horoz Ötüşü",
+    "anlam": "1)Karga 2)Horoz Ötüşü",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Crucial",
+    "tr": "En Önemli An (Karar İρin Vb.)",
+    "anlam": "En Önemli An (Karar İρin Vb.)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Crude",
+    "tr": "Petrol  ( Crude Oil=Ham Petrol)",
+    "anlam": "Petrol  ( Crude Oil=Ham Petrol)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Curry",
+    "tr": "Hafif Acılı",
+    "anlam": "Hafif Acılı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cushion",
+    "tr": "Yastık",
+    "anlam": "Yastık",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Cylinder",
+    "tr": "Silindir",
+    "anlam": "Silindir",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Daisy",
+    "tr": "Papatya",
+    "anlam": "Papatya",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Damage",
+    "tr": "Zarar, Zarar Vermek",
+    "anlam": "Zarar, Zarar Vermek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Darling",
+    "tr": "Sevgili",
+    "anlam": "Sevgili",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Date",
+    "tr": "1)Hurma 2)Randevu",
+    "anlam": "1)Hurma 2)Randevu",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Deadline",
+    "tr": "Mühlet, Son Teslim Tarihi",
+    "anlam": "Mühlet, Son Teslim Tarihi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Deadlock",
+    "tr": "1)Çıkmaz 2)Açmaz",
+    "anlam": "1)Çıkmaz 2)Açmaz",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Deaf",
+    "tr": "Sağır",
+    "anlam": "Sağır",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Debatable",
+    "tr": "Tartışabilinir",
+    "anlam": "Tartışabilinir",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Debate",
+    "tr": "Tartışma",
+    "anlam": "Tartışma",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Debt",
+    "tr": "Borç",
+    "anlam": "Borç",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Decay",
+    "tr": "Çürümek, Bozulmak",
+    "anlam": "Çürümek, Bozulmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Decent",
+    "tr": "Doğru, Haklı, İyi",
+    "anlam": "Doğru, Haklı, İyi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Decline",
+    "tr": "Azaltmak, Gerilemek, Düşmek",
+    "anlam": "Azaltmak, Gerilemek, Düşmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Decrease",
+    "tr": "Azalmak",
+    "anlam": "Azalmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Default",
+    "tr": "İfa Etmeme, Hazır Bulunmama(Default Payment=Ödememe)",
+    "anlam": "İfa Etmeme, Hazır Bulunmama(Default Payment=Ödememe)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Defer",
+    "tr": "Geciktirme, Erteleme",
+    "anlam": "Geciktirme, Erteleme",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Deficit",
+    "tr": "Açık (Budget Deficit=Bütçe Açığı)",
+    "anlam": "Açık (Budget Deficit=Bütçe Açığı)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Definition",
+    "tr": "Tanımlama",
+    "anlam": "Tanımlama",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Deliberately",
+    "tr": "Kasten",
+    "anlam": "Kasten",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Demoralize",
+    "tr": "Cesaretini Kırmak, Moral Bozmak",
+    "anlam": "Cesaretini Kırmak, Moral Bozmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Dependent",
+    "tr": "Bağımlı (In Dependent: Bağımsız)",
+    "anlam": "Bağımlı (In Dependent: Bağımsız)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Deputation",
+    "tr": "Vekillik",
+    "anlam": "Vekillik",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Deputy",
+    "tr": "Vekil",
+    "anlam": "Vekil",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Desperate",
+    "tr": "Umutsuz, Çok Ciddi",
+    "anlam": "Umutsuz, Çok Ciddi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Despite",
+    "tr": "Rağmen",
+    "anlam": "Rağmen",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Destination",
+    "tr": "Varış Noktası",
+    "anlam": "Varış Noktası",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Detach",
+    "tr": "Ayırmak",
+    "anlam": "Ayırmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Detective",
+    "tr": "Dedektif",
+    "anlam": "Dedektif",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Dew",
+    "tr": "Kırağı (Nem)",
+    "anlam": "Kırağı (Nem)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Diagram",
+    "tr": "Şema, Diyagram",
+    "anlam": "Şema, Diyagram",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Diameter",
+    "tr": "Çap",
+    "anlam": "Çap",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Dice",
+    "tr": "Zarlar ( Tavla )",
+    "anlam": "Zarlar ( Tavla )",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Diet",
+    "tr": "Rejim, Diyet",
+    "anlam": "Rejim, Diyet",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Digest",
+    "tr": "1)Hazm Etmek2)Olayı Kavramak3)Özet,Ana Felsefe,Kura",
+    "anlam": "1)Hazm Etmek2)Olayı Kavramak3)Özet,Ana Felsefe,Kura",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Dim",
+    "tr": "Kısık, Sönük",
+    "anlam": "Kısık, Sönük",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Dip",
+    "tr": "Daldırmak",
+    "anlam": "Daldırmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Directory",
+    "tr": "Rehber (Telefon Vb.)",
+    "anlam": "Rehber (Telefon Vb.)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Disaster",
+    "tr": "Felaket, Afet",
+    "anlam": "Felaket, Afet",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Disclose",
+    "tr": "Açığa, Meydana Çıkarmak, Bilinmesini Sağlamak",
+    "anlam": "Açığa, Meydana Çıkarmak, Bilinmesini Sağlamak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Disco",
+    "tr": "Disko",
+    "anlam": "Disko",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Disgust",
+    "tr": "Tiksinti",
+    "anlam": "Tiksinti",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Dismay",
+    "tr": "1)Süpriz 2)Üzüntü",
+    "anlam": "1)Süpriz 2)Üzüntü",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Dismay",
+    "tr": "Korku, Dehşet",
+    "anlam": "Korku, Dehşet",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Dispatch",
+    "tr": "Sevk Etmek, Yollamak",
+    "anlam": "Sevk Etmek, Yollamak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Displace",
+    "tr": "Yerinden Çıkarmak (Kuvvet Etkisi İle)",
+    "anlam": "Yerinden Çıkarmak (Kuvvet Etkisi İle)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Distinction",
+    "tr": "Küçük Farklılık",
+    "anlam": "Küçük Farklılık",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Dive",
+    "tr": "Dalış",
+    "anlam": "Dalış",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Diver",
+    "tr": "Dalgıç",
+    "anlam": "Dalgıç",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Divorce",
+    "tr": "Boşanmak",
+    "anlam": "Boşanmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Dominate",
+    "tr": "Hakim Olma",
+    "anlam": "Hakim Olma",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Donate",
+    "tr": "Bağış Yapmak",
+    "anlam": "Bağış Yapmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Donation",
+    "tr": "Bağış",
+    "anlam": "Bağış",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Donor",
+    "tr": "Bağış Yapan,İyilik Sever (Organ, Okul Bağışı Vb.)",
+    "anlam": "Bağış Yapan,İyilik Sever (Organ, Okul Bağışı Vb.)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Doom",
+    "tr": "Kötü Kader,Kör Talih",
+    "anlam": "Kötü Kader,Kör Talih",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Doomsday",
+    "tr": "Ahiret Günü",
+    "anlam": "Ahiret Günü",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Dose",
+    "tr": "Bir Seferde Alınan İlaç Miktarı",
+    "anlam": "Bir Seferde Alınan İlaç Miktarı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Down Payment",
+    "tr": "Peşin (Ödeme)",
+    "anlam": "Peşin (Ödeme)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Doze",
+    "tr": "Uyuklamak, Hafif Uyku",
+    "anlam": "Uyuklamak, Hafif Uyku",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Dozen",
+    "tr": "Düzine",
+    "anlam": "Düzine",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Draft",
+    "tr": "1)Suret, Müsvedde 2)Banka Çeki, Ödeme Emri",
+    "anlam": "1)Suret, Müsvedde 2)Banka Çeki, Ödeme Emri",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Drag",
+    "tr": "Sürüklemek",
+    "anlam": "Sürüklemek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Dragon",
+    "tr": "Ejderha",
+    "anlam": "Ejderha",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Drain",
+    "tr": "Lağım, Su Yolu",
+    "anlam": "Lağım, Su Yolu",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Drama",
+    "tr": "Dram",
+    "anlam": "Dram",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Draught",
+    "tr": "Hava Akımı, Ceryan",
+    "anlam": "Hava Akımı, Ceryan",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Draughts",
+    "tr": "Dama Oyunu",
+    "anlam": "Dama Oyunu",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Drawer",
+    "tr": "Çekmece, Göz",
+    "anlam": "Çekmece, Göz",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Drawn",
+    "tr": "Boğulmak",
+    "anlam": "Boğulmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Drug",
+    "tr": "Uyuşturucu Madde,İlaç",
+    "anlam": "Uyuşturucu Madde,İlaç",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Drum",
+    "tr": "1)Davul 2)Makara 3)Varil, Bidon",
+    "anlam": "1)Davul 2)Makara 3)Varil, Bidon",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Duck",
+    "tr": "1)Ördek 2)Başını Eğmek",
+    "anlam": "1)Ördek 2)Başını Eğmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Duckling",
+    "tr": "Küçük Ördek",
+    "anlam": "Küçük Ördek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Duel",
+    "tr": "Düello",
+    "anlam": "Düello",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Dustbin",
+    "tr": "Çöp Tenekesi",
+    "anlam": "Çöp Tenekesi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Dye",
+    "tr": "Boya, Boyamak (Saç,Kağıt Vb.)",
+    "anlam": "Boya, Boyamak (Saç,Kağıt Vb.)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Dynamite",
+    "tr": "Dinamit",
+    "anlam": "Dinamit",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Dynamo",
+    "tr": "Dinamo",
+    "anlam": "Dinamo",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Dynasty",
+    "tr": "Hanedanlık",
+    "anlam": "Hanedanlık",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Eagle",
+    "tr": "Kartal",
+    "anlam": "Kartal",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Earthquake",
+    "tr": "Deprem",
+    "anlam": "Deprem",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Eel",
+    "tr": "Yılan Balığı",
+    "anlam": "Yılan Balığı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Elapse",
+    "tr": "Zamanın Geçmesi (3 Days Have Elapsed)",
+    "anlam": "Zamanın Geçmesi (3 Days Have Elapsed)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Embark",
+    "tr": "1)Gemi Yada Uçakla Gitmek 2)Birşey Yapmaya Başlamak",
+    "anlam": "1)Gemi Yada Uçakla Gitmek 2)Birşey Yapmaya Başlamak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Embarrassment",
+    "tr": "1)Sıkıntı 2)Utanmak",
+    "anlam": "1)Sıkıntı 2)Utanmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Embrace",
+    "tr": "Sarılmak",
+    "anlam": "Sarılmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Emotion",
+    "tr": "Kuvvetli Duygu",
+    "anlam": "Kuvvetli Duygu",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Emphasis",
+    "tr": "Önemli,Şiddetli Vurgu",
+    "anlam": "Önemli,Şiddetli Vurgu",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Emphasize",
+    "tr": "Üzerinde Durmak",
+    "anlam": "Üzerinde Durmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Emphatic",
+    "tr": "Kesinlikle,Mutlak,Kesin(Emphatic Victory=Kesin Zafer",
+    "anlam": "Kesinlikle,Mutlak,Kesin(Emphatic Victory=Kesin Zafer",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Empire",
+    "tr": "İmparatorluk",
+    "anlam": "İmparatorluk",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Enormous",
+    "tr": "Kocaman, İri",
+    "anlam": "Kocaman, İri",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Entitle",
+    "tr": "Yetki Vermek, Hak Vermek",
+    "anlam": "Yetki Vermek, Hak Vermek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Epitaph",
+    "tr": "Mezar Taşı Yazısı",
+    "anlam": "Mezar Taşı Yazısı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Equalize",
+    "tr": "Eşitlemek",
+    "anlam": "Eşitlemek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Equip",
+    "tr": "Donatmak",
+    "anlam": "Donatmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Equipment",
+    "tr": "Tesisat,Donanım",
+    "anlam": "Tesisat,Donanım",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Escort",
+    "tr": "Konvoy,Refakat",
+    "anlam": "Konvoy,Refakat",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Estate",
+    "tr": "1) Steyşın Araba 2) Mal, Mülk, Arsa",
+    "anlam": "1) Steyşın Araba 2) Mal, Mülk, Arsa",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Evacuate",
+    "tr": "1)Boşaltma,Tahliye Etmek 2)Tehlikeden Uzaklaştırmak",
+    "anlam": "1)Boşaltma,Tahliye Etmek 2)Tehlikeden Uzaklaştırmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Evidence",
+    "tr": "Delil",
+    "anlam": "Delil",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Evolution",
+    "tr": "Evrim",
+    "anlam": "Evrim",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Ex",
+    "tr": "Sabık, Eski (Ex-Wife, Ex-President, Ex-Gırl Friend)",
+    "anlam": "Sabık, Eski (Ex-Wife, Ex-President, Ex-Gırl Friend)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Exceed",
+    "tr": "Aşırı",
+    "anlam": "Aşırı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Exclaim",
+    "tr": "Bağırmak",
+    "anlam": "Bağırmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Exclusive",
+    "tr": "Umuma Açık Olmayan, Başkalarıyla Paylaşılmayan",
+    "anlam": "Umuma Açık Olmayan, Başkalarıyla Paylaşılmayan",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Execute",
+    "tr": "Yapmak, Yerine Getirmek, İnfaz Etmek, İdam Etmek",
+    "anlam": "Yapmak, Yerine Getirmek, İnfaz Etmek, İdam Etmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Exhaust",
+    "tr": "1)Yorulma,Bitme 2)Egzos",
+    "anlam": "1)Yorulma,Bitme 2)Egzos",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Exhibit",
+    "tr": "Teşhir Etmek, Göstermek",
+    "anlam": "Teşhir Etmek, Göstermek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Exhibition",
+    "tr": "Sergi",
+    "anlam": "Sergi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Expand",
+    "tr": "1)Büyümek,Genişlemek2)Daha Samimi Ve Konuşkan Olmak",
+    "anlam": "1)Büyümek,Genişlemek2)Daha Samimi Ve Konuşkan Olmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Expansion",
+    "tr": "1) Genişleme, Büyüme 2) Genişleyen Kısım, Ek",
+    "anlam": "1) Genişleme, Büyüme 2) Genişleyen Kısım, Ek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Experiment",
+    "tr": "Deney",
+    "anlam": "Deney",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Expire",
+    "tr": "Sürenin Dolması",
+    "anlam": "Sürenin Dolması",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Explosive",
+    "tr": "Patlayıcı Madde",
+    "anlam": "Patlayıcı Madde",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Export",
+    "tr": "İhraç Malı, İhracat",
+    "anlam": "İhraç Malı, İhracat",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Extinguish",
+    "tr": "Işığı Veya Ateşi Söndürmek",
+    "anlam": "Işığı Veya Ateşi Söndürmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Extreme",
+    "tr": "Son Derece, Aşırı",
+    "anlam": "Son Derece, Aşırı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Eyebrow",
+    "tr": "Kaş",
+    "anlam": "Kaş",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Eyelash",
+    "tr": "Kirpik",
+    "anlam": "Kirpik",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Eyelid",
+    "tr": "Göz Kapağı",
+    "anlam": "Göz Kapağı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Fable",
+    "tr": "Masal, Efsane",
+    "anlam": "Masal, Efsane",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Fabulous",
+    "tr": "Harika, İnanılmaz",
+    "anlam": "Harika, İnanılmaz",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Fact",
+    "tr": "Gerçek",
+    "anlam": "Gerçek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Fake",
+    "tr": "Taklit, Sahte",
+    "anlam": "Taklit, Sahte",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Fame",
+    "tr": "Şöhret, Ün",
+    "anlam": "Şöhret, Ün",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Fan",
+    "tr": "1)Hava Hareketi 2)Taraftar",
+    "anlam": "1)Hava Hareketi 2)Taraftar",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Fancy",
+    "tr": "1)Hayal Kurma 2)Hoş Zevkli 3)Fantazi",
+    "anlam": "1)Hayal Kurma 2)Hoş Zevkli 3)Fantazi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Feature",
+    "tr": "Özellik",
+    "anlam": "Özellik",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Fed Up",
+    "tr": "Bıkmak (I’m Fed Up:Bıktım)",
+    "anlam": "Bıkmak (I’m Fed Up:Bıktım)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Federal",
+    "tr": "Federal, Federe, Grup İçinde Birleşmiş",
+    "anlam": "Federal, Federe, Grup İçinde Birleşmiş",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Ferry",
+    "tr": "Feribot, Araba Vapuru",
+    "anlam": "Feribot, Araba Vapuru",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Fertile",
+    "tr": "1)Gübre 2)Üretken",
+    "anlam": "1)Gübre 2)Üretken",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Fertilize",
+    "tr": "1)Gübreleme 2)Döllenme (Bees Fertilize The Flowers)",
+    "anlam": "1)Gübreleme 2)Döllenme (Bees Fertilize The Flowers)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Festival",
+    "tr": "Festival",
+    "anlam": "Festival",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Fiance",
+    "tr": "Nişanlı",
+    "anlam": "Nişanlı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Fiction",
+    "tr": "Kurgu (Roman)",
+    "anlam": "Kurgu (Roman)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Fig",
+    "tr": "1)İncir 2)Çok Önemsiz Konu",
+    "anlam": "1)İncir 2)Çok Önemsiz Konu",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Fire-Brigade",
+    "tr": "İtfaiye",
+    "anlam": "İtfaiye",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Fiscal",
+    "tr": "Devletin,Para,Vergi,Borç İle İlişkili (Fiscal Year)",
+    "anlam": "Devletin,Para,Vergi,Borç İle İlişkili (Fiscal Year)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Fist",
+    "tr": "Yumruk",
+    "anlam": "Yumruk",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Flea",
+    "tr": "Pire",
+    "anlam": "Pire",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Flee",
+    "tr": "Kaçmak",
+    "anlam": "Kaçmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Fleet",
+    "tr": "Filo (Gemi Vb.)",
+    "anlam": "Filo (Gemi Vb.)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Flipper",
+    "tr": "1) Yüzme Paleti, 2) Yüzgeç",
+    "anlam": "1) Yüzme Paleti, 2) Yüzgeç",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Florist",
+    "tr": "Çiçekçi, Çiçek Yetiştiren Kimse",
+    "anlam": "Çiçekçi, Çiçek Yetiştiren Kimse",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Fluent",
+    "tr": "Akıcı",
+    "anlam": "Akıcı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Foam",
+    "tr": "Köpük",
+    "anlam": "Köpük",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Foam Rubber",
+    "tr": "Sünger",
+    "anlam": "Sünger",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Folk",
+    "tr": "Halk",
+    "anlam": "Halk",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Football",
+    "tr": "Futbol",
+    "anlam": "Futbol",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Footprint",
+    "tr": "Ayak İzi",
+    "anlam": "Ayak İzi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Foreman",
+    "tr": "Ustabaşı, Formen",
+    "anlam": "Ustabaşı, Formen",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Forever",
+    "tr": "Devamlı Olarak",
+    "anlam": "Devamlı Olarak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Forge",
+    "tr": "1)Sahtesini Yapmak 2)Demir Metale Şekil Vermek",
+    "anlam": "1)Sahtesini Yapmak 2)Demir Metale Şekil Vermek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Forger",
+    "tr": "Üçkağıtçı,Taklitçi",
+    "anlam": "Üçkağıtçı,Taklitçi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Formal",
+    "tr": "Resmi, Ciddi",
+    "anlam": "Resmi, Ciddi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Forthwith",
+    "tr": "Derhal, Hemen",
+    "anlam": "Derhal, Hemen",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Foul",
+    "tr": "Pis, Kirli",
+    "anlam": "Pis, Kirli",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Found",
+    "tr": "İnşa Etmek Veya Başlamak",
+    "anlam": "İnşa Etmek Veya Başlamak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Fragile",
+    "tr": "Kolay Kırılabir",
+    "anlam": "Kolay Kırılabir",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Frank",
+    "tr": "Açık Sözlü, Samimi",
+    "anlam": "Açık Sözlü, Samimi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Freight",
+    "tr": "Hamule, Navlun",
+    "anlam": "Hamule, Navlun",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Fridge",
+    "tr": "Buzdolabı",
+    "anlam": "Buzdolabı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Frontier",
+    "tr": "Sınır",
+    "anlam": "Sınır",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Fry",
+    "tr": "Kızartmak",
+    "anlam": "Kızartmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Full Stop",
+    "tr": "Nokta",
+    "anlam": "Nokta",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Fundamental",
+    "tr": "Temel, Önem, Çok Gerekli",
+    "anlam": "Temel, Önem, Çok Gerekli",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Funeral",
+    "tr": "Cenaze",
+    "anlam": "Cenaze",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Furthermore",
+    "tr": "Yanında, Ayrıca, Üstelik (=Moreover)",
+    "anlam": "Yanında, Ayrıca, Üstelik (=Moreover)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Fuse",
+    "tr": "Sigorta (Elektrik Vb.)",
+    "anlam": "Sigorta (Elektrik Vb.)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Fuss",
+    "tr": "Telaş, Telaşlanmak",
+    "anlam": "Telaş, Telaşlanmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Gaol",
+    "tr": "Hapishane",
+    "anlam": "Hapishane",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Gay",
+    "tr": "1)Mutlu, Parlak, Çok Renkli 2)Homo",
+    "anlam": "1)Mutlu, Parlak, Çok Renkli 2)Homo",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Gear",
+    "tr": "Vites",
+    "anlam": "Vites",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Germ",
+    "tr": "Mikrop",
+    "anlam": "Mikrop",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Ghost",
+    "tr": "Hayalet,Hortlak",
+    "anlam": "Hayalet,Hortlak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Gigolo",
+    "tr": "Jigolo",
+    "anlam": "Jigolo",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Ginger",
+    "tr": "Zencefil, Hafif Kahverengi",
+    "anlam": "Zencefil, Hafif Kahverengi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Globe",
+    "tr": "Küre, Dünya",
+    "anlam": "Küre, Dünya",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Glue",
+    "tr": "Yapıştırıcı",
+    "anlam": "Yapıştırıcı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Goal",
+    "tr": "Hedef, Gaye, Gol",
+    "anlam": "Hedef, Gaye, Gol",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Gossip",
+    "tr": "Dedikodu Yapmak, Dedikodu",
+    "anlam": "Dedikodu Yapmak, Dedikodu",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Grapefruit",
+    "tr": "Greyfurt",
+    "anlam": "Greyfurt",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Grateful",
+    "tr": "Minnettar",
+    "anlam": "Minnettar",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Gravestone",
+    "tr": "Mezartaşı",
+    "anlam": "Mezartaşı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Graveyard",
+    "tr": "Mezarlık, Mezar",
+    "anlam": "Mezarlık, Mezar",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Greengrocer",
+    "tr": "Manav",
+    "anlam": "Manav",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Groom",
+    "tr": "Damat",
+    "anlam": "Damat",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Grumble",
+    "tr": "Sızlanmak,Yakınmak",
+    "anlam": "Sızlanmak,Yakınmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Guarantee",
+    "tr": "Garanti",
+    "anlam": "Garanti",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Guided Missile",
+    "tr": "Yl GÜDÜMLÜ ROKET",
+    "anlam": "Yl GÜDÜMLÜ ROKET",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Guitar",
+    "tr": "Gitar",
+    "anlam": "Gitar",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Gulf",
+    "tr": "Körfez",
+    "anlam": "Körfez",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Guy",
+    "tr": "Adam",
+    "anlam": "Adam",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Habitat",
+    "tr": "Doğal Yuva (Hayvan, Bitki Vb. Yaşadığı Yer)",
+    "anlam": "Doğal Yuva (Hayvan, Bitki Vb. Yaşadığı Yer)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Hairdresser",
+    "tr": "Kuvaför, Berber",
+    "anlam": "Kuvaför, Berber",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Hairdryer",
+    "tr": "Saç Kurutma Makinası",
+    "anlam": "Saç Kurutma Makinası",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Halt",
+    "tr": "Dur",
+    "anlam": "Dur",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Ham",
+    "tr": "Domuz Ayağındaki Et",
+    "anlam": "Domuz Ayağındaki Et",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Hand Grenade",
+    "tr": "El Bombası",
+    "anlam": "El Bombası",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Handicap",
+    "tr": "Sakat",
+    "anlam": "Sakat",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Hang On",
+    "tr": "Bekle",
+    "anlam": "Bekle",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Happen",
+    "tr": "Olmak",
+    "anlam": "Olmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Head Quarters",
+    "tr": "Merkez,Karargah",
+    "anlam": "Merkez,Karargah",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Headline",
+    "tr": "Başlık (Gazetede)",
+    "anlam": "Başlık (Gazetede)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Headphone",
+    "tr": "Kulaklık",
+    "anlam": "Kulaklık",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Hectare",
+    "tr": "Hektar",
+    "anlam": "Hektar",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Heritage",
+    "tr": "Miras",
+    "anlam": "Miras",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Hinge",
+    "tr": "1)Menteşe 2)Dayanak Noktası, Destek, Esas",
+    "anlam": "1)Menteşe 2)Dayanak Noktası, Destek, Esas",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Hold On",
+    "tr": "Bekle",
+    "anlam": "Bekle",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Holy",
+    "tr": "Kutsal",
+    "anlam": "Kutsal",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Hook",
+    "tr": "Çengel, Kanca",
+    "anlam": "Çengel, Kanca",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Horizontal",
+    "tr": "Yatay",
+    "anlam": "Yatay",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Hose",
+    "tr": "Hortum",
+    "anlam": "Hortum",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Hubbub",
+    "tr": "Gürültü",
+    "anlam": "Gürültü",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Hug",
+    "tr": "Sarılmak,Kucaklamak",
+    "anlam": "Sarılmak,Kucaklamak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Huge",
+    "tr": "Çok Büyük",
+    "anlam": "Çok Büyük",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Human",
+    "tr": "İnsan, Beşeri",
+    "anlam": "İnsan, Beşeri",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Hush",
+    "tr": "Sakinlik,Sessizlik,Sus",
+    "anlam": "Sakinlik,Sessizlik,Sus",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Hut",
+    "tr": "Kulübe, Baraka",
+    "anlam": "Kulübe, Baraka",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Idiot",
+    "tr": "Aptal",
+    "anlam": "Aptal",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Ignition",
+    "tr": "1)Tutuşma, Ateşleme, Ateş Alma 2)Ateşleme Tertibatı",
+    "anlam": "1)Tutuşma, Ateşleme, Ateş Alma 2)Ateşleme Tertibatı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Ignore",
+    "tr": "Önemsememek",
+    "anlam": "Önemsememek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Illustrate",
+    "tr": "Resimle Göstermek",
+    "anlam": "Resimle Göstermek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Imagination",
+    "tr": "Tasavvur, Hayal",
+    "anlam": "Tasavvur, Hayal",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Imagine",
+    "tr": "Tasavvur Etmek, Hayal Etmek",
+    "anlam": "Tasavvur Etmek, Hayal Etmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Imitate",
+    "tr": "Örnek Almak, Taklit Etmek",
+    "anlam": "Örnek Almak, Taklit Etmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Imitation",
+    "tr": "Taklit",
+    "anlam": "Taklit",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Immoral",
+    "tr": "Ahlaksız, Edepsiz",
+    "anlam": "Ahlaksız, Edepsiz",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Impair",
+    "tr": "Bozmak",
+    "anlam": "Bozmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Implement",
+    "tr": "1)Yürürlüğe Koymak 2)Alet",
+    "anlam": "1)Yürürlüğe Koymak 2)Alet",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Imply",
+    "tr": "İma Etme",
+    "anlam": "İma Etme",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Impress",
+    "tr": "Etkilemek",
+    "anlam": "Etkilemek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Impressive",
+    "tr": "Etkili,Etkileyici",
+    "anlam": "Etkili,Etkileyici",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Incentive",
+    "tr": "Teşvik",
+    "anlam": "Teşvik",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Incidentally",
+    "tr": "Bunun Yanında (=By The Way)",
+    "anlam": "Bunun Yanında (=By The Way)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Indefinite",
+    "tr": "Belirsiz",
+    "anlam": "Belirsiz",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Indefinitely",
+    "tr": "Sonsuz, Süresiz",
+    "anlam": "Sonsuz, Süresiz",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Indemnify",
+    "tr": "1)Tazminat Ödemek, Söz Vermek, Zararı Karşılamak",
+    "anlam": "1)Tazminat Ödemek, Söz Vermek, Zararı Karşılamak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Indemnity",
+    "tr": "Tazminat",
+    "anlam": "Tazminat",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Index",
+    "tr": "İndex",
+    "anlam": "İndex",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Individual",
+    "tr": "Ayrı, Birey, Fert, Kimse",
+    "anlam": "Ayrı, Birey, Fert, Kimse",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Indorse",
+    "tr": "Çeki Cıro Etmek,Onaylamak",
+    "anlam": "Çeki Cıro Etmek,Onaylamak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Endorsement",
+    "tr": "Tastik,Onay,Cıro",
+    "anlam": "Tastik,Onay,Cıro",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Inevitably",
+    "tr": "Kaçınılmaz, Herhalde Olan",
+    "anlam": "Kaçınılmaz, Herhalde Olan",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Infinite",
+    "tr": "Sonsuz",
+    "anlam": "Sonsuz",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Inflammable",
+    "tr": "Ateş Alabilir",
+    "anlam": "Ateş Alabilir",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Inflate",
+    "tr": "Şişmek",
+    "anlam": "Şişmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Inflation",
+    "tr": "Enflasyon",
+    "anlam": "Enflasyon",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Inflexible",
+    "tr": "Eğilmesi Zor, Bükülmez, İnatçı",
+    "anlam": "Eğilmesi Zor, Bükülmez, İnatçı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Initial",
+    "tr": "İlk Harf, Birinci, Baştaki,Paraf",
+    "anlam": "İlk Harf, Birinci, Baştaki,Paraf",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Initiative",
+    "tr": "İlk Hareket,Başlatma,İnsiyatif(Take The İnitiative)",
+    "anlam": "İlk Hareket,Başlatma,İnsiyatif(Take The İnitiative)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Inject",
+    "tr": "Şırınga Yapmak",
+    "anlam": "Şırınga Yapmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Innocent",
+    "tr": "Suçsuz, Masum",
+    "anlam": "Suçsuz, Masum",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Insecure",
+    "tr": "Emniyetsiz",
+    "anlam": "Emniyetsiz",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Insolvent",
+    "tr": "Müflis",
+    "anlam": "Müflis",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Inspire",
+    "tr": "Akla, Fikre Getirme, Esinleme, İlham Gelmesi",
+    "anlam": "Akla, Fikre Getirme, Esinleme, İlham Gelmesi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Instant",
+    "tr": "Hızlı,Derhal",
+    "anlam": "Hızlı,Derhal",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Insulate",
+    "tr": "İzole Etmek",
+    "anlam": "İzole Etmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Insult",
+    "tr": "Hakaret Etme, Onur Kırma",
+    "anlam": "Hakaret Etme, Onur Kırma",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Intangible",
+    "tr": "Manevi,Maddi Olmayan,Intangıble Asset=Maddi,Varlık",
+    "anlam": "Manevi,Maddi Olmayan,Intangıble Asset=Maddi,Varlık",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Intense",
+    "tr": "Derin Üzüntü, Güçlü Duygu",
+    "anlam": "Derin Üzüntü, Güçlü Duygu",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Intensive",
+    "tr": "Yoğun (Labour İntensive:Emek Yoğun)",
+    "anlam": "Yoğun (Labour İntensive:Emek Yoğun)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Interfere",
+    "tr": "1)Karışma Müdahele Etme 2)Parazit Yapma (Tv,Radyo)",
+    "anlam": "1)Karışma Müdahele Etme 2)Parazit Yapma (Tv,Radyo)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Intestines",
+    "tr": "Bağırsaklar",
+    "anlam": "Bağırsaklar",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Invade",
+    "tr": "İstila Etmek",
+    "anlam": "İstila Etmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Invoice",
+    "tr": "Fatura",
+    "anlam": "Fatura",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Involve",
+    "tr": "İşe Dalmak,Karışmak,Gerektirmek,İçermek",
+    "anlam": "İşe Dalmak,Karışmak,Gerektirmek,İçermek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Ironically",
+    "tr": "Tam Aksi Olma,İnadına(İnadına Tatilde Yağmur Yağdı.)",
+    "anlam": "Tam Aksi Olma,İnadına(İnadına Tatilde Yağmur Yağdı.)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Irritate",
+    "tr": "Kızdırmak, Sinirlendirmek, Tahriş Etmek (Deri Vb.)",
+    "anlam": "Kızdırmak, Sinirlendirmek, Tahriş Etmek (Deri Vb.)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Itch",
+    "tr": "Kaşındırmak",
+    "anlam": "Kaşındırmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Item",
+    "tr": "Birim",
+    "anlam": "Birim",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Jack",
+    "tr": "1)Kriko 2)Vale (Oyun Kağıdında) 3)Torpil Yaptırmak",
+    "anlam": "1)Kriko 2)Vale (Oyun Kağıdında) 3)Torpil Yaptırmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Jackal",
+    "tr": "Çakal",
+    "anlam": "Çakal",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Jacket",
+    "tr": "Ceket",
+    "anlam": "Ceket",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Jaguar",
+    "tr": "Jaguar",
+    "anlam": "Jaguar",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Jar",
+    "tr": "Kavanoz",
+    "anlam": "Kavanoz",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Jeans",
+    "tr": "Jin, Kot Pantolon (Pamuklu)",
+    "anlam": "Jin, Kot Pantolon (Pamuklu)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Jelly",
+    "tr": "Jöle",
+    "anlam": "Jöle",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Jellyfish",
+    "tr": "Denizanası, Medüs, Su Medüsü",
+    "anlam": "Denizanası, Medüs, Su Medüsü",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Jockey",
+    "tr": "Cokey",
+    "anlam": "Cokey",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Jubilee",
+    "tr": "Jübile",
+    "anlam": "Jübile",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Keen",
+    "tr": "Keskin (Keen On:Hoşlanmak)",
+    "anlam": "Keskin (Keen On:Hoşlanmak)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Ketchup",
+    "tr": "Ketçap",
+    "anlam": "Ketçap",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Kidnap",
+    "tr": "Zorla Kaçırmak (İnsan, Hayvan Vb.)",
+    "anlam": "Zorla Kaçırmak (İnsan, Hayvan Vb.)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Kidney",
+    "tr": "Böbrek",
+    "anlam": "Böbrek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Kin",
+    "tr": "Aile, Akraba",
+    "anlam": "Aile, Akraba",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Knight",
+    "tr": "Silahşör, Şovalye, Satrançta At",
+    "anlam": "Silahşör, Şovalye, Satrançta At",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Knob",
+    "tr": "Tokmak, Tutacak",
+    "anlam": "Tokmak, Tutacak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Label",
+    "tr": "Etiket",
+    "anlam": "Etiket",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Laboratory",
+    "tr": "Laboratuvar",
+    "anlam": "Laboratuvar",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Ladle",
+    "tr": "Kepçe (Yemek)",
+    "anlam": "Kepçe (Yemek)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Lamppost",
+    "tr": "Sokak Lambası",
+    "anlam": "Sokak Lambası",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Lampshade",
+    "tr": "Abajur",
+    "anlam": "Abajur",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Lane",
+    "tr": "Dar Yol, Şerit (Oto Yolda Vb.)",
+    "anlam": "Dar Yol, Şerit (Oto Yolda Vb.)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Lash",
+    "tr": "Kamçı, Birşeyi Ani Ve Hızlı Sallamak",
+    "anlam": "Kamçı, Birşeyi Ani Ve Hızlı Sallamak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Launch",
+    "tr": "Birşeye Başlamak, Roket Fırlatmak",
+    "anlam": "Birşeye Başlamak, Roket Fırlatmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Laundry-Basket",
+    "tr": "Çamaşır Sepeti",
+    "anlam": "Çamaşır Sepeti",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "League",
+    "tr": "Birlik, Lig",
+    "anlam": "Birlik, Lig",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Leak",
+    "tr": "Akıntı, Sızmak",
+    "anlam": "Akıntı, Sızmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Lease",
+    "tr": "Belirli Bir Zaman İçin Kiralama",
+    "anlam": "Belirli Bir Zaman İçin Kiralama",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Lecture",
+    "tr": "Ders, Konferans Vermek",
+    "anlam": "Ders, Konferans Vermek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Length",
+    "tr": "Uzunluk",
+    "anlam": "Uzunluk",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Lettuce",
+    "tr": "Salata, Kıvırcık",
+    "anlam": "Salata, Kıvırcık",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Lever",
+    "tr": "Kaldıraç, Manivala",
+    "anlam": "Kaldıraç, Manivala",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Liar",
+    "tr": "Yalancı",
+    "anlam": "Yalancı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Lick",
+    "tr": "Yalamak",
+    "anlam": "Yalamak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Lid",
+    "tr": "Kapak",
+    "anlam": "Kapak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Lighter",
+    "tr": "Çakmak",
+    "anlam": "Çakmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Limit",
+    "tr": "Hat, Sınır, Limit",
+    "anlam": "Hat, Sınır, Limit",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Liquidate",
+    "tr": "Tasfiye Etmek, Öldürme, Kurtulmak, Başından Atmak",
+    "anlam": "Tasfiye Etmek, Öldürme, Kurtulmak, Başından Atmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Literature",
+    "tr": "Edebiyat",
+    "anlam": "Edebiyat",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Litter",
+    "tr": "Çöp,Dağınıklık",
+    "anlam": "Çöp,Dağınıklık",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Liver",
+    "tr": "Karaciğer",
+    "anlam": "Karaciğer",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Loaf",
+    "tr": "Bütün Ekmek, Vakti Boşa Geçirmek",
+    "anlam": "Bütün Ekmek, Vakti Boşa Geçirmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Loan",
+    "tr": "Ödünç Vermek, Borç Vermek, Borç",
+    "anlam": "Ödünç Vermek, Borç Vermek, Borç",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Lobster",
+    "tr": "İstakoz",
+    "anlam": "İstakoz",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Locate",
+    "tr": "Kurmak,Yerleştirmek",
+    "anlam": "Kurmak,Yerleştirmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Lonely",
+    "tr": "Yalnız, Kimsesiz",
+    "anlam": "Yalnız, Kimsesiz",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Lorry",
+    "tr": "Kamyon",
+    "anlam": "Kamyon",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Loyal",
+    "tr": "Sadık",
+    "anlam": "Sadık",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Loyalty",
+    "tr": "Sadakat,Bağlılık",
+    "anlam": "Sadakat,Bağlılık",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Magazine",
+    "tr": "1)Silah Deposu 2)Magazin 3)Şarjür (Silahın)",
+    "anlam": "1)Silah Deposu 2)Magazin 3)Şarjür (Silahın)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Magnet",
+    "tr": "Mıknatıs",
+    "anlam": "Mıknatıs",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Magnificent",
+    "tr": "Azamet, İhtişam",
+    "anlam": "Azamet, İhtişam",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Magnifying-Glass",
+    "tr": "Büyüteç",
+    "anlam": "Büyüteç",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Maid",
+    "tr": "Kadın Hizmetçi",
+    "anlam": "Kadın Hizmetçi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Maintain",
+    "tr": "1)Bakım Onarım 2)Eski Halinde Koruma 3)Destekleme",
+    "anlam": "1)Bakım Onarım 2)Eski Halinde Koruma 3)Destekleme",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Major",
+    "tr": "1)Büyük, Önemli 2)Binbaşı (Orduda)",
+    "anlam": "1)Büyük, Önemli 2)Binbaşı (Orduda)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Majority",
+    "tr": "Çoğunluk",
+    "anlam": "Çoğunluk",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Maniac",
+    "tr": "Manyak",
+    "anlam": "Manyak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Manual",
+    "tr": "El İle Yapılan",
+    "anlam": "El İle Yapılan",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Manufacture",
+    "tr": "Üretmek (Fab. Vb)",
+    "anlam": "Üretmek (Fab. Vb)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Margin",
+    "tr": "Marj, Katkı",
+    "anlam": "Marj, Katkı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Marmalade",
+    "tr": "Marmelat",
+    "anlam": "Marmelat",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Massacre",
+    "tr": "Katliam, Katliam Yapmak",
+    "anlam": "Katliam, Katliam Yapmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Massive",
+    "tr": "Çok Büyük Ve Ağır",
+    "anlam": "Çok Büyük Ve Ağır",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Mat",
+    "tr": "Hasır, Paspas",
+    "anlam": "Hasır, Paspas",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Mate",
+    "tr": "Arkadaş",
+    "anlam": "Arkadaş",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Mathematics",
+    "tr": "Matematik",
+    "anlam": "Matematik",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Mattress",
+    "tr": "Yatak, Sedir",
+    "anlam": "Yatak, Sedir",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Mature",
+    "tr": "1)Olgun,Ergin(Hayvan,Meyve,İnsan)2)Vadesi Gelen(Ödem",
+    "anlam": "1)Olgun,Ergin(Hayvan,Meyve,İnsan)2)Vadesi Gelen(Ödem",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Maturity",
+    "tr": "Olgunluk Zamanı, Vade Zamanı",
+    "anlam": "Olgunluk Zamanı, Vade Zamanı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Maximum",
+    "tr": "Maksimum, Azami",
+    "anlam": "Maksimum, Azami",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Meadow",
+    "tr": "Çayır, Mera",
+    "anlam": "Çayır, Mera",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Mechanic",
+    "tr": "1)Makinist,Makina Ustası2)El Sanatlarına Ait3)Mekani",
+    "anlam": "1)Makinist,Makina Ustası2)El Sanatlarına Ait3)Mekani",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Medical",
+    "tr": "Tıbbi",
+    "anlam": "Tıbbi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Merely",
+    "tr": "Sadece, Ancak",
+    "anlam": "Sadece, Ancak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Merge",
+    "tr": "Birleşerek Kaybolma, Konsolidasyon (Şirket, Devlet)",
+    "anlam": "Birleşerek Kaybolma, Konsolidasyon (Şirket, Devlet)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Merit",
+    "tr": "Haketmek, Değmek",
+    "anlam": "Haketmek, Değmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Might",
+    "tr": "1)Kuvvet,Kudret 2)Belki (Might Be:Az İhtimalli.)",
+    "anlam": "1)Kuvvet,Kudret 2)Belki (Might Be:Az İhtimalli.)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Mike",
+    "tr": "Mikrofon",
+    "anlam": "Mikrofon",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Mild",
+    "tr": "1)Hafif 2)Yumuşak 2)Ilık",
+    "anlam": "1)Hafif 2)Yumuşak 2)Ilık",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Millet",
+    "tr": "Darı",
+    "anlam": "Darı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Millionaire",
+    "tr": "Milyoner",
+    "anlam": "Milyoner",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Mince",
+    "tr": "Kıyma (Et Vb.), Kıymak",
+    "anlam": "Kıyma (Et Vb.), Kıymak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Miracle",
+    "tr": "Mucize",
+    "anlam": "Mucize",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Miser",
+    "tr": "Hasis, Cimri",
+    "anlam": "Hasis, Cimri",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Miserable",
+    "tr": "Sefil",
+    "anlam": "Sefil",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Misery",
+    "tr": "Sefalet",
+    "anlam": "Sefalet",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Mislay",
+    "tr": "Nereye Koyduğunu Unutmak",
+    "anlam": "Nereye Koyduğunu Unutmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Mobile",
+    "tr": "Oynak,Hareketli",
+    "anlam": "Oynak,Hareketli",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Moisture",
+    "tr": "Nem",
+    "anlam": "Nem",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Mole",
+    "tr": "1)Köstebek 2)Vücuttaki Ben",
+    "anlam": "1)Köstebek 2)Vücuttaki Ben",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Monument",
+    "tr": "Anıt, Abide",
+    "anlam": "Anıt, Abide",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Mood",
+    "tr": "Mizaç, Ruh Hali",
+    "anlam": "Mizaç, Ruh Hali",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Moral",
+    "tr": "Ahlak",
+    "anlam": "Ahlak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Morale",
+    "tr": "Moral",
+    "anlam": "Moral",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Mortgage",
+    "tr": "İpotek",
+    "anlam": "İpotek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Mosquito",
+    "tr": "Sivrisinek",
+    "anlam": "Sivrisinek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Moss",
+    "tr": "Yosun (Nemli Yerlerde Oluşan)",
+    "anlam": "Yosun (Nemli Yerlerde Oluşan)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Motion",
+    "tr": "Hareket, Önerme",
+    "anlam": "Hareket, Önerme",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Motive",
+    "tr": "1)Motivlenmek 2)Güdü",
+    "anlam": "1)Motivlenmek 2)Güdü",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Mud-Guard",
+    "tr": "Çamurluk",
+    "anlam": "Çamurluk",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Multiply",
+    "tr": "Çarpmak, Çoğalmak",
+    "anlam": "Çarpmak, Çoğalmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Murmur",
+    "tr": "Mırıldanmak,Uğultu",
+    "anlam": "Mırıldanmak,Uğultu",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Muscle",
+    "tr": "Pazu, Kas",
+    "anlam": "Pazu, Kas",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Museum",
+    "tr": "Müze",
+    "anlam": "Müze",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Mushroom",
+    "tr": "Mantar",
+    "anlam": "Mantar",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Muslim",
+    "tr": "Müslüman",
+    "anlam": "Müslüman",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Mustard",
+    "tr": "Hardal",
+    "anlam": "Hardal",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Mute",
+    "tr": "1)Sesiz 2)Dilsiz",
+    "anlam": "1)Sesiz 2)Dilsiz",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Mutter",
+    "tr": "Mırıldanmak, Kısık Sesle Söylenmek",
+    "anlam": "Mırıldanmak, Kısık Sesle Söylenmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Mutual",
+    "tr": "Müşterek,İki Taraflı (Mutual Friend=Ortak Arkadaş)",
+    "anlam": "Müşterek,İki Taraflı (Mutual Friend=Ortak Arkadaş)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Napkin",
+    "tr": "Peçete",
+    "anlam": "Peçete",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Narrate",
+    "tr": "Anlatmak, Söylemek",
+    "anlam": "Anlatmak, Söylemek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Nasty",
+    "tr": "Pis, Kötü Kokulu, Hoş Olmayan",
+    "anlam": "Pis, Kötü Kokulu, Hoş Olmayan",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Naughty",
+    "tr": "Yaramaz (Naughty Child = Yaramaz Ρocuk)",
+    "anlam": "Yaramaz (Naughty Child = Yaramaz Ρocuk)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Needless",
+    "tr": "Lüzumsuz",
+    "anlam": "Lüzumsuz",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Negotiate",
+    "tr": "Görüşmek,Müzakere",
+    "anlam": "Görüşmek,Müzakere",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Network",
+    "tr": "Şebeke,Çalışma Ağı",
+    "anlam": "Şebeke,Çalışma Ağı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Nickname",
+    "tr": "Takılmış Ad, Lakap",
+    "anlam": "Takılmış Ad, Lakap",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Nightmare",
+    "tr": "Kabus",
+    "anlam": "Kabus",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Nominate",
+    "tr": "1)Aday Göstermek(Başkan V.B) 2)Atamak,Görevlendirme",
+    "anlam": "1)Aday Göstermek(Başkan V.B) 2)Atamak,Görevlendirme",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Nonsense",
+    "tr": "Saçma",
+    "anlam": "Saçma",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Notorious",
+    "tr": "Kötü Ünlü, Kötü Ün",
+    "anlam": "Kötü Ünlü, Kötü Ün",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Novel",
+    "tr": "Roman",
+    "anlam": "Roman",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Nude",
+    "tr": "Çıplak",
+    "anlam": "Çıplak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Nylon",
+    "tr": "Naylon",
+    "anlam": "Naylon",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Oar",
+    "tr": "Kürek",
+    "anlam": "Kürek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Oasis",
+    "tr": "Vaha",
+    "anlam": "Vaha",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Oblige",
+    "tr": "1)Zorunlu Kılmak 2)Minettar Kılmak3)Yapmak,Sağlamak",
+    "anlam": "1)Zorunlu Kılmak 2)Minettar Kılmak3)Yapmak,Sağlamak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Occur",
+    "tr": "Olmak",
+    "anlam": "Olmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Odd",
+    "tr": "Tuhaf,Acaip",
+    "anlam": "Tuhaf,Acaip",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Okay (Ok)",
+    "tr": "Peki, Tamam",
+    "anlam": "Peki, Tamam",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Old-Fashioned",
+    "tr": "Eski Moda",
+    "anlam": "Eski Moda",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Omelette",
+    "tr": "Omlet",
+    "anlam": "Omlet",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Omit",
+    "tr": "Atlamak, Hariç Bırakmak",
+    "anlam": "Atlamak, Hariç Bırakmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Onion",
+    "tr": "Soğan",
+    "anlam": "Soğan",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Option",
+    "tr": "Seçme, Seçenek, Opsiyon",
+    "anlam": "Seçme, Seçenek, Opsiyon",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Oral",
+    "tr": "Sözlü",
+    "anlam": "Sözlü",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Orbit",
+    "tr": "Yörünge",
+    "anlam": "Yörünge",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Orchard",
+    "tr": "Bostan",
+    "anlam": "Bostan",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Original",
+    "tr": "Orjinal, İlk, Yeni",
+    "anlam": "Orjinal, İlk, Yeni",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Oval",
+    "tr": "Oval",
+    "anlam": "Oval",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Overdo",
+    "tr": "Fazla Pişirmek, Fazla Yapmak",
+    "anlam": "Fazla Pişirmek, Fazla Yapmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Overdue",
+    "tr": "Vadesi Geçmiş",
+    "anlam": "Vadesi Geçmiş",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Overtake",
+    "tr": "Geçmek, Sollamak",
+    "anlam": "Geçmek, Sollamak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Overtime",
+    "tr": "Fazla Mesai",
+    "anlam": "Fazla Mesai",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Overwork",
+    "tr": "Fazla Çalışmak, Aşırı Çalışmak",
+    "anlam": "Fazla Çalışmak, Aşırı Çalışmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Owl",
+    "tr": "Baykuş",
+    "anlam": "Baykuş",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Oxygen",
+    "tr": "Oksijen",
+    "anlam": "Oksijen",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Oyster",
+    "tr": "İstiridye",
+    "anlam": "İstiridye",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Packed",
+    "tr": "Kalabalık, Bir Sürü İnsan",
+    "anlam": "Kalabalık, Bir Sürü İnsan",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Palm",
+    "tr": "1)Avuç 2)Palmiye Ağacı",
+    "anlam": "1)Avuç 2)Palmiye Ağacı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Panel",
+    "tr": "Panel",
+    "anlam": "Panel",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Pants",
+    "tr": "1)Don 2)Pantolon (Ame)",
+    "anlam": "1)Don 2)Pantolon (Ame)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Parachute",
+    "tr": "Paraşüt",
+    "anlam": "Paraşüt",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Parade",
+    "tr": "Resmi Geçit",
+    "anlam": "Resmi Geçit",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Participate",
+    "tr": "Başkalarıyla Birlikte Çalışma, Oynama, Katılma",
+    "anlam": "Başkalarıyla Birlikte Çalışma, Oynama, Katılma",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Passive",
+    "tr": "Pasif, Eylemsiz",
+    "anlam": "Pasif, Eylemsiz",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Pasta",
+    "tr": "Makarna (Hamurdan Yapılan Şeyler)",
+    "anlam": "Makarna (Hamurdan Yapılan Şeyler)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Paste",
+    "tr": "Beyaz Tutkal, Macun, Hamur",
+    "anlam": "Beyaz Tutkal, Macun, Hamur",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Pastime",
+    "tr": "Hoş İyi Zaman",
+    "anlam": "Hoş İyi Zaman",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Path",
+    "tr": "Patika, Küçük Yol",
+    "anlam": "Patika, Küçük Yol",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Patrol",
+    "tr": "Devriye",
+    "anlam": "Devriye",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Patron",
+    "tr": "1)Destekleyici Kişi 2)Devamlı Müşteri",
+    "anlam": "1)Destekleyici Kişi 2)Devamlı Müşteri",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Pause",
+    "tr": "Mola, Ara",
+    "anlam": "Mola, Ara",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Paw",
+    "tr": "Hayvan Pençesi",
+    "anlam": "Hayvan Pençesi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Pea",
+    "tr": "Bezelye",
+    "anlam": "Bezelye",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Peach",
+    "tr": "Şeftali",
+    "anlam": "Şeftali",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Peak",
+    "tr": "Zirve, Tepe",
+    "anlam": "Zirve, Tepe",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Peanut",
+    "tr": "Yer Fıstığı",
+    "anlam": "Yer Fıstığı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Pearl",
+    "tr": "İnci",
+    "anlam": "İnci",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Peasant",
+    "tr": "Çiftçi, Köylü Kesim",
+    "anlam": "Çiftçi, Köylü Kesim",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Pedal",
+    "tr": "Pedal",
+    "anlam": "Pedal",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Pedestrian",
+    "tr": "Yaya Giden",
+    "anlam": "Yaya Giden",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Peel",
+    "tr": "Kabuk Soymak (Meyve)",
+    "anlam": "Kabuk Soymak (Meyve)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Penknife",
+    "tr": "Çakı",
+    "anlam": "Çakı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Pension",
+    "tr": "Emekli Maaşı",
+    "anlam": "Emekli Maaşı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Perfume",
+    "tr": "Parfüm",
+    "anlam": "Parfüm",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Peril",
+    "tr": "Büyük Tehlike",
+    "anlam": "Büyük Tehlike",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Period",
+    "tr": "1)Çağ, Devir, Period 2)Adet (Hali)",
+    "anlam": "1)Çağ, Devir, Period 2)Adet (Hali)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Permanent",
+    "tr": "Devamlı,Sürekli",
+    "anlam": "Devamlı,Sürekli",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Persist",
+    "tr": "Devam Etmek",
+    "anlam": "Devam Etmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Pessimist",
+    "tr": "Kötümser",
+    "anlam": "Kötümser",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Petrol Station",
+    "tr": "Benzinci",
+    "anlam": "Benzinci",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Philosophy",
+    "tr": "Fizolofi",
+    "anlam": "Fizolofi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Physical",
+    "tr": "Fiziksel",
+    "anlam": "Fiziksel",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Picket",
+    "tr": "Grev Gözcüsü, Fabrika Önünde Bekleme",
+    "anlam": "Grev Gözcüsü, Fabrika Önünde Bekleme",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Pickle",
+    "tr": "Turşu",
+    "anlam": "Turşu",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Pillow",
+    "tr": "Yastık",
+    "anlam": "Yastık",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Pillowcase",
+    "tr": "Yastık Kılıfı",
+    "anlam": "Yastık Kılıfı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Pinch",
+    "tr": "Çimdiklemek, Sıkıştırmak (Kapıya Vb.)",
+    "anlam": "Çimdiklemek, Sıkıştırmak (Kapıya Vb.)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Pincers",
+    "tr": "1)Kerpeten 2)Kıskaç (Yengecin V.B.)",
+    "anlam": "1)Kerpeten 2)Kıskaç (Yengecin V.B.)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Pioneer",
+    "tr": "Öncü",
+    "anlam": "Öncü",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Pistol",
+    "tr": "Tabanca",
+    "anlam": "Tabanca",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Pity",
+    "tr": "Acımak (What A Pity : Ne Yazık)",
+    "anlam": "Acımak (What A Pity : Ne Yazık)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Plastic",
+    "tr": "Plastik",
+    "anlam": "Plastik",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Platform",
+    "tr": "1)Platform, Yüksekçe Yer, Kürsü 2)Peron",
+    "anlam": "1)Platform, Yüksekçe Yer, Kürsü 2)Peron",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Playground",
+    "tr": "Oyun Sahası",
+    "anlam": "Oyun Sahası",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Plum",
+    "tr": "1)Erik 2)Bonbon Sekeri",
+    "anlam": "1)Erik 2)Bonbon Sekeri",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Plumber",
+    "tr": "Musluk Tamircisi",
+    "anlam": "Musluk Tamircisi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Pole",
+    "tr": "1)Kutup 2)Direk, Kazık",
+    "anlam": "1)Kutup 2)Direk, Kazık",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Porcelain",
+    "tr": "Porselen",
+    "anlam": "Porselen",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Porter",
+    "tr": "1)Hammal 2)Kapıcı",
+    "anlam": "1)Hammal 2)Kapıcı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Postage",
+    "tr": "Posta Ücreti",
+    "anlam": "Posta Ücreti",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Poverty",
+    "tr": "Fakirlik",
+    "anlam": "Fakirlik",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Power Of Attorney",
+    "tr": "Vekaletname",
+    "anlam": "Vekaletname",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Power-House",
+    "tr": "1)Elektrik Santralı 2)Olağanüstü Enerjiye Sahip Şey",
+    "anlam": "1)Elektrik Santralı 2)Olağanüstü Enerjiye Sahip Şey",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Precious",
+    "tr": "Kıymetli, Çok Sevilen",
+    "anlam": "Kıymetli, Çok Sevilen",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Precisely",
+    "tr": "Kesinlikle, Tam Manasıyla",
+    "anlam": "Kesinlikle, Tam Manasıyla",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Prescription",
+    "tr": "Reçete",
+    "anlam": "Reçete",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Preserve",
+    "tr": "Korumak,Konserve Yapmak",
+    "anlam": "Korumak,Konserve Yapmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Primarily",
+    "tr": "Ana Olarak",
+    "anlam": "Ana Olarak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Primary",
+    "tr": "1)Önceleri,Eskiden 2)Ana,Baş- Primary Cause 3)İlk Oku",
+    "anlam": "1)Önceleri,Eskiden 2)Ana,Baş- Primary Cause 3)İlk Oku",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Primitive",
+    "tr": "1)İlkel 2)Basit, Modası Geçmiş",
+    "anlam": "1)İlkel 2)Basit, Modası Geçmiş",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Priority",
+    "tr": "Öncelik",
+    "anlam": "Öncelik",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Privilege",
+    "tr": "İmtiyaz",
+    "anlam": "İmtiyaz",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Process",
+    "tr": "İşlem",
+    "anlam": "İşlem",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Prohibit",
+    "tr": "Yasaklamak",
+    "anlam": "Yasaklamak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Promote",
+    "tr": "1)İlerleme,Terfi Etme 2)Tanıtım(Ürün Vb.Satış İρin)",
+    "anlam": "1)İlerleme,Terfi Etme 2)Tanıtım(Ürün Vb.Satış İρin)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Promotion",
+    "tr": "Terfi",
+    "anlam": "Terfi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Propeller",
+    "tr": "1)İleriye Yürüten Şey 2)Vapur Veya Uçak Pervanesi",
+    "anlam": "1)İleriye Yürüten Şey 2)Vapur Veya Uçak Pervanesi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Proportion",
+    "tr": "Orantı",
+    "anlam": "Orantı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Prosecute",
+    "tr": "Takip Etmek, Kavuşturmak, Dava Açmak, Suçlamak",
+    "anlam": "Takip Etmek, Kavuşturmak, Dava Açmak, Suçlamak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Prostitution",
+    "tr": "Fuhuş",
+    "anlam": "Fuhuş",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Proverb",
+    "tr": "Ata Sözü",
+    "anlam": "Ata Sözü",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Provocation",
+    "tr": "Kışkırtma",
+    "anlam": "Kışkırtma",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Provoke",
+    "tr": "Kışkırtmak, Kızdırmaya Neden Olmak",
+    "anlam": "Kışkırtmak, Kızdırmaya Neden Olmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Publicity",
+    "tr": "İlan, Reklam, Yayınlama",
+    "anlam": "İlan, Reklam, Yayınlama",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Pull Up",
+    "tr": "Aracı Durdurmak",
+    "anlam": "Aracı Durdurmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Pulse",
+    "tr": "Nabız, Vuruş",
+    "anlam": "Nabız, Vuruş",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Pumpkin",
+    "tr": "Kabak",
+    "anlam": "Kabak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Punctual",
+    "tr": "Tam Zamanında",
+    "anlam": "Tam Zamanında",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Pure",
+    "tr": "Saf, Temiz",
+    "anlam": "Saf, Temiz",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Purse",
+    "tr": "Küçük El Çantası",
+    "anlam": "Küçük El Çantası",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Pyramid",
+    "tr": "Piramit",
+    "anlam": "Piramit",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Qualified",
+    "tr": "Ehliyetli, Kalifiye",
+    "anlam": "Ehliyetli, Kalifiye",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Quota",
+    "tr": "Kota, Kontenjan",
+    "anlam": "Kota, Kontenjan",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Quote",
+    "tr": "Aktarma, Söyleme",
+    "anlam": "Aktarma, Söyleme",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Racket",
+    "tr": "Raket",
+    "anlam": "Raket",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Radar",
+    "tr": "Radar",
+    "anlam": "Radar",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Railing",
+    "tr": "Bahce Parmaklıkları",
+    "anlam": "Bahce Parmaklıkları",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Ram",
+    "tr": "1)Koç 2)Vurmak, Toslamak",
+    "anlam": "1)Koç 2)Vurmak, Toslamak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Rash",
+    "tr": "1)Hızlı, Acele 2)Çil",
+    "anlam": "1)Hızlı, Acele 2)Çil",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Rat",
+    "tr": "Sıçan",
+    "anlam": "Sıçan",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Rear",
+    "tr": "1)Yetiştirmek(İnsan,Kuş,Bitki) 2)Arka,Arka Taraf",
+    "anlam": "1)Yetiştirmek(İnsan,Kuş,Bitki) 2)Arka,Arka Taraf",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Recession",
+    "tr": "Duraklama, Gerileme, Ekonomide Durgunluk",
+    "anlam": "Duraklama, Gerileme, Ekonomide Durgunluk",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Recipe",
+    "tr": "Yemek Tarifi",
+    "anlam": "Yemek Tarifi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Recollect",
+    "tr": "Hatırlamak",
+    "anlam": "Hatırlamak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Reconcile",
+    "tr": "Uzlaşma, Anlaşma Yapmak",
+    "anlam": "Uzlaşma, Anlaşma Yapmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Reconciliation",
+    "tr": "Uzlaşma",
+    "anlam": "Uzlaşma",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Referee",
+    "tr": "Hakem",
+    "anlam": "Hakem",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Referendum",
+    "tr": "Referandum, Halk Oylaması",
+    "anlam": "Referandum, Halk Oylaması",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Refill",
+    "tr": "Doldurmak",
+    "anlam": "Doldurmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Refreshments",
+    "tr": "Sandoviç, Tost, İçecek (Gar,İstasyon Gibi Yerlerde)",
+    "anlam": "Sandoviç, Tost, İçecek (Gar,İstasyon Gibi Yerlerde)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Refrigerator",
+    "tr": "Buzdolabı",
+    "anlam": "Buzdolabı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Region",
+    "tr": "Bölge",
+    "anlam": "Bölge",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Register",
+    "tr": "1)Kütük,Sicil,Kayıt 2)Regıster Post=Taahütlü Mektup",
+    "anlam": "1)Kütük,Sicil,Kayıt 2)Regıster Post=Taahütlü Mektup",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Regulation",
+    "tr": "Yönetmelik, Yasa",
+    "anlam": "Yönetmelik, Yasa",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Relate",
+    "tr": "Anlatmak, Nakletmek (Formal Tell)",
+    "anlam": "Anlatmak, Nakletmek (Formal Tell)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Relevant",
+    "tr": "Bağıntılı, Konuyla İlişkili",
+    "anlam": "Bağıntılı, Konuyla İlişkili",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Reliable",
+    "tr": "Güvenilir",
+    "anlam": "Güvenilir",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Reluctant",
+    "tr": "İsteksiz Ve Bundan Dolayı İşi Yapmayı Ağırdan Almak",
+    "anlam": "İsteksiz Ve Bundan Dolayı İşi Yapmayı Ağırdan Almak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Remedy",
+    "tr": "Çare",
+    "anlam": "Çare",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Remit",
+    "tr": "1)Affetmek,Bağışlamak2)Postayla Para Yollama-Havale",
+    "anlam": "1)Affetmek,Bağışlamak2)Postayla Para Yollama-Havale",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Remittance",
+    "tr": "Havele (Para)",
+    "anlam": "Havele (Para)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Reputation",
+    "tr": "İtibar,Ün",
+    "anlam": "İtibar,Ün",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Research",
+    "tr": "Araştırma",
+    "anlam": "Araştırma",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Resent",
+    "tr": "Hoşlanmamak, Kızmak",
+    "anlam": "Hoşlanmamak, Kızmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Reside",
+    "tr": "Oturmak, İkamet Etmek",
+    "anlam": "Oturmak, İkamet Etmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Resident",
+    "tr": "Bölgede Yaşayan, Oturan",
+    "anlam": "Bölgede Yaşayan, Oturan",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Respond",
+    "tr": "Cevap Vermek",
+    "anlam": "Cevap Vermek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Restore",
+    "tr": "1)Geri Verme 2)Yeniden Kullanıma Açma",
+    "anlam": "1)Geri Verme 2)Yeniden Kullanıma Açma",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Restrict",
+    "tr": "Sınırlamak",
+    "anlam": "Sınırlamak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Resume",
+    "tr": "Yeniden Başlamak",
+    "anlam": "Yeniden Başlamak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Retail",
+    "tr": "Parekende, Parekende Satış",
+    "anlam": "Parekende, Parekende Satış",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Retaliation",
+    "tr": "İntikam, Tepki, Misilleme",
+    "anlam": "İntikam, Tepki, Misilleme",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Revenue",
+    "tr": "Gelir",
+    "anlam": "Gelir",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Reverse",
+    "tr": "Ters, Arka (Reverse Gear = Geri Vites)",
+    "anlam": "Ters, Arka (Reverse Gear = Geri Vites)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Revise",
+    "tr": "Tekrar Gözden Geçirip Düzeltmek",
+    "anlam": "Tekrar Gözden Geçirip Düzeltmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Revolution",
+    "tr": "Devrim",
+    "anlam": "Devrim",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Rid",
+    "tr": "Atmak, Fırlatmak (To Get Rid Of:Başından Atmak)",
+    "anlam": "Atmak, Fırlatmak (To Get Rid Of:Başından Atmak)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Rifle",
+    "tr": "Tüfek",
+    "anlam": "Tüfek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Rocket",
+    "tr": "Roket",
+    "anlam": "Roket",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Roundabout",
+    "tr": "1)Dolambaçlı,Dolaylı 2)Ada-Trafikte 3)Yaklaşık Olara",
+    "anlam": "1)Dolambaçlı,Dolaylı 2)Ada-Trafikte 3)Yaklaşık Olara",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Route",
+    "tr": "Rota",
+    "anlam": "Rota",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Rubber",
+    "tr": "1)Lastik, Kauçuk 2)Silgi",
+    "anlam": "1)Lastik, Kauçuk 2)Silgi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Rug",
+    "tr": "Küçük Halı, Kilim",
+    "anlam": "Küçük Halı, Kilim",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Ruin",
+    "tr": "Harabe, Yıkım, Mahvetme",
+    "anlam": "Harabe, Yıkım, Mahvetme",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Rust",
+    "tr": "Pas",
+    "anlam": "Pas",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Sacrifice",
+    "tr": "Kurban, Fedakarlık",
+    "anlam": "Kurban, Fedakarlık",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Safari",
+    "tr": "Safari, Hayvan Avlama Yolculuğu",
+    "anlam": "Safari, Hayvan Avlama Yolculuğu",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Safety-Belt",
+    "tr": "Emniyet Kemeri",
+    "anlam": "Emniyet Kemeri",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Safety-Pin",
+    "tr": "Çengelli İğne",
+    "anlam": "Çengelli İğne",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Salmon",
+    "tr": "1) Som Balığı 2) Sarımsı, Pembe Renk",
+    "anlam": "1) Som Balığı 2) Sarımsı, Pembe Renk",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Saloon",
+    "tr": "1)Saloon Car = Normal Araba 2)Salon 3)Gemi Salonu",
+    "anlam": "1)Saloon Car = Normal Araba 2)Salon 3)Gemi Salonu",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Salute",
+    "tr": "Selam Vermek (Askerυ)",
+    "anlam": "Selam Vermek (Askerυ)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Sample",
+    "tr": "Örnek, Numune",
+    "anlam": "Örnek, Numune",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Sandpaper",
+    "tr": "1) Zımpara Kağıdı 2) Zımparalamak",
+    "anlam": "1) Zımpara Kağıdı 2) Zımparalamak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Sardine",
+    "tr": "Sardalya",
+    "anlam": "Sardalya",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Satellite",
+    "tr": "Uydu",
+    "anlam": "Uydu",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Satin",
+    "tr": "Saten, Atlas",
+    "anlam": "Saten, Atlas",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Sauce",
+    "tr": "Salça, Sos",
+    "anlam": "Salça, Sos",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Saucepan",
+    "tr": "Tava",
+    "anlam": "Tava",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Saucer",
+    "tr": "Bardak Altlığı",
+    "anlam": "Bardak Altlığı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Sausage",
+    "tr": "Sosis",
+    "anlam": "Sosis",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Savage",
+    "tr": "Vahşi,Yabani,Yırtıcı",
+    "anlam": "Vahşi,Yabani,Yırtıcı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Savour",
+    "tr": "Tat, Lezzet, Çeşni",
+    "anlam": "Tat, Lezzet, Çeşni",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Saw",
+    "tr": "1)Testere 2)Görmek (See’nin Past Tens’i)",
+    "anlam": "1)Testere 2)Görmek (See’nin Past Tens’i)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Saxophone",
+    "tr": "Saksafon",
+    "anlam": "Saksafon",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Scandal",
+    "tr": "Skandal",
+    "anlam": "Skandal",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Scare",
+    "tr": "Korkutmak",
+    "anlam": "Korkutmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Scarf",
+    "tr": "Atkı",
+    "anlam": "Atkı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Scene",
+    "tr": "Olayın Geçtiği Yer, Manzara, Tiyatronun Bir Sahnesi",
+    "anlam": "Olayın Geçtiği Yer, Manzara, Tiyatronun Bir Sahnesi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Scheme",
+    "tr": "Plan, Proje",
+    "anlam": "Plan, Proje",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Scholarship",
+    "tr": "Burs",
+    "anlam": "Burs",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Scone",
+    "tr": "Bir Çeşit Üzümlü Ekmek Ve Tereyağ",
+    "anlam": "Bir Çeşit Üzümlü Ekmek Ve Tereyağ",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Scorpion",
+    "tr": "Akrep",
+    "anlam": "Akrep",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Scramble",
+    "tr": "1)Çırpmak 2)Hızlı Hareket Veya Tırmanış",
+    "anlam": "1)Çırpmak 2)Hızlı Hareket Veya Tırmanış",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Scruff",
+    "tr": "1)Ense 2)Kirli,Pasaklı İnsan",
+    "anlam": "1)Ense 2)Kirli,Pasaklı İnsan",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Seal",
+    "tr": "1)Mühürlemek, (Kutu,Mektup,Kapı Vb.) 2)Fok Balığı",
+    "anlam": "1)Mühürlemek, (Kutu,Mektup,Kapı Vb.) 2)Fok Balığı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Seaside",
+    "tr": "Deniz Kenarı",
+    "anlam": "Deniz Kenarı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Seat-Belt",
+    "tr": "Emniyet Kemeri",
+    "anlam": "Emniyet Kemeri",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Second-Rate",
+    "tr": "İkinci Derece, Kalite",
+    "anlam": "İkinci Derece, Kalite",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Secure",
+    "tr": "Emniyetli, Sağlam",
+    "anlam": "Emniyetli, Sağlam",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "See Over",
+    "tr": "İmtihan Etmek, Çek Etmek",
+    "anlam": "İmtihan Etmek, Çek Etmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Segment",
+    "tr": "Dilim (Pasta, Portakal), Dilimlemek, Bölmek",
+    "anlam": "Dilim (Pasta, Portakal), Dilimlemek, Bölmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Senate",
+    "tr": "Senato",
+    "anlam": "Senato",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Senior",
+    "tr": "Yaşça Veya Kıdemce Büyük",
+    "anlam": "Yaşça Veya Kıdemce Büyük",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Sergeant",
+    "tr": "Çavuş",
+    "anlam": "Çavuş",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Serviette",
+    "tr": "Peçete",
+    "anlam": "Peçete",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Set Off, Out",
+    "tr": "T Seyahate Başlamk, Yola Çıkmak",
+    "anlam": "T Seyahate Başlamk, Yola Çıkmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Set On",
+    "tr": "Atak",
+    "anlam": "Atak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Sex",
+    "tr": "Cinsiyet, Cins",
+    "anlam": "Cinsiyet, Cins",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Shallow",
+    "tr": "Sığ",
+    "anlam": "Sığ",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Shampoo",
+    "tr": "Şampuan, Baş Yıkamak",
+    "anlam": "Şampuan, Baş Yıkamak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Shark",
+    "tr": "Köpek Balığı",
+    "anlam": "Köpek Balığı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Sharp Shooter",
+    "tr": "Keskin Nişancı",
+    "anlam": "Keskin Nişancı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Shave",
+    "tr": "Tıraş",
+    "anlam": "Tıraş",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Shelf",
+    "tr": "Raf",
+    "anlam": "Raf",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Shield",
+    "tr": "Kalkan, Kılıf",
+    "anlam": "Kalkan, Kılıf",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Shift",
+    "tr": "1)Değiştirme 2)Vardiye",
+    "anlam": "1)Değiştirme 2)Vardiye",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Shoelace",
+    "tr": "Ayakkabı Bağı",
+    "anlam": "Ayakkabı Bağı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Shoot Down",
+    "tr": "İmha Etmek, Hayır Cevabı, Olumsuz",
+    "anlam": "İmha Etmek, Hayır Cevabı, Olumsuz",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Short Cut",
+    "tr": "Kestirme",
+    "anlam": "Kestirme",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Shortage",
+    "tr": "Yokluk, Kıtlık",
+    "anlam": "Yokluk, Kıtlık",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Shrink",
+    "tr": "Çekmek, Küçülmek",
+    "anlam": "Çekmek, Küçülmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Significant",
+    "tr": "Manalı, Önemli",
+    "anlam": "Manalı, Önemli",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Signpost",
+    "tr": "İşaret Direği",
+    "anlam": "İşaret Direği",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Silly",
+    "tr": "Budala, Aptal",
+    "anlam": "Budala, Aptal",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Silo",
+    "tr": "Silo, Depo",
+    "anlam": "Silo, Depo",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Sincere",
+    "tr": "İçten, Samimi, Sahte Olmayan",
+    "anlam": "İçten, Samimi, Sahte Olmayan",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Singular",
+    "tr": "Acaip, Tek, Eşsiz",
+    "anlam": "Acaip, Tek, Eşsiz",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Siren",
+    "tr": "Siren",
+    "anlam": "Siren",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Skim",
+    "tr": "Köpük, Yağını Almak (Süt, Yoğurt), Ana Fikri Almak",
+    "anlam": "Köpük, Yağını Almak (Süt, Yoğurt), Ana Fikri Almak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Skull",
+    "tr": "Kafatası",
+    "anlam": "Kafatası",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Slice",
+    "tr": "Dilim, Dilimlemek",
+    "anlam": "Dilim, Dilimlemek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Slipper",
+    "tr": "Terlik",
+    "anlam": "Terlik",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Slot",
+    "tr": "Uzun, Düz Delik, Boşluk, Jeton Koyma Yeri Vb.",
+    "anlam": "Uzun, Düz Delik, Boşluk, Jeton Koyma Yeri Vb.",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Smart",
+    "tr": "1)Akıllı 2)Açıkgöz 3)Şık",
+    "anlam": "1)Akıllı 2)Açıkgöz 3)Şık",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Smuggle",
+    "tr": "Kaçakçılık (Gümrük,İρki,Esrar V.B.)",
+    "anlam": "Kaçakçılık (Gümrük,İρki,Esrar V.B.)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Snack",
+    "tr": "Küçük, Hızlı Yenilen Yemek",
+    "anlam": "Küçük, Hızlı Yenilen Yemek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Snag",
+    "tr": "Pürüz",
+    "anlam": "Pürüz",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Snub",
+    "tr": "Küçümsemek,Hakir Görmek",
+    "anlam": "Küçümsemek,Hakir Görmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "So Far",
+    "tr": "Şimdiye Kadar (=Up To Now)",
+    "anlam": "Şimdiye Kadar (=Up To Now)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Soak",
+    "tr": "Islatmak",
+    "anlam": "Islatmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Soccer",
+    "tr": "Futbol",
+    "anlam": "Futbol",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Social",
+    "tr": "Sosyal",
+    "anlam": "Sosyal",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Sock",
+    "tr": "1)Çorap 2)Vurmak,Kırmak 3)Put A Sock In It = Susmak",
+    "anlam": "1)Çorap 2)Vurmak,Kırmak 3)Put A Sock In It = Susmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Solidarity",
+    "tr": "Dayanışma",
+    "anlam": "Dayanışma",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Sophisticated",
+    "tr": "İncelikli Sosyal Hayattan Bilgisiolan,Ukala,Karışık",
+    "anlam": "İncelikli Sosyal Hayattan Bilgisiolan,Ukala,Karışık",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Souvenir",
+    "tr": "Hatıra",
+    "anlam": "Hatıra",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Span",
+    "tr": "1) İki Limit Arasındaki Şey, Zaman Vb. 2) Karış",
+    "anlam": "1) İki Limit Arasındaki Şey, Zaman Vb. 2) Karış",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Spanner",
+    "tr": "Somun Sıkma Aleti(Adjustable Spanner=İngiliz Anahtar",
+    "anlam": "Somun Sıkma Aleti(Adjustable Spanner=İngiliz Anahtar",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Spectacular",
+    "tr": "Görülmeye Değer",
+    "anlam": "Görülmeye Değer",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Spectator",
+    "tr": "İzleyici (Maρ Vb.)",
+    "anlam": "İzleyici (Maρ Vb.)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Speedometer",
+    "tr": "Hızölçer",
+    "anlam": "Hızölçer",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Spice",
+    "tr": "Baharat",
+    "anlam": "Baharat",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Spider",
+    "tr": "Örümcek",
+    "anlam": "Örümcek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Spill",
+    "tr": "Dökmek,Saçmak (Sıvı)",
+    "anlam": "Dökmek,Saçmak (Sıvı)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Spiral",
+    "tr": "Spiral",
+    "anlam": "Spiral",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Spit",
+    "tr": "Tükürmek",
+    "anlam": "Tükürmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Splash",
+    "tr": "Sıçratma",
+    "anlam": "Sıçratma",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Squash",
+    "tr": "1)Bir Çeşit Oyun 2)Sıkışmak",
+    "anlam": "1)Bir Çeşit Oyun 2)Sıkışmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Squeeze",
+    "tr": "Sıkışmak, Sıkıştırmak, Sıkmak",
+    "anlam": "Sıkışmak, Sıkıştırmak, Sıkmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Stabilize",
+    "tr": "Dengeleme,Saptama",
+    "anlam": "Dengeleme,Saptama",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Stable",
+    "tr": "1)Ahır 2)İstikrarlı (Stable Goverment)",
+    "anlam": "1)Ahır 2)İstikrarlı (Stable Goverment)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Stadium",
+    "tr": "Stadyum",
+    "anlam": "Stadyum",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Stall",
+    "tr": "1)Küçük Dükkan, Tezgah 2)Vakit Kazanma",
+    "anlam": "1)Küçük Dükkan, Tezgah 2)Vakit Kazanma",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Stapler",
+    "tr": "Zımba (Tel)",
+    "anlam": "Zımba (Tel)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Stationery",
+    "tr": "Kırtasiye",
+    "anlam": "Kırtasiye",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Statue",
+    "tr": "Heykel",
+    "anlam": "Heykel",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Steak",
+    "tr": "Bonfile",
+    "anlam": "Bonfile",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Steel",
+    "tr": "1)Çelik 2)Büyük Güç",
+    "anlam": "1)Çelik 2)Büyük Güç",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Steep",
+    "tr": "1)Hızlı Yükselme Veya Düşme, Geniş Açı 2)Çok Fazla",
+    "anlam": "1)Hızlı Yükselme Veya Düşme, Geniş Açı 2)Çok Fazla",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Step Child",
+    "tr": "Üvey Çocuk",
+    "anlam": "Üvey Çocuk",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Sterile",
+    "tr": "1)Ameliyatla Kısır Etmek 2)Bakteri",
+    "anlam": "1)Ameliyatla Kısır Etmek 2)Bakteri",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Sterilize",
+    "tr": "Kısırlaştırma, Mikroplardan Arıtma",
+    "anlam": "Kısırlaştırma, Mikroplardan Arıtma",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Stethoscope",
+    "tr": "Göğüs Dinleme Cihazı, Steteskop",
+    "anlam": "Göğüs Dinleme Cihazı, Steteskop",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Steward",
+    "tr": "1) Erkek Hostes 2) Kahya (Çiflik Vb.)",
+    "anlam": "1) Erkek Hostes 2) Kahya (Çiflik Vb.)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Stock Certificate",
+    "tr": "Hisse Senedi",
+    "anlam": "Hisse Senedi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Stool",
+    "tr": "Tabure",
+    "anlam": "Tabure",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Storm",
+    "tr": "Fırtına",
+    "anlam": "Fırtına",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Strain",
+    "tr": "Germek, Süzmek, İnciltmek, Çok Güç, Zor",
+    "anlam": "Germek, Süzmek, İnciltmek, Çok Güç, Zor",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Strainer",
+    "tr": "Süzgeç",
+    "anlam": "Süzgeç",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Strap",
+    "tr": "Tutacak, Askı (Elbise, Ayakkabı)",
+    "anlam": "Tutacak, Askı (Elbise, Ayakkabı)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Stretcher",
+    "tr": "Sedye",
+    "anlam": "Sedye",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Structure",
+    "tr": "Yapı",
+    "anlam": "Yapı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Studio",
+    "tr": "Sütüdyo",
+    "anlam": "Sütüdyo",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Stutter",
+    "tr": "Kekelemek, Kekeme",
+    "anlam": "Kekelemek, Kekeme",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Style",
+    "tr": "Sitil",
+    "anlam": "Sitil",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Submit",
+    "tr": "1)Reyine,Onamasına Bırakma 2)Teslim Olma,Boyun Eğme",
+    "anlam": "1)Reyine,Onamasına Bırakma 2)Teslim Olma,Boyun Eğme",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Subscribe",
+    "tr": "1)Abone Parası Ödeme 2)Sürekli Para Yardımı Yapmak",
+    "anlam": "1)Abone Parası Ödeme 2)Sürekli Para Yardımı Yapmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Subsidize",
+    "tr": "Yardım Etme (In Scholl You Can Buy Subsidized Meats)",
+    "anlam": "Yardım Etme (In Scholl You Can Buy Subsidized Meats)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Subsidy",
+    "tr": "Yardım, Sübvansiyon (Devletten)",
+    "anlam": "Yardım, Sübvansiyon (Devletten)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Substance",
+    "tr": "Madde, Cevher",
+    "anlam": "Madde, Cevher",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Substitute",
+    "tr": "Vekil Tayin Etme, Yerine Geçme",
+    "anlam": "Vekil Tayin Etme, Yerine Geçme",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Subtract",
+    "tr": "Çıkarmak (6-3=3)",
+    "anlam": "Çıkarmak (6-3=3)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Sufficient",
+    "tr": "Yeterince",
+    "anlam": "Yeterince",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Suicide",
+    "tr": "İntihar (Commit Suicide : İntihar Etmek)",
+    "anlam": "İntihar (Commit Suicide : İntihar Etmek)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Suitcase",
+    "tr": "Bavul (Elbise İρin)",
+    "anlam": "Bavul (Elbise İρin)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Summary",
+    "tr": "Özet",
+    "anlam": "Özet",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Summit",
+    "tr": "Zirve",
+    "anlam": "Zirve",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Sunset",
+    "tr": "Güneşin Batışı",
+    "anlam": "Güneşin Batışı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Superior",
+    "tr": "Daha İyi, Önemli, Akıllı",
+    "anlam": "Daha İyi, Önemli, Akıllı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Supervise",
+    "tr": "Denetleme, Gözlem",
+    "anlam": "Denetleme, Gözlem",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Supplies",
+    "tr": "Erzak, Mal",
+    "anlam": "Erzak, Mal",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Suppress",
+    "tr": "1)Baskı Altına Alma,Sindirme 2)Yayınlanmasını Önleme",
+    "anlam": "1)Baskı Altına Alma,Sindirme 2)Yayınlanmasını Önleme",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Supreme",
+    "tr": "Yüce, Üstün",
+    "anlam": "Yüce, Üstün",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Surgeon",
+    "tr": "Cerrah",
+    "anlam": "Cerrah",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Surgery",
+    "tr": "Ameliyat",
+    "anlam": "Ameliyat",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Surrender",
+    "tr": "Teslim Olmak (To Yield)",
+    "anlam": "Teslim Olmak (To Yield)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Suspend",
+    "tr": "Askıya Almak, Durdurmak",
+    "anlam": "Askıya Almak, Durdurmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Suspension",
+    "tr": "Asma,Asılma (Suspensıon Brıdge : Asma Köprü)",
+    "anlam": "Asma,Asılma (Suspensıon Brıdge : Asma Köprü)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Suspicion",
+    "tr": "Şüphe",
+    "anlam": "Şüphe",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Swan",
+    "tr": "Kuğu",
+    "anlam": "Kuğu",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Sweat",
+    "tr": "Ter,Terlemek",
+    "anlam": "Ter,Terlemek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Sweater",
+    "tr": "Süveter",
+    "anlam": "Süveter",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Swollen",
+    "tr": "Şişmiş",
+    "anlam": "Şişmiş",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Syrup",
+    "tr": "Şurup",
+    "anlam": "Şurup",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tablet",
+    "tr": "Tablet",
+    "anlam": "Tablet",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Taboo",
+    "tr": "Ayıp, Argo, Tabu",
+    "anlam": "Ayıp, Argo, Tabu",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Talent",
+    "tr": "1)Kabiliyet (Üstün) 2)Seksi Cazibesi Olan Kadın",
+    "anlam": "1)Kabiliyet (Üstün) 2)Seksi Cazibesi Olan Kadın",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tan",
+    "tr": "Ten Rengi",
+    "anlam": "Ten Rengi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tangerine",
+    "tr": "Mandalina",
+    "anlam": "Mandalina",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tape-Measure",
+    "tr": "Mezura",
+    "anlam": "Mezura",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Target",
+    "tr": "Hedef",
+    "anlam": "Hedef",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tariff",
+    "tr": "Tarife, Fiat Listesi",
+    "anlam": "Tarife, Fiat Listesi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tart",
+    "tr": "1)Turta,Tart,Pasta 2)Asit Tadı3)Sokak Kadını,Fahişe",
+    "anlam": "1)Turta,Tart,Pasta 2)Asit Tadı3)Sokak Kadını,Fahişe",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tease",
+    "tr": "1)Kızdırma,Yüz Verip Sonra Sırt Çevirme2)Kabartma(Sa",
+    "anlam": "1)Kızdırma,Yüz Verip Sonra Sırt Çevirme2)Kabartma(Sa",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Technique",
+    "tr": "Teknik",
+    "anlam": "Teknik",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Teenager",
+    "tr": "13-19 Yaş Arası",
+    "anlam": "13-19 Yaş Arası",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Temple",
+    "tr": "Tapınak",
+    "anlam": "Tapınak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Temporary",
+    "tr": "Geçici",
+    "anlam": "Geçici",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tempt",
+    "tr": "Cezbetmek, Şeytana Uydurmak",
+    "anlam": "Cezbetmek, Şeytana Uydurmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tenant",
+    "tr": "Kiracı",
+    "anlam": "Kiracı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tend",
+    "tr": "Meyilli Olmak",
+    "anlam": "Meyilli Olmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tent",
+    "tr": "Tente,Çadır",
+    "anlam": "Tente,Çadır",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Terminal",
+    "tr": "Terminal",
+    "anlam": "Terminal",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Terrace",
+    "tr": "Bitişik Evler",
+    "anlam": "Bitişik Evler",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Terrify",
+    "tr": "Korkutmak",
+    "anlam": "Korkutmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Territory",
+    "tr": "Toprak Parçası",
+    "anlam": "Toprak Parçası",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Theme",
+    "tr": "Tema, Konu",
+    "anlam": "Tema, Konu",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Theory",
+    "tr": "Teori",
+    "anlam": "Teori",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Thermometer",
+    "tr": "Termometre",
+    "anlam": "Termometre",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Third",
+    "tr": "Üçüncü",
+    "anlam": "Üçüncü",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Thirteenth",
+    "tr": "Onüçüncü",
+    "anlam": "Onüçüncü",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Thirtieth",
+    "tr": "Otuzuncu",
+    "anlam": "Otuzuncu",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Thoroughly",
+    "tr": "Tamamıyla, Bütün İnce Detaylarıyla",
+    "anlam": "Tamamıyla, Bütün İnce Detaylarıyla",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Thoughtful",
+    "tr": "Düşünceli,Öbürlerini Düşünen",
+    "anlam": "Düşünceli,Öbürlerini Düşünen",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Thoughtless",
+    "tr": "Düşüncesiz",
+    "anlam": "Düşüncesiz",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Thumb",
+    "tr": "El, Baş Parmağı",
+    "anlam": "El, Baş Parmağı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tick",
+    "tr": "Saat Sesi, Okey İşareti",
+    "anlam": "Saat Sesi, Okey İşareti",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tide",
+    "tr": "Gel-Git Olayı",
+    "anlam": "Gel-Git Olayı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tiger",
+    "tr": "Kaplan",
+    "anlam": "Kaplan",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tiny",
+    "tr": "Çok Küçük",
+    "anlam": "Çok Küçük",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Toilet",
+    "tr": "Tuvalet",
+    "anlam": "Tuvalet",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Token",
+    "tr": "1)İşaret 2)Jeton",
+    "anlam": "1)İşaret 2)Jeton",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tomato",
+    "tr": "Domates",
+    "anlam": "Domates",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Ton",
+    "tr": "Ton (1000 Kg.)",
+    "anlam": "Ton (1000 Kg.)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tone",
+    "tr": "Ton (Ses,Işık Vs.)",
+    "anlam": "Ton (Ses,Işık Vs.)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tool",
+    "tr": "Alet (Çekiρ, Balta Vb.)",
+    "anlam": "Alet (Çekiρ, Balta Vb.)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tooth Pick",
+    "tr": "Kürdan",
+    "anlam": "Kürdan",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Torch",
+    "tr": "1)Meşale 2)El Feneri",
+    "anlam": "1)Meşale 2)El Feneri",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Torpedo",
+    "tr": "Torpil",
+    "anlam": "Torpil",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tortoise",
+    "tr": "Kaplumbağa",
+    "anlam": "Kaplumbağa",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Torture",
+    "tr": "İşkence, İşkence Etmek",
+    "anlam": "İşkence, İşkence Etmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tough",
+    "tr": "Zor, Güç, Sert",
+    "anlam": "Zor, Güç, Sert",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tournament",
+    "tr": "Turnuva",
+    "anlam": "Turnuva",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tradition",
+    "tr": "Gelenek",
+    "anlam": "Gelenek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tragedy",
+    "tr": "Trajedi",
+    "anlam": "Trajedi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Transform",
+    "tr": "Bir Şeyin Şeklini Değiştirmek",
+    "anlam": "Bir Şeyin Şeklini Değiştirmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Transparent",
+    "tr": "Saydam",
+    "anlam": "Saydam",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Trap",
+    "tr": "Tuzak, Kapan, Yakalamak",
+    "anlam": "Tuzak, Kapan, Yakalamak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tremendous",
+    "tr": "Çok Büyük, Harika",
+    "anlam": "Çok Büyük, Harika",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Trigger",
+    "tr": "Tetik ( Who Pulled Triger? )",
+    "anlam": "Tetik ( Who Pulled Triger? )",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tripod",
+    "tr": "Üç Ayaklı Sehpa, Fotoğraf Sehpası",
+    "anlam": "Üç Ayaklı Sehpa, Fotoğraf Sehpası",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Troop",
+    "tr": "İnsan Veya Hayva Grubu, Sürü",
+    "anlam": "İnsan Veya Hayva Grubu, Sürü",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Troops",
+    "tr": "Askerler",
+    "anlam": "Askerler",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Truck",
+    "tr": "Kamyon",
+    "anlam": "Kamyon",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tuition",
+    "tr": "Öğretim, Özel Ders",
+    "anlam": "Öğretim, Özel Ders",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tulip",
+    "tr": "Lale, Lale Fidanı",
+    "anlam": "Lale, Lale Fidanı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tummy",
+    "tr": "Mide",
+    "anlam": "Mide",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Turban",
+    "tr": "Türban",
+    "anlam": "Türban",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Turnkey",
+    "tr": "Anahtar Teslim (Proje Vb.)",
+    "anlam": "Anahtar Teslim (Proje Vb.)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Turnover",
+    "tr": "Ciro (Satıs)",
+    "anlam": "Ciro (Satıs)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Typist",
+    "tr": "Daktiloda Yazı Yazan Kimse",
+    "anlam": "Daktiloda Yazı Yazan Kimse",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Tyre",
+    "tr": "Lastik",
+    "anlam": "Lastik",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Ufo",
+    "tr": "Unıdentıfıend Flyıng Object: Tanımlanmamış Uçan Cisi",
+    "anlam": "Unıdentıfıend Flyıng Object: Tanımlanmamış Uçan Cisi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Undergo",
+    "tr": "Katlanmak, Çekmek, Bir Olayın Olması",
+    "anlam": "Katlanmak, Çekmek, Bir Olayın Olması",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Underline",
+    "tr": "Yazının, Kelimenin Altını Çizmek",
+    "anlam": "Yazının, Kelimenin Altını Çizmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Unfair",
+    "tr": "Adil Olmayan",
+    "anlam": "Adil Olmayan",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Unit",
+    "tr": "Birim, 1-9 Arasındaki Sayılar",
+    "anlam": "Birim, 1-9 Arasındaki Sayılar",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Up To You",
+    "tr": "Sana Kalmış, Nasıl İstersen (It’s Up To You)",
+    "anlam": "Sana Kalmış, Nasıl İstersen (It’s Up To You)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Upon",
+    "tr": "Üstünde",
+    "anlam": "Üstünde",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Upside-Down",
+    "tr": "Tepe Taklak, Ters Dönmek",
+    "anlam": "Tepe Taklak, Ters Dönmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Urban",
+    "tr": "Şehirsel, Kente Ait (Urban Life : Şehirsel Yaşam)",
+    "anlam": "Şehirsel, Kente Ait (Urban Life : Şehirsel Yaşam)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "V.I.P.",
+    "tr": "(Very Important Person), Çok Önemli Kişi",
+    "anlam": "(Very Important Person), Çok Önemli Kişi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Vacation",
+    "tr": "Tatil",
+    "anlam": "Tatil",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Vacuum cleaner",
+    "tr": "Elektrik Süpürgesi",
+    "anlam": "Elektrik Süpürgesi",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Van",
+    "tr": "Minibüs",
+    "anlam": "Minibüs",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Vanilla",
+    "tr": "Vanilya",
+    "anlam": "Vanilya",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Vaporize",
+    "tr": "Buharlaşmak",
+    "anlam": "Buharlaşmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Vase",
+    "tr": "Vazo",
+    "anlam": "Vazo",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Veil",
+    "tr": "Duvak",
+    "anlam": "Duvak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Vein",
+    "tr": "Damar",
+    "anlam": "Damar",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Velvet",
+    "tr": "Kadife",
+    "anlam": "Kadife",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Venture",
+    "tr": "Macera, Risk (Genelde İş Hayatında)",
+    "anlam": "Macera, Risk (Genelde İş Hayatında)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Verb",
+    "tr": "Fiil",
+    "anlam": "Fiil",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Verdict",
+    "tr": "Hüküm",
+    "anlam": "Hüküm",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Vertical",
+    "tr": "Dikey",
+    "anlam": "Dikey",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Vest",
+    "tr": "Atlet, Fanila",
+    "anlam": "Atlet, Fanila",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Vet",
+    "tr": "Veteriner",
+    "anlam": "Veteriner",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Via",
+    "tr": "Geçerek,Oradan (We Go From London To Van Via Paris.)",
+    "anlam": "Geçerek,Oradan (We Go From London To Van Via Paris.)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Viable",
+    "tr": "Geçerli (But İn Practice İt Wouln’t Be Viable)",
+    "anlam": "Geçerli (But İn Practice İt Wouln’t Be Viable)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Vice",
+    "tr": "1)Yardımcı, Liderin Yardımcısı 2)Mengene",
+    "anlam": "1)Yardımcı, Liderin Yardımcısı 2)Mengene",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Vicious Circle",
+    "tr": "Kısır Döngü",
+    "anlam": "Kısır Döngü",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Victimize",
+    "tr": "Kurban Etmek (Grubun Suρunu Bir Kişiye Yüklemek.)",
+    "anlam": "Kurban Etmek (Grubun Suρunu Bir Kişiye Yüklemek.)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Vinegar",
+    "tr": "Sirke",
+    "anlam": "Sirke",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Violin",
+    "tr": "Keman",
+    "anlam": "Keman",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Vital",
+    "tr": "Çok Önenemli",
+    "anlam": "Çok Önenemli",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Volcano",
+    "tr": "Volkan,Yanardağ",
+    "anlam": "Volkan,Yanardağ",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Volleyball",
+    "tr": "Voleybol",
+    "anlam": "Voleybol",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Voluntary",
+    "tr": "Gönüllü",
+    "anlam": "Gönüllü",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Vomit",
+    "tr": "Kusmak",
+    "anlam": "Kusmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Vowel",
+    "tr": "Sesli Harf (A,E,İ)",
+    "anlam": "Sesli Harf (A,E,İ)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Vulnerable",
+    "tr": "Zayıf, Korumasız",
+    "anlam": "Zayıf, Korumasız",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Vulture",
+    "tr": "1)Akbaba 2)Haris Kimse",
+    "anlam": "1)Akbaba 2)Haris Kimse",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Wager",
+    "tr": "İddiaya Girmek",
+    "anlam": "İddiaya Girmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Wagon",
+    "tr": "Yük Vagonu, At Arabası",
+    "anlam": "Yük Vagonu, At Arabası",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Waist",
+    "tr": "Bel",
+    "anlam": "Bel",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Waistcoat",
+    "tr": "Yelek",
+    "anlam": "Yelek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Wallet",
+    "tr": "Cüzdan",
+    "anlam": "Cüzdan",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Walnut",
+    "tr": "Ceviz",
+    "anlam": "Ceviz",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Warder",
+    "tr": "1) Bekçi, Muhafız 2) Gardiyan",
+    "anlam": "1) Bekçi, Muhafız 2) Gardiyan",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Wardrobe",
+    "tr": "Gardrop, Büyük Dolap",
+    "anlam": "Gardrop, Büyük Dolap",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Ware",
+    "tr": "Eşya (Kitchen Ware Vb.)",
+    "anlam": "Eşya (Kitchen Ware Vb.)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Warehouse",
+    "tr": "Depo",
+    "anlam": "Depo",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Warrant",
+    "tr": "Garanti",
+    "anlam": "Garanti",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Wasp",
+    "tr": "Arı (Bal Arısı Değil)",
+    "anlam": "Arı (Bal Arısı Değil)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Water Proof",
+    "tr": "Su Geçirmeyen",
+    "anlam": "Su Geçirmeyen",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Water-Colours",
+    "tr": "Sulu Boya",
+    "anlam": "Sulu Boya",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Whale",
+    "tr": "Balina",
+    "anlam": "Balina",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "What If",
+    "tr": "Ne Olurdu..",
+    "anlam": "Ne Olurdu..",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "What’s Its (His/Her) Name",
+    "tr": "Bilmem Kim (Birisinin Adını Unutma)",
+    "anlam": "Bilmem Kim (Birisinin Adını Unutma)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "What’s More",
+    "tr": "Bunun Yanısıra, Üstelik",
+    "anlam": "Bunun Yanısıra, Üstelik",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Wheel",
+    "tr": "Tekerlek, Çark, Tekerlekli Bir Şeyi Elle İtmek",
+    "anlam": "Tekerlek, Çark, Tekerlekli Bir Şeyi Elle İtmek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Whim",
+    "tr": "Kapris",
+    "anlam": "Kapris",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Whisper",
+    "tr": "Fısıldamak, Fısıldaşmak",
+    "anlam": "Fısıldamak, Fısıldaşmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Wind Screen",
+    "tr": "Araba Ön Camı",
+    "anlam": "Araba Ön Camı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Windpipe",
+    "tr": "Nefes Borusu",
+    "anlam": "Nefes Borusu",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Wing",
+    "tr": "Kanat (Kuş, Uçak) (Left Wing: Sol Kesimi Destekleyenler)",
+    "anlam": "Kanat (Kuş, Uçak) (Left Wing: Sol Kesimi Destekleyenler)",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Wisdom",
+    "tr": "Akıl",
+    "anlam": "Akıl",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Worship",
+    "tr": "1)Tapmak, Tapınmak, İbadet 2)Hayranlık, Saygı",
+    "anlam": "1)Tapmak, Tapınmak, İbadet 2)Hayranlık, Saygı",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Wrist",
+    "tr": "Bilek",
+    "anlam": "Bilek",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  },
+  {
+    "en": "Zoom",
+    "tr": "Yaklaştırmak",
+    "anlam": "Yaklaştırmak",
+    "cumle": "Kaynaklarda yer almamaktadır"
+  }
+]
